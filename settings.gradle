@@ -1,0 +1,2 @@
+include ':app', ':MetaioSDK'
+project(':MetaioSDK').projectDir = new File('libs/MetaioSDK')
