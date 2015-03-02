@@ -73,9 +73,13 @@ public class ARActivity extends ARViewActivity {
         int cosID = geometry.getCoordinateSystemID();
         switch (cosID){
             case 1:
-                Intent toolSelection = new Intent(getApplicationContext(), ToolOptionsActivity.class);
-                toolSelection.putExtra("toolSelection", cosID);
-                startActivity(toolSelection);
+                Intent toolSelection1 = new Intent(getApplicationContext(), ToolOptionsActivity.class);
+//                toolSelection.putExtra("toolSelection", cosID);
+                startActivity(toolSelection1);
+            case 2:
+                Intent toolSelection2 = new Intent(getApplicationContext(), ToolOptionsActivity.class);
+//                toolSelection.putExtra("toolSelection", cosID);
+                startActivity(toolSelection2);
         }
     }
 
