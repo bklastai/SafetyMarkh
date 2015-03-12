@@ -2,9 +2,25 @@
 <resources>
 
     <string name="app_name">Safety \n Markh</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
+
     <string name="button_tool_location">Locate This Item!</string>
     <string name="button_safety_info">Safety Information</string>
+
+    <string name="welder_safety_info">Welder safety Information</string>
+    <string name="angle_grinder_safety_info">Angle Grinder Safety Information</string>
+    <string name="belt_sander_safety_info">Belt Sander Safety Information</string>
+    <string name="steel_bender_safety_info">Steel Bender Safety Information</string>
+    <string name="belt_saw_safety_info">Belt Saw Safety Information</string>
+    <string name="metal_sheet_cutter_safety_info">Metal Sheet Cutter Safety Information</string>
+
+
+
+
+
+
+
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
 
 </resources>

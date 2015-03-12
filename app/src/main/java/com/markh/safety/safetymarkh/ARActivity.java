@@ -18,7 +18,7 @@ public class ARActivity extends ARViewActivity {
     protected int getGUILayout()
     {
         // Attaching layout to the activity
-        return R.layout.activity_ar;
+        return R.layout.ar;
     }
 
 
@@ -45,13 +45,14 @@ public class ARActivity extends ARViewActivity {
 //            File button = AssetsManager.getAssetPathAsFile(getApplicationContext(), "low.obj");
             if (metaioManModel != null)
             {
-                for (int i=1; i<=2; i++){
+                //cosID starts counting from 1
+                for (int i=1; i<=6; i++){
                     // Loading 3D geometries (all the same geometries)
                     IGeometry geometry = metaioSDK.createGeometry(metaioManModel);
                     if (geometry != null)
                     {
                         // Set geometry properties
-                        geometry.setScale(4f);
+                        geometry.setScale(2f);
                         geometry.setCoordinateSystemID(i);
                     }
                     else
@@ -71,16 +72,37 @@ public class ARActivity extends ARViewActivity {
     protected void onGeometryTouched(IGeometry geometry)
     {
         int cosID = geometry.getCoordinateSystemID();
-        switch (cosID){
-            case 1:
-                Intent toolSelection1 = new Intent(getApplicationContext(), ToolOptionsActivity.class);
-//                toolSelection.putExtra("toolSelection", cosID);
-                startActivity(toolSelection1);
-            case 2:
-                Intent toolSelection2 = new Intent(getApplicationContext(), ToolOptionsActivity.class);
-//                toolSelection.putExtra("toolSelection", cosID);
-                startActivity(toolSelection2);
-        }
+
+        Intent intent = new Intent(getApplicationContext(), ToolOptionsActivity.class);
+        //cosID -1 because cosID starts counting from one.
+        intent.putExtra("toolSelection", cosID-1);
+        startActivity(intent);
+//        switch (cosID){
+//            case 1:
+//                Intent toolSelection1 = new Intent(getApplicationContext(), ToolOptionsActivity.class);
+////                toolSelection.putExtra("toolSelection", cosID);
+//                startActivity(toolSelection1);
+//            case 2:
+//                Intent toolSelection2 = new Intent(getApplicationContext(), ToolOptionsActivity.class);
+////                toolSelection.putExtra("toolSelection", cosID);
+//                startActivity(toolSelection2);
+//            case 3:
+//                Intent toolSelection3 = new Intent(getApplicationContext(), ToolOptionsActivity.class);
+////                toolSelection.putExtra("toolSelection", cosID);
+//                startActivity(toolSelection3);
+//            case 4:
+//                Intent toolSelection4 = new Intent(getApplicationContext(), ToolOptionsActivity.class);
+////                toolSelection.putExtra("toolSelection", cosID);
+//                startActivity(toolSelection4);
+//            case 5:
+//                Intent toolSelection5 = new Intent(getApplicationContext(), ToolOptionsActivity.class);
+////                toolSelection.putExtra("toolSelection", cosID);
+//                startActivity(toolSelection5);
+//            case 6:
+//                Intent toolSelection6 = new Intent(getApplicationContext(), ToolOptionsActivity.class);
+////                toolSelection.putExtra("toolSelection", cosID);
+//                startActivity(toolSelection6);
+//        }
     }
 
 

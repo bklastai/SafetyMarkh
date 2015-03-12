@@ -60,7 +60,7 @@
 						deprecated and should not be used any more. 
 						This parameter is for expert usage only. In general it 
 						is advised to leave the value unchanged. -->
-				<MaxObjectsToDetectPerFrame>2</MaxObjectsToDetectPerFrame>
+				<MaxObjectsToDetectPerFrame>6</MaxObjectsToDetectPerFrame>
 				
 				<!--	The maximum number of objects that should be tracked in 
 						parallel. Tracking many objects in parallel is quite 
@@ -74,7 +74,7 @@
 						and should not be used any more. 
 						This parameter is for expert usage only. In general it 
 						is advised to leave the value unchanged. -->
-				<MaxObjectsToTrackInParallel>2</MaxObjectsToTrackInParallel>
+				<MaxObjectsToTrackInParallel>6</MaxObjectsToTrackInParallel>
 
 				<!--	Default similarity threshold for specifying whether
 						template tracking was successful or failed. The 
@@ -97,7 +97,7 @@
 			<SensorCOS>
 			
 				<!--	An ID that this COS is associated with. -->
-				<SensorCosID>metaiomanpic</SensorCosID>
+				<SensorCosID>welder</SensorCosID>
 				
 				<!--	Parameters that should be applied to this "SensorCOS". 
 						-->
@@ -114,7 +114,7 @@
 							image. 
 							These parameters are not required and are intended 
 							for expert use only. -->
-					<ReferenceImage>metaioman_target.png</ReferenceImage>
+					<ReferenceImage>welder.png</ReferenceImage>
 					<!-- <ReferenceImage WidthMM="100" HeightMM="100">metaioman_target.png</ReferenceImage> -->
 
 					<!--	Another similarity threshold can be specified here. 
@@ -137,6 +137,34 @@
 					<SimilarityThreshold>0.7</SimilarityThreshold>
 				</Parameters>
 			</SensorCOS>
+            <SensorCOS>
+                <SensorCosID>beltsander</SensorCosID>
+                <Parameters>
+                    <ReferenceImage>belt_sander.png</ReferenceImage>
+                    <SimilarityThreshold>0.7</SimilarityThreshold>
+                </Parameters>
+            </SensorCOS>
+            <SensorCOS>
+                <SensorCosID>steelbender</SensorCosID>
+                <Parameters>
+                    <ReferenceImage>steel_bender.png</ReferenceImage>
+                    <SimilarityThreshold>0.7</SimilarityThreshold>
+                </Parameters>
+            </SensorCOS>
+            <SensorCOS>
+                <SensorCosID>beltsaw</SensorCosID>
+                <Parameters>
+                    <ReferenceImage>belt_saw.png</ReferenceImage>
+                    <SimilarityThreshold>0.7</SimilarityThreshold>
+                </Parameters>
+            </SensorCOS>
+            <SensorCOS>
+                <SensorCosID>metalsheetcutter</SensorCosID>
+                <Parameters>
+                    <ReferenceImage>metal_sheet_cutter.png</ReferenceImage>
+                    <SimilarityThreshold>0.7</SimilarityThreshold>
+                </Parameters>
+            </SensorCOS>
 
 
 		</Sensor>
@@ -157,7 +185,7 @@
 		<COS>
 
 			<!--	A descriptive name for this COS. -->
-			<Name>MetaiomanOnMetaioman</Name>
+			<Name>selectiongeometry1</Name>
 
 			<!--	Which type of Fuser to use. Here, we use the 
 					"SmoothingFuser", which applies smoothing in order to predict 
@@ -238,7 +266,7 @@
 						that these IDs are the same that we have used in the 
 						Sensor definition above. -->
 				<SensorID>FeatureTracking</SensorID>
-				<SensorCosID>metaiomanpic</SensorCosID>
+				<SensorCosID>welder</SensorCosID>
 
 				<!--	A hand-eye calibration allows to specify the relative 
 						pose between two sensors. In the simple case of having 
@@ -295,7 +323,7 @@
 				-->
 
 		<COS>
-			<Name>MetaiomanOnAngleGrinder</Name>
+			<Name>selectiongeometry2</Name>
 			<Fuser Type="SmoothingFuser">
 				<Parameters>
 					<KeepPoseForNumberOfFrames>2</KeepPoseForNumberOfFrames>
@@ -339,6 +367,186 @@
 				</COSOffset>
 			</SensorSource>
 		</COS>
+        <COS>
+            <Name>selectiongeometry3</Name>
+            <Fuser Type="SmoothingFuser">
+                <Parameters>
+                    <KeepPoseForNumberOfFrames>2</KeepPoseForNumberOfFrames>
+                    <GravityAssistance></GravityAssistance>
+                    <AlphaTranslation>0.8</AlphaTranslation>
+                    <GammaTranslation>0.8</GammaTranslation>
+                    <AlphaRotation>0.5</AlphaRotation>
+                    <GammaRotation>0.5</GammaRotation>
+                    <ContinueLostTrackingWithOrientationSensor>false</ContinueLostTrackingWithOrientationSensor>
+                </Parameters>
+            </Fuser>
+
+            <SensorSource>
+                <SensorID>FeatureTracking</SensorID>
+                <SensorCosID>beltsander</SensorCosID>
+                <HandEyeCalibration>
+                    <TranslationOffset>
+                        <X>0</X>
+                        <Y>0</Y>
+                        <Z>0</Z>
+                    </TranslationOffset>
+                    <RotationOffset>
+                        <X>0</X>
+                        <Y>0</Y>
+                        <Z>0</Z>
+                        <W>1</W>
+                    </RotationOffset>
+                </HandEyeCalibration>
+                <COSOffset>
+                    <TranslationOffset>
+                        <X>0</X>
+                        <Y>0</Y>
+                        <Z>0</Z>
+                    </TranslationOffset>
+                    <RotationOffset>
+                        <X>0</X>
+                        <Y>0</Y>
+                        <Z>0</Z>
+                        <W>1</W>
+                    </RotationOffset>
+                </COSOffset>
+            </SensorSource>
+        </COS>
+        <COS>
+            <Name>selectiongeometry4</Name>
+            <Fuser Type="SmoothingFuser">
+                <Parameters>
+                    <KeepPoseForNumberOfFrames>2</KeepPoseForNumberOfFrames>
+                    <GravityAssistance></GravityAssistance>
+                    <AlphaTranslation>0.8</AlphaTranslation>
+                    <GammaTranslation>0.8</GammaTranslation>
+                    <AlphaRotation>0.5</AlphaRotation>
+                    <GammaRotation>0.5</GammaRotation>
+                    <ContinueLostTrackingWithOrientationSensor>false</ContinueLostTrackingWithOrientationSensor>
+                </Parameters>
+            </Fuser>
+
+            <SensorSource>
+                <SensorID>FeatureTracking</SensorID>
+                <SensorCosID>steelbender</SensorCosID>
+                <HandEyeCalibration>
+                    <TranslationOffset>
+                        <X>0</X>
+                        <Y>0</Y>
+                        <Z>0</Z>
+                    </TranslationOffset>
+                    <RotationOffset>
+                        <X>0</X>
+                        <Y>0</Y>
+                        <Z>0</Z>
+                        <W>1</W>
+                    </RotationOffset>
+                </HandEyeCalibration>
+                <COSOffset>
+                    <TranslationOffset>
+                        <X>0</X>
+                        <Y>0</Y>
+                        <Z>0</Z>
+                    </TranslationOffset>
+                    <RotationOffset>
+                        <X>0</X>
+                        <Y>0</Y>
+                        <Z>0</Z>
+                        <W>1</W>
+                    </RotationOffset>
+                </COSOffset>
+            </SensorSource>
+        </COS>
+        <COS>
+            <Name>selectiongeometry5</Name>
+            <Fuser Type="SmoothingFuser">
+                <Parameters>
+                    <KeepPoseForNumberOfFrames>2</KeepPoseForNumberOfFrames>
+                    <GravityAssistance></GravityAssistance>
+                    <AlphaTranslation>0.8</AlphaTranslation>
+                    <GammaTranslation>0.8</GammaTranslation>
+                    <AlphaRotation>0.5</AlphaRotation>
+                    <GammaRotation>0.5</GammaRotation>
+                    <ContinueLostTrackingWithOrientationSensor>false</ContinueLostTrackingWithOrientationSensor>
+                </Parameters>
+            </Fuser>
+
+            <SensorSource>
+                <SensorID>FeatureTracking</SensorID>
+                <SensorCosID>beltsaw</SensorCosID>
+                <HandEyeCalibration>
+                    <TranslationOffset>
+                        <X>0</X>
+                        <Y>0</Y>
+                        <Z>0</Z>
+                    </TranslationOffset>
+                    <RotationOffset>
+                        <X>0</X>
+                        <Y>0</Y>
+                        <Z>0</Z>
+                        <W>1</W>
+                    </RotationOffset>
+                </HandEyeCalibration>
+                <COSOffset>
+                    <TranslationOffset>
+                        <X>0</X>
+                        <Y>0</Y>
+                        <Z>0</Z>
+                    </TranslationOffset>
+                    <RotationOffset>
+                        <X>0</X>
+                        <Y>0</Y>
+                        <Z>0</Z>
+                        <W>1</W>
+                    </RotationOffset>
+                </COSOffset>
+            </SensorSource>
+        </COS>
+        <COS>
+            <Name>selectiongeometry6</Name>
+            <Fuser Type="SmoothingFuser">
+                <Parameters>
+                    <KeepPoseForNumberOfFrames>2</KeepPoseForNumberOfFrames>
+                    <GravityAssistance></GravityAssistance>
+                    <AlphaTranslation>0.8</AlphaTranslation>
+                    <GammaTranslation>0.8</GammaTranslation>
+                    <AlphaRotation>0.5</AlphaRotation>
+                    <GammaRotation>0.5</GammaRotation>
+                    <ContinueLostTrackingWithOrientationSensor>false</ContinueLostTrackingWithOrientationSensor>
+                </Parameters>
+            </Fuser>
+
+            <SensorSource>
+                <SensorID>FeatureTracking</SensorID>
+                <SensorCosID>metalsheetcutter</SensorCosID>
+                <HandEyeCalibration>
+                    <TranslationOffset>
+                        <X>0</X>
+                        <Y>0</Y>
+                        <Z>0</Z>
+                    </TranslationOffset>
+                    <RotationOffset>
+                        <X>0</X>
+                        <Y>0</Y>
+                        <Z>0</Z>
+                        <W>1</W>
+                    </RotationOffset>
+                </HandEyeCalibration>
+                <COSOffset>
+                    <TranslationOffset>
+                        <X>0</X>
+                        <Y>0</Y>
+                        <Z>0</Z>
+                    </TranslationOffset>
+                    <RotationOffset>
+                        <X>0</X>
+                        <Y>0</Y>
+                        <Z>0</Z>
+                        <W>1</W>
+                    </RotationOffset>
+                </COSOffset>
+            </SensorSource>
+        </COS>
 
 	</Connections>
 </TrackingData>

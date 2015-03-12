@@ -3,22 +3,21 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_gravity="center"
+    android:layout_height="match_parent"
     style="@style/Theme.Translucent">
-
     <Button
         android:id="@+id/button_tool_location"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/button_tool_location"
-        android:onClick="onClick" />
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="@string/button_tool_location"/>
 
     <Button
         android:id="@+id/button_tool_safety_info"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/button_safety_info"
-        android:onClick="onClick" />
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="@string/button_safety_info"/>
+
 
 </LinearLayout>

@@ -28,7 +28,7 @@ public class MainActivity extends Activity {
     {
         super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.main);
 
         // Enable metaio SDK debug log messages based on build configuration
         MetaioDebug.enableLogging(BuildConfig.DEBUG);
@@ -39,7 +39,7 @@ public class MainActivity extends Activity {
     }
 
     /**
-     * This task extracts all the application assets to an external or internal location
+     * This task extracts all the application assets to an external or internal tool_location
      * to make them accessible to Metaio SDK
      */
     private class AssetsExtracter extends AsyncTask<Integer, Integer, Boolean>
