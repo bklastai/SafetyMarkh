@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="C:\Users\Benas\AndroidStudioProjects\SafetyMarkh\libs\MetaioSDK\assets"/></dataSet><dataSet config="release"><source path="C:\Users\Benas\AndroidStudioProjects\SafetyMarkh\libs\MetaioSDK\build-types\release\assets"/></dataSet></merger>
