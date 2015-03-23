@@ -14,14 +14,14 @@ public class ToolLocationActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.tool_location);
+        setContentView(R.layout.tool_adapter);
 
         Bundle bundle = getIntent().getExtras();
         final int locationRequest = bundle.getInt("locationRequest");
         final Integer[] tool = new Integer[]{toolInfos[locationRequest]};
 
-        final ListView listView = (ListView) findViewById(R.id.listView1);
-        listView.setAdapter(new ToolAdapter(getApplicationContext(), R.id.listView1, tool));
+        final ListView listView = (ListView) findViewById(R.id.toolAdapterListView);
+        listView.setAdapter(new ToolAdapter(getApplicationContext(), R.layout.tool_location_image, tool));
     }
 
 

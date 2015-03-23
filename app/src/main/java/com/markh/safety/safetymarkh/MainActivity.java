@@ -39,7 +39,7 @@ public class MainActivity extends Activity {
     }
 
     /**
-     * This task extracts all the application assets to an external or internal tool_location
+     * This task extracts all the application assets to an external or internal tool_adapter
      * to make them accessible to Metaio SDK
      */
     private class AssetsExtracter extends AsyncTask<Integer, Integer, Boolean>

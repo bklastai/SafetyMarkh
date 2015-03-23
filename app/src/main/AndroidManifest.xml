@@ -35,7 +35,7 @@
         android:name="android.hardware.camera.autofocus"
         android:required="false" />
 
-    <!-- Only required for tool_location based applications -->
+    <!-- Only required for tool_adapter based applications -->
     <uses-feature
         android:name="android.hardware.location"
         android:required="false" />
