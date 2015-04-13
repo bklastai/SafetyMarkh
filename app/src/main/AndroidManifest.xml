@@ -78,16 +78,6 @@
             android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
             android:theme="@style/AppTheme" >
         </activity>
-        <!--<activity-->
-            <!--android:name=".controller.ToolSafetyActivity"-->
-            <!--android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"-->
-            <!--android:theme="@style/AppTheme" >-->
-        <!--</activity>-->
-        <!--<activity-->
-            <!--android:name=".controller.ToolLocationActivity"-->
-            <!--android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"-->
-            <!--android:theme="@style/AppTheme" >-->
-        <!--</activity>-->
     </application>
 
 </manifest>

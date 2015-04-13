@@ -12,7 +12,7 @@
 
 
     <!--Safety info titles-->
-    <string name="welder_safety_info">Welder safety Information</string>
+    <string name="welder_safety_info">Welder Safety Information</string>
     <string name="angle_grinder_safety_info">Angle Grinder Safety Information</string>
     <string name="belt_sander_safety_info">Belt Sander Safety Information</string>
     <string name="steel_bender_safety_info">Steel Bender Safety Information</string>
@@ -26,6 +26,16 @@
     <string name="lorem_ipsum_3">3Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
     <string name="lorem_ipsum_4">4Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
     <string name="lorem_ipsum_5">5Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+
+
+    <!--Location titles-->
+    <string name="locationTitle0">Welder Location</string>
+    <string name="locationTitle1">Angle Grinder Location</string>
+    <string name="locationTitle2">Belt Sander Location</string>
+    <string name="locationTitle3">Steel Bender Location</string>
+    <string name="locationTitle4">Belt Saw Location</string>
+    <string name="locationTitle5">Metal Sheet Cutter Location</string>
+
 
 
     <!--testing strings-->

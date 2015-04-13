@@ -10,6 +10,8 @@ public class ToolModel{
     private Integer[] toolDrawables = {R.drawable.welder, R.drawable.angle_grinder, R.drawable.belt_sander, R.drawable.steel_bender, R.drawable.belt_saw, R.drawable.metal_sheet_cutter};
     private Integer[] toolLocationDrawables = {R.drawable.location0, R.drawable.location1, R.drawable.location2, R.drawable.location3, R.drawable.location4, R.drawable.location5};
     private Integer[] toolSafetyInfos = {R.string.lorem_ipsum_0, R.string.lorem_ipsum_1, R.string.lorem_ipsum_2, R.string.lorem_ipsum_3, R.string.lorem_ipsum_4, R.string.lorem_ipsum_5};
+    private Integer[] toolLocationTitles = {R.string.locationTitle0, R.string.locationTitle1, R.string.locationTitle2, R.string.locationTitle3, R.string.locationTitle4, R.string.locationTitle5};
+
 
     public Integer getToolDrawable(int position){
         return toolDrawables[position];
@@ -21,6 +23,10 @@ public class ToolModel{
 
     public Integer getToolSafetyInfo(int position){
         return toolSafetyInfos[position];
+    }
+
+    public Integer getToolLocationTitle(int position){
+        return toolLocationTitles[position];
     }
 
 
