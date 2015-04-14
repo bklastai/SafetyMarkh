@@ -8,7 +8,7 @@
     <!--Simple texts for location,safety info, and safety test Buttons-->
     <string name="button_tool_location">Location</string>
     <string name="button_safety_info">Safety Information</string>
-    <string name="button_safety_test">Safety Test</string>
+    <!--<string name="button_safety_test">Safety Test</string>-->
 
 
     <!--Safety info titles-->
@@ -42,5 +42,166 @@
     <string name="hello_world">Hello world!</string>
     <!--android pre-installed-->
     <string name="action_settings">Settings</string>
+
+
+
+
+    <!--CustExpListview headers-->
+    <string name="configuration">Configuration</string>
+    <string name="action_technique">Action Technique</string>
+    <string name="adjustments">Adjustments</string>
+    <string name="safety_reminders">Safety Reminders</string>
+    <string name="cuts">Cuts</string>
+    <string name="overview_circular_saws">Overview [Circular Saws]</string>
+    <string name="overview_band_and_other_saws">Overview [Band and Other Saws]</string>
+    <string name="overview_pneumatic_tools">Overview [Pneumatic Tools]</string>
+    <string name="overview_shaping_tools">Overview [Shaping Tools]</string>
+    <string name="overview_sanders">Overview [Sanders]</string>
+    <string name="sanders_reminders">Important Reminders [Sanders]</string>
+
+    <!--ONLY FOR: Floor Drill Press AND Hollow Chisel Mortiser, MUST ALSO MAKE power_drills.png VISIBLE-->
+    <string name="overview_power_drills">Overview [Power Drills]</string>
+    <string name="power_drill_types">Overview [Power Drills]</string>
+
+    <!--ONLY FOR: Cordless Drill, MUST ALSO MAKE drill_bits.png VISIBLE-->
+    <string name="overview_drill_bits">Overview [Drill Bits]</string>
+    <string name="drill_bit_types">Drill Bit Types</string>
+
+    <!--ONLY FOR: Brad Nailer AND Framing Nailer-->
+    <string name="loading">Nail Loading</string>
+
+
+
+    <!--CHILDREN-->
+
+    <!--configuration children-->
+    <!--1ST ROW IN THE DATA-->
+    <string name="action_technique0_0">Sanding pad vibrates in a randomly changing circular motion.</string>
+    <string name="action_technique1_0">Belt rotates around two pulleys; sander is moved while wood is held stationary.</string>
+    <string name="action_technique2_0">Work is secured and drill moved by hand.</string>
+    <string name="action_technique2_1">Can be used to drive screw with special bits.</string>
+    <string name="action_technique3_0">The blade reciprocates up and down, cutting on the up stroke.</string>
+    <string name="action_technique4_0">The blade reciprocates in and out, cutting on the in stroke.</string>
+    <string name="action_technique5_0">Wood is held in place while blade is moved.</string>
+    <string name="action_technique6_0">Wood is moved on table into blade.</string>
+    <string name="action_technique7_0">Wood is moved on table into blade.</string>
+    <string name="action_technique8_0">The blade reciprocates up and down, cutting
+on the down stroke.</string>
+    <string name="action_technique9_0">Wood is moved across tabletop either
+against fence or pushed with miter
+gauge: NEVER CUT FREEHAND.</string>
+    <string name="action_technique10_0">Blade slides forward on rail,
+cutting on the pull stroke.</string>
+        <string name="action_technique10_1">Wood is held in place while blade
+is moved.</string>
+    <string name="action_technique11_0">Slides forward above wood.</string>
+    <string name="action_technique11_1">Swings down in chopping motion.</string>
+    <string name="action_technique11_2">Slides back on rails, cutting on the
+push stroke.</string>
+    <string name="action_technique11_3">Rail assembly can be locked so that
+saw can only chop like a standard
+miter saw.</string>
+    <string name="action_technique11_4">Wood is held in place while blade is moved.</string>
+    <string name="action_technique12_0">Blade swings down in chopping motion.</string>
+    <string name="action_technique12_1">Wood is held in place while blade is moved.</string>
+
+    <!--2ND ROW IN THE DATA-->
+    <string name="action_technique13_0">The jointer is used to true
+the edges of boards that is
+make them very straight at
+a constant angle to the face.</string>
+    <string name="action_technique13_1">The wood is pushed on the table along the fence and into the spinning knives.</string>
+    <string name="action_technique14_0">Planer is used make the faces of a
+board flat and parallel.</string>
+        <string name="action_technique14_1">The wood is fed between the spinning
+roller/knife assembly and the table.</string>
+    <string name="action_technique15_0">The lathe is used to “turn” or cut
+rectangular pieces into cylindrical
+forms.</string>
+    <string name="action_technique15_1">The wood is mounted between
+the spindles and spun, while
+turning chisels are used to cut the
+cylindrical profiles.</string>
+    <string name="action_technique16_0">The shaper or router is used to “mold”
+the edges of boards, that is shape them
+into specific molding profiles.</string>
+    <string name="action_technique16_1">The wood is pushed on the table along the fence or with the miter gauge
+and into the spinning knives.</string>
+    <string name="action_technique17_0">Uses different bits for many different grinding purposes.</string>
+    <string name="action_technique18_0">Use for finish sanding on wood, plastic, foam, etc..</string>
+    <string name="action_technique19_0">Used only to fasten wood together.</string>
+    <string name="action_technique20_0">Used only to fasten wood together.</string>
+    <string name="action_technique21_0">Rough sands and shapes.</string>
+    <string name="action_technique22_0">The spindle spins (and on some
+models oscillate up and down) while the
+wood is moved against the tabletop.</string>
+    <string name="action_technique23_0">Use down draft table for any sanding, routing, or
+grinding.</string>
+
+    <!--3RD ROW IN THE DATA-->
+    <string name="action_technique24_0">Drill bit is mounted in a chuck, which travels
+up and down on the quill.</string>
+    <string name="action_technique24_1">Drills holes perpendicular to table.</string>
+    <string name="action_technique25_0">Bores a squared hole.</string>
+    <string name="action_technique26_0">The router is used to cut slots and dados,
+and to mould the edges of boards.</string>
+    <string name="action_technique26_1">The wood is secured and the router is
+moved by hand.</string>
+
+    <!--configuration children-->
+    <!--1ST ROW IN THE DATA-->
+    <string name="configuration0_0">Half Sheet Finish Sander: uses a half sheet of sandpaper.</string>
+    <string name="configuration0_1">Quarter Sheet Palm Sander: uses a quarter sheet of sandpaper.</string>
+    <string name="configuration0_2">Palm Sander: round pad.</string>
+    <string name="configuration1_0">Small, hand held belt.</string>
+    <string name="configuration2_0">Hand-held drill.</string>
+    <string name="configuration3_0">Hand-held, with a short stout blade extending from bottom (foot).</string>
+    <string name="configuration4_0">Hand-held, with a stout blade extending from end.</string>
+    <string name="configuration5_0">Hand-held circular blade.</string>
+    <string name="configuration6_0">Long, continuous band blade looped around large upper and lower wheels</string>
+    <string name="configuration7_0">Long, continuous band blade looped around large upper and lower wheels.</string>
+    <string name="configuration8_0">A short thin blade held through the table by a long arm.</string>
+    <string name="configuration9_0">Circular blade mounted into table.</string>
+    <string name="configuration10_0">Circular blade mounted on overhead rail (arm).</string>
+    <string name="configuration11_0">Circular blade mounted on a double action arm.</string>
+    <string name="configuration12_0">Circular blade mounted on single action arm.</string>
+
+    <!--2ND ROW IN THE DATA-->
+    <string name="configuration13_0">A series of short knives mounted on a horizontal spindle set into a long flat table equipped with a fence.</string>
+    <string name="configuration14_0">A series of 15 inch knives
+mounted on a horizontal spindle set
+above a short table and equipped with
+self-feeding rollers.</string>
+    <string name="configuration15_0">two spindles equipped with a parallel tool rest</string>
+    <string name="configuration16_0">A series of short knives mounted on a
+vertical spindle set into a short flat
+table equipped with a fence and miter
+gauge.</string>
+    <string name="configuration16_1">Or a Router mounted upside-down in a
+table with a fence.</string>
+    <string name="configuration17_0">Hand-held rotary grinder.</string>
+    <string name="configuration18_0">Five inch pneumatic sander with dust collector.</string>
+    <string name="configuration19_0">Pneumatic 18 or 16 gage.</string>
+    <string name="configuration20_0">Pneumatic chip nailer.</string>
+    <string name="configuration21_0">Combination: belt and disk sander.</string>
+    <string name="configuration22_0">A cylindrical sanding spindle mounted in a table.</string>
+    <string name="configuration23_0">Self-contained dust collection unit.</string>
+
+    <!--3RD ROW IN THE DATA-->
+    <string name="configuration24_0">Overhead drill mounted above adjustable table.</string>
+    <string name="configuration25_0">Hollow square chisel with a drill bit in the center built in a press.</string>
+    <string name="configuration26_0">Essentially a smaller, hand held, inverted version of the wood shaper.</string>
+
+
+
+
+
+
+
+
+
+
+
+
 
 </resources>

@@ -23,11 +23,13 @@
         <!--android:layout_below="@+id/imgListItem"/>-->
 
 
-    <ExpandableListView
-        android:id="@+id/lvExpSafety"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_below="@+id/imgListItem"/>
+    <!--<com.markh.safety.safetymarkh.view.CustExpListview-->
+        <!--android:id="@+id/lvExpSafety"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="vertical"-->
+        <!--android:groupIndicator="@null"-->
+        <!--android:layout_below="@+id/imgListItem">-->
+    <!--</com.markh.safety.safetymarkh.view.CustExpListview>-->
 
 </RelativeLayout>
