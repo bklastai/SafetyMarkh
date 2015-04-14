@@ -72,6 +72,14 @@
 
 
 
+
+
+
+
+
+
+
+
     <!--CHILDREN-->
 
     <!--configuration children-->
@@ -148,6 +156,223 @@ and to mould the edges of boards.</string>
     <string name="action_technique26_1">The wood is secured and the router is
 moved by hand.</string>
 
+
+
+
+
+
+
+
+
+
+
+    <!--safety reminders children-->
+    <!--1ST ROW IN THE DATA-->
+    <string name="safety_reminder1_0">Use both hands to hold the sander firmly.
+Always be able to hold against the direction
+of belt rotation.</string>
+    <string name="safety_reminder1_1">Secure the wood. The sander will try to
+throw loose wood.</string>
+    <string name="safety_reminder1_2">Never approach from attacking angle. Do not tear the belt on sharp corners.</string>
+    <string name="safety_reminder1_3">Be aware of belt tracking and tension. Shut off machine and alert shop personnel if
+belt tracks wrong, especially if sparks are created.</string>
+    <string name="safety_reminder1_4">Do not use if belt is loose or torn. Alert shop personnel.</string>
+    <string name="safety_reminder1_5">Keep hands away from abrasive surfaces, especially near intake gaps.</string>
+    <string name="safety_reminder1_6">Do not sand electrical cord, loose clothing and/ or cloth in the sanding area.</string>
+    <string name="safety_reminder1_7">Keep electrical cord free of snags.</string>
+    <string name="safety_reminder2_0">Do not drill “blind”. Do not drill without ascertaining backside of
+work is clear of obstructions.</string>
+    <string name="safety_reminder2_1">Do not drill into tabletop or support.</string>
+    <string name="safety_reminder2_2">Do not abuse electrical cord.</string>
+    <string name="safety_reminder2_3">Keep electrical cord free of snags.</string>
+    <string name="safety_reminder2_4">Use both hands on drill. If the bit binds up, the drill will try to wrench itself violently from
+your grip, so be prepared.</string>
+        <string name="safety_reminder3_0">Do not drill “blind”. Do not drill without ascertaining backside of
+work is clear of obstructions.</string>
+    <string name="safety_reminder3_1">Do not drill into tabletop or support.</string>
+    <string name="safety_reminder3_2">Do not abuse electrical cord.</string>
+    <string name="safety_reminder3_3">Keep electrical cord free of snags.</string>
+    <string name="safety_reminder3_4">Make sure blade extends completely through material throughout
+stroke.</string>
+    <string name="safety_reminder3_5">Secure material before cutting. Small and/or thin material may flex or
+    vibrate causing loss of control.</string>
+    <string name="safety_reminder4_0">Do not drill “blind”. Do not drill without ascertaining backside of
+work is clear of obstructions.</string>
+    <string name="safety_reminder4_1">Do not drill into tabletop or support.</string>
+    <string name="safety_reminder4_2">Do not abuse electrical cord.</string>
+    <string name="safety_reminder4_3">Keep electrical cord free of snags.</string>
+    <string name="safety_reminder4_4">Make sure blade extends completely through material and beyond
+    shoe throughout stroke.</string>
+    <string name="safety_reminder4_5">Secure material before cutting. Small and/or thin material may flex or
+    vibrate causing loss of control.</string>
+    <string name="safety_reminder5_0">USE ONLY UNDER DIRECT SUPERVISION OF SHOP PERSONNEL.</string>
+    <string name="safety_reminder5_1">Set blade depth so that the teeth emerge completely from underside of
+cut.</string>
+    <string name="safety_reminder5_2">Keep the blade aligned along straight path. Make sure you don’t bind
+the blade.</string>
+    <string name="safety_reminder5_3">Never cut “blind.” Always ascertain that underside of cut is clear of
+obstructions.</string>
+    <string name="safety_reminder5_4">Do not cut into tabletop or supports.</string>
+    <string name="safety_reminder5_5">Make sure both sides of the cut are supported even after the cut is
+made.</string>
+    <string name="safety_reminder5_6">Do not cut electrical cord.</string>
+    <string name="safety_reminder5_7">Allow blade to stop spinning before placing saw down after cut is
+finished.</string>
+    <string name="safety_reminder5_8">Take extreme care when making bevel cuts, as the angle between the
+blade and foot can bind the blade easily.</string>
+    <string name="safety_reminder5_9">Always hold saw with both hands.</string>
+    <string name="safety_reminder5_10">Secure small and/or thin work with clamps. The wood must not be
+allowed to move during the cut.</string>
+    <string name="safety_reminder6_0">Wood must flat against table and stable.
+Never cut round or unstable wood without secondary support (such as
+a jig). The downward force of the blade will twist round or unstable
+stock as it cuts, causing the blade to bind, kink, and break.</string>
+    <string name="safety_reminder6_1">Set guard 0.25" above wood.</string>
+    <string name="safety_reminder6_2">Never force a curved cut tighter than allowed by the blade width.</string>
+    <string name="safety_reminder6_3">Watch your fingers, especially at the end of the cut.</string>
+    <string name="safety_reminder6_4">Never back out of long cuts with the machine running. Backward
+pressure can cause the blade to jump its guides, hang up, and break.</string>
+    <string name="safety_reminder6_5">Plan your cuts before you begin cutting. Make sure the wood will clear
+the throat throughout the cut. Make release cuts before cutting long
+curves.</string>
+        <string name="safety_reminder7_0">Wood must flat against table and stable.
+Never cut round or unstable wood without secondary support (such as
+a jig). The downward force of the blade will twist round or unstable
+stock as it cuts, causing the blade to bind, kink, and break.</string>
+    <string name="safety_reminder7_1">Set guard 0.125" above wood.</string>
+    <string name="safety_reminder7_2">Never force a curved cut tighter than allowed by the blade width.</string>
+    <string name="safety_reminder7_3">Watch your fingers, especially at the end of the cut.</string>
+    <string name="safety_reminder7_4">Never back out of long cuts with the machine running. Backward
+pressure can cause the blade to jump its guides, hang up, and break.</string>
+    <string name="safety_reminder7_5">Plan your cuts before you begin cutting. Make sure the wood will clear
+the throat throughout the cut. Make release cuts before cutting long
+curves.</string>
+    <string name="safety_reminder8_0">Watch your fingers.</string>
+    <string name="safety_reminder8_1">Make sure blade has teeth pointing down.</string>
+    <string name="safety_reminder8_2">Make sure tension is adjusted properly on the blade.</string>
+    <string name="safety_reminder8_3">Do not push too hard on wood. You want only enough pressure to
+maintain good contact on the down stroke, not the up stroke.</string>
+    <string name="safety_reminder9_0">Do not use without specific permission, specific training, and direct
+supervision.</string>
+    <string name="safety_reminder10_0">Firmly fix wood against table and fence: never cut freehand.</string>
+    <string name="safety_reminder10_1">Hold wood with left hand, cut with saw in right hand.</string>
+    <string name="safety_reminder10_2">Slow steady feed: hold backpressure on saw: DO NOT TRY TO CUT
+TOO QUICKLY.</string>
+    <string name="safety_reminder10_3">Always check for square.</string>
+    <string name="safety_reminder10_4">Tilted blade bevel cuts are most prone to binding and thus most
+dangerous.</string>
+    <string name="safety_reminder10_5">Always return saw to its full rear position after the cut.</string>
+    <string name="safety_reminder10_6">Never “gang cut.” Never cut more than one piece at a time.</string>
+    <string name="safety_reminder10_7">Avoid cutting deeper than a 16th of an inch into the tabletop.</string>
+    <string name="safety_reminder11_0">Firmly fix wood against table and fence: never cut freehand.</string>
+    <string name="safety_reminder11_1">Hold wood with left hand, cut with saw in right hand.</string>
+    <string name="safety_reminder11_2">Slow steady feed: DO NOT TRY TO CUT TOO QUICKLY.</string>
+    <string name="safety_reminder11_3">Always check for square.</string>
+    <string name="safety_reminder11_4">Tilted blade bevel cuts are most prone to binding and thus most
+dangerous.</string>
+    <string name="safety_reminder11_5">Always return saw to its full rear position after the cut.</string>
+    <string name="safety_reminder11_6">Never “gang cut.” Never cut more than one piece at a time.</string>
+    <string name="safety_reminder12_0">Firmly fix wood against table and fence: never cut freehand.</string>
+    <string name="safety_reminder12_1">Hold wood with left hand, cut with saw in right hand.</string>
+    <string name="safety_reminder12_2">Slow steady feed: DO NOT TRY TO CUT TOO QUICKLY.</string>
+    <string name="safety_reminder12_3">Always check for square.</string>
+    <string name="safety_reminder12_4">Tilted blade bevel cuts are most prone to binding and thus most
+dangerous.</string>
+    <string name="safety_reminder12_5">Always return saw to its full rear position after the cut.</string>
+    <string name="safety_reminder12_6">Never “gang cut.” Never cut more than one piece at a time.</string>
+
+    <!--2ND ROW IN THE safety_reminder1_0-->
+    <string name="safety_reminder13_0">Must have had proper instructions on how to use the jointer.</string>
+    <string name="safety_reminder13_1">Shop personnel must supervise you when using it.</string>
+    <string name="safety_reminder13_2">Use push blocks and push sticks to feed wood through cutters.</string>
+    <string name="safety_reminder13_3">Be aware of where your fingers and hands are placed when using the
+jointer.</string>
+    <string name="safety_reminder13_4">Keep in feed and out feed table clean and clear of debris.</string>
+    <string name="safety_reminder14_0">Must have had proper instructions on how to use the thickness planer.</string>
+    <string name="safety_reminder14_1">Shop personnel must supervise you when using it.</string>
+    <string name="safety_reminder14_2">Wood must be free of all dirt or any metal and paint.</string>
+    <string name="safety_reminder14_3">Must wear face shields, dust mask, and ear protection when using the
+    machine.</string>
+    <string name="safety_reminder14_4">Remove only a maximum of a 16th of an inch at a time.</string>
+    <string name="safety_reminder15_0">Do not use without specific permission, training, and direct
+supervision.</string>
+    <string name="safety_reminder16_0">Do not use without specific permission, training, and direct
+supervision.</string>
+    <string name="safety_reminder17_0">Safety glasses, dust mask, and ear protection are required for use of
+    the tool.</string>
+    <string name="safety_reminder17_1">Be aware of body parts near grinding bits.</string>
+    <string name="safety_reminder17_2">Be aware of loose clothing and material.</string>
+    <string name="safety_reminder17_3">Item in which you are grinding must be properly clamped or held
+    down.</string>
+    <string name="safety_reminder18_0">Always wear dust mask.</string>
+    <string name="safety_reminder18_1">Don’t sand treated wood with lead paints.</string>
+    <string name="safety_reminder18_2">Avoid damaging sanding pad.</string>
+    <string name="safety_reminder19_0">Five inch pneumatic sander with dust collector.</string>
+    <string name="safety_reminder20_0">Always wear eye protection.</string>
+    <string name="safety_reminder20_1">Keep all body parts a safe distance away from the area of nailing.</string>
+    <string name="safety_reminder20_2">NEVER POINT THE NAIL GUN IN THE DIRECTION OF
+    OTHERS.</string>
+    <string name="safety_reminder20_3">Avoid nailing in areas of knots, metal, and/or other hard areas in the
+    wood.</string>
+    <string name="safety_reminder20_4">Always have nailer pointed against the wood when nailing.</string>
+    <string name="safety_reminder21_0">Always wear eye protection.</string>
+    <string name="safety_reminder21_1">Keep all body parts a safe distance away from the area of nailing while
+    in use.</string>
+    <string name="safety_reminder21_2">NEVER POINT THE NAIL GUN IN THE DIRECTION OF
+    OTHERS.</string>
+    <string name="safety_reminder21_3">Avoid nailing in areas of knots, metal, and/or other hard areas in the
+    wood.</string>
+    <string name="safety_reminder21_4">Always have nailer pointed against the wood when nailing.</string>
+    <string name="safety_reminder22_0">Hold wood firmly, always be able to hold
+    against the direction of sander.</string>
+    <string name="safety_reminder22_1">Never approach from attacking angle.</string>
+    <string name="safety_reminder22_2">Be aware of belt tracking and tension. Shut
+    off machine and alert shop personnel if belt
+    tracks wrong, especially if sparks are
+    created.</string>
+    <string name="safety_reminder22_3">Do not use if belt or disk is loose or torn. Alert shop personnel.</string>
+    <string name="safety_reminder22_4">Keep hands away from abrasive surfaces, especially near intake gaps.</string>
+    <string name="safety_reminder22_5">Use tables to support material when sanding against a vertical belt or
+    disk.</string>
+    <string name="safety_reminder22_6">Hold wood securely. Loose wood will be thrown violently.</string>
+    <string name="safety_reminder22_7">Do no stand in line with out feed of belt. Do not let others stand in line
+    of the out feed.</string>
+    <string name="safety_reminder22_8">Never sand pieces too small to hold safely.</string>
+    <string name="safety_reminder22_9">Never use gloves or a rag to hold material.</string>
+    <string name="safety_reminder22_10">Use sanding disk on down side, not up side.</string>
+    <string name="safety_reminder22_11">Sand with the grain whenever possible.</string>
+    <string name="safety_reminder22_12">Keep work moving. Do not over sand in one place.</string>
+    <string name="safety_reminder23_0">Keep material flat against the tabletop.</string>
+    <string name="safety_reminder23_1">Use light pressure. Do not burn out the sandpaper.</string>
+    <string name="safety_reminder24_0">Wear dust mask when sanding on table.</string>
+    <string name="safety_reminder24_1">Do not lean over table when using push button cleaning.</string>
+    <string name="safety_reminder24_2">Do not use table as a workbench.</string>
+
+    <!--3RD ROW IN THE DATA-->
+    <string name="safety_reminder25_0">Use only bits appropriate for the material.</string>
+    <string name="safety_reminder25_1">Make sure that the bit tight and straight in chuck.</string>
+    <string name="safety_reminder25_2">Remove key from chuck before turning on.</string>
+    <string name="safety_reminder25_3">Secure wood, clamping it whenever possible.</string>
+    <string name="safety_reminder25_4">Do not drill into metal table.</string>
+    <string name="safety_reminder25_5">Place a scrap of wood under work to avoid tear-out.</string>
+    <string name="safety_reminder25_6">Check drill speed: faster for soft materials or small bits, slower for
+    hard material or large bits. Adjust speed only with drill on.</string>
+    <string name="safety_reminder25_7">Never use auger bits in the drill press.</string>
+    <string name="safety_reminder25_8">Avoid awkward hand positions in which a sudden slip would cause
+    hand to go into the cutting tool.</string>
+    <string name="safety_reminder25_9">Hold work in left hand and operate drill with right hand.</string>
+    <string name="safety_reminder25_10">Never wear gloves, neckties, jewelry, loose clothing, or long loose hair.</string>
+    <string name="safety_reminder26_0">Secure wood in vise.</string>
+    <string name="safety_reminder26_1">Use the proper chisel/ bit combination.</string>
+    <string name="safety_reminder26_2">Tighten bit and remove chuck.</string>
+    <string name="safety_reminder26_3">Do not over work chisel and bit.</string>
+    <string name="safety_reminder26_4">Do not mortise your hand.</string>
+    <string name="safety_reminder27_0">Do not use without specific permission, specific training, and direct
+supervision.</string>
+
+
+
+
     <!--configuration children-->
     <!--1ST ROW IN THE DATA-->
     <string name="configuration0_0">Half Sheet Finish Sander: uses a half sheet of sandpaper.</string>
@@ -194,12 +419,65 @@ table with a fence.</string>
 
 
 
+    <!--adjustments children-->
+    <!--1ST ROW IN THE DATA-->
+    <string name="adjustments2_0">Trigger can be locked on.</string>
+    <string name="adjustments2_1">Speed can be adjusted.</string>
+    <string name="adjustments2_2">Direction can be reversed.</string>
 
 
+    <string name="adjustments3_0">Trigger can be locked on.</string>
+    <string name="adjustments3_1">Speed can be adjusted.</string>
+    <string name="adjustments3_2">Single action or orbiting blade.</string>
+    <string name="adjustments3_3">The foot tilts on some models.</string>
 
+    <string name="adjustments4_0">The shoe is both hinged and removable.</string>
+    <string name="adjustments4_1">The blade can be reversed.</string>
+    <string name="adjustments4_2">Variable speed.</string>
 
-
-
+    <string name="adjustments5_0">Blade can be raised or lowered for cut depth.</string>
+    <string name="adjustments5_1">Blade tilts for bevel cuts 0/45°.</string>
+    <string name="adjustments6_0">Table top tilts for beveled cuts 0/45°.</string>
+    <string name="adjustments7_0">Table top tilts for beveled cuts 0/45°</string>
+    <string name="adjustments8_0">The table tilts for bevel cuts.</string>
+    <string name="adjustments8_1">The blade can be easily removed and inserted through
+    a hole in the wood to allow trapped cuts.</string>
+    <string name="adjustments9_0">Blade elevation.</string>
+    <string name="adjustments9_1">Out-feed table height.</string>
+    <string name="adjustments9_2">Fence can be tilted for beveled edge.</string>
+    <string name="adjustments10_0">Table or blade elevation for thickness.</string>
+    <string name="adjustments11_0">Spindles accommodate various lengths.</string>
+    <string name="adjustments11_1">Variable speed.</string>
+    <string name="adjustments11_2">Adjustable tool rest.</string>
+    <string name="adjustments11_3">Variety of chisels.</string>
+    <string name="adjustments12_0">Interchangeable cutters for different profiles.</string>
+    <string name="adjustments12_1">Blade elevation.</string>
+    <string name="adjustments12_2">Fence settings.</string>
+    <string name="adjustments13_0">Use the proper bit for the proper material.</string>
+    <string name="adjustments14_0">Variable speed.</string>
+    <string name="adjustments14_1">Uses 5 hole, hook and loop sand paper.</string>
+    <string name="adjustments15_0">Nails vary from 0.625 of an inch to 2.5 inches.</string>
+    <string name="adjustments16_0">Nails vary from 2 inches to 3.25 inches.</string>
+    <string name="adjustments17_0">Belt swivels from horizontal to vertical. DO
+    NOT CHANGE WITHOUT PERMISSION
+    OF SHOP PERSONNEL.</string>
+    <string name="adjustments17_1">tables tilt 0\45°.</string>
+    <string name="adjustments17_2">Miter gauge can be used.</string>
+    <string name="adjustments18_0">some models have interchangeable spindles of various diameter.</string>
+    <string name="adjustments19_0">Push button cleaning.</string>
+    <string name="adjustments19_1">Mobile wheels.</string>
+    <string name="adjustments19_2">110-volt receptacle.</string>
+    <string name="adjustments19_3">Add solid tabletop to use as a workbench.</string>
+    <string name="adjustments20_0">Variable speed (change with drill on only).</string>
+    <string name="adjustments20_1">Table elevation.</string>
+    <string name="adjustments20_2">Quill can be locked.</string>
+    <string name="adjustments20_3">Depth stop for setting hole depth.</string>
+    <string name="adjustment21_0">Uses different sizes of chisels from 0.25” – 1”.</string>
+    <string name="adjustment21_1">Head can tilt at an angle.</string>
+    <string name="adjustment22_0">Interchangeable cutters (bits) for different cuts and profiles.</string>
+    <string name="adjustment22_1">Bit depth.</string>
+    <string name="adjustment22_2">Various guides, jigs, templates, straight edges, and accessories for specific
+    procedures.</string>
 
 
 
