@@ -174,7 +174,7 @@ public class ARActivity extends ARViewActivity {
                                                 public void onClick(DialogInterface dialog, int which) {
                                                     dialog.cancel();
                                                     int toolSelected = Integer.parseInt(tokens[1].substring(tokens[1].length() - 1));
-                                                    Intent intent = new Intent(getApplicationContext(), ToolActivity.class);
+                                                    Intent intent = new Intent(mThis, ToolActivity.class);
                                                     intent.putExtra("toolSelection", toolSelected);
                                                     startActivity(intent);
                                                 }
@@ -186,7 +186,6 @@ public class ARActivity extends ARViewActivity {
                                                 }
                                             })
                                             .create()) {
-
                                     }
                                 }
                                 if (!mAlert.isShowing()) {

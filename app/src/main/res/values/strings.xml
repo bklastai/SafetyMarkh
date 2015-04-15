@@ -437,47 +437,66 @@ table with a fence.</string>
 
     <string name="adjustments5_0">Blade can be raised or lowered for cut depth.</string>
     <string name="adjustments5_1">Blade tilts for bevel cuts 0/45°.</string>
+
     <string name="adjustments6_0">Table top tilts for beveled cuts 0/45°.</string>
     <string name="adjustments7_0">Table top tilts for beveled cuts 0/45°</string>
     <string name="adjustments8_0">The table tilts for bevel cuts.</string>
     <string name="adjustments8_1">The blade can be easily removed and inserted through
     a hole in the wood to allow trapped cuts.</string>
-    <string name="adjustments9_0">Blade elevation.</string>
-    <string name="adjustments9_1">Out-feed table height.</string>
-    <string name="adjustments9_2">Fence can be tilted for beveled edge.</string>
-    <string name="adjustments10_0">Table or blade elevation for thickness.</string>
-    <string name="adjustments11_0">Spindles accommodate various lengths.</string>
-    <string name="adjustments11_1">Variable speed.</string>
-    <string name="adjustments11_2">Adjustable tool rest.</string>
-    <string name="adjustments11_3">Variety of chisels.</string>
-    <string name="adjustments12_0">Interchangeable cutters for different profiles.</string>
-    <string name="adjustments12_1">Blade elevation.</string>
-    <string name="adjustments12_2">Fence settings.</string>
-    <string name="adjustments13_0">Use the proper bit for the proper material.</string>
-    <string name="adjustments14_0">Variable speed.</string>
-    <string name="adjustments14_1">Uses 5 hole, hook and loop sand paper.</string>
-    <string name="adjustments15_0">Nails vary from 0.625 of an inch to 2.5 inches.</string>
-    <string name="adjustments16_0">Nails vary from 2 inches to 3.25 inches.</string>
-    <string name="adjustments17_0">Belt swivels from horizontal to vertical. DO
-    NOT CHANGE WITHOUT PERMISSION
-    OF SHOP PERSONNEL.</string>
-    <string name="adjustments17_1">tables tilt 0\45°.</string>
-    <string name="adjustments17_2">Miter gauge can be used.</string>
-    <string name="adjustments18_0">some models have interchangeable spindles of various diameter.</string>
-    <string name="adjustments19_0">Push button cleaning.</string>
-    <string name="adjustments19_1">Mobile wheels.</string>
-    <string name="adjustments19_2">110-volt receptacle.</string>
-    <string name="adjustments19_3">Add solid tabletop to use as a workbench.</string>
-    <string name="adjustments20_0">Variable speed (change with drill on only).</string>
-    <string name="adjustments20_1">Table elevation.</string>
-    <string name="adjustments20_2">Quill can be locked.</string>
-    <string name="adjustments20_3">Depth stop for setting hole depth.</string>
-    <string name="adjustment21_0">Uses different sizes of chisels from 0.25” – 1”.</string>
-    <string name="adjustment21_1">Head can tilt at an angle.</string>
-    <string name="adjustment22_0">Interchangeable cutters (bits) for different cuts and profiles.</string>
-    <string name="adjustment22_1">Bit depth.</string>
-    <string name="adjustment22_2">Various guides, jigs, templates, straight edges, and accessories for specific
+    <string name="adjustments9_0">Blade can be raised and lowered</string>
+    <string name="adjustments9_1">Blade can be tilted to the right 0/45° for bevel cuts</string>
+    <string name="adjustments10_0">Blade assembly can be raised and
+lowered</string>
+        <string name="adjustments10_1">Rail (arm) swings for miter cuts
+-45:0:45 degrees</string>
+    <string name="adjustments10_2">Blade assembly tilts for bevel cuts
+    0-45 degrees.</string>
+    <string name="adjustments11_0">Blade assembly swivels for miter cuts -45:0:45 degrees.</string>
+    <string name="adjustments11_1">Blade assembly tilts for bevel cuts 0-45 degrees.</string>
+    <string name="adjustments12_0">Compound Miter Saw blade swivels for
+miter cuts.</string>
+    <string name="adjustments12_1">Compound Miter Saw blade tilts for bevel
+cuts.</string>
+    <string name="adjustments13_0">Blade elevation.</string>
+    <string name="adjustments13_1">Out-feed table height.</string>
+    <string name="adjustments13_2">Fence can be tilted for beveled edge.</string>
+
+    <string name="adjustments14_0">Table or blade elevation for thickness.</string>
+    <string name="adjustments15_0">Spindles accommodate various lengths.</string>
+    <string name="adjustments15_1">Variable speed.</string>
+    <string name="adjustments15_2">Adjustable tool rest.</string>
+    <string name="adjustments15_3">Variety of chisels.</string>
+    <string name="adjustments16_0">Interchangeable cutters for different profiles.</string>
+    <string name="adjustments16_1">Blade elevation.</string>
+    <string name="adjustments16_2">Fence settings.</string>
+    <string name="adjustments17_0">Use the proper bit for the proper material.</string>
+    <string name="adjustments18_0">Variable speed.</string>
+    <string name="adjustments18_1">Uses 5 hole, hook and loop sand paper.</string>
+    <string name="adjustments19_0">Nails vary from 5/8 of an inch to 2.5
+inches.</string>
+    <string name="adjustments20_0">Nails vary from 2 inches to 3.25 inches.</string>
+    <string name="adjustment21_0">Belt swivels from horizontal to vertical. DO
+NOT CHANGE WITHOUT PERMISSION
+OF SHOP PERSONNEL.</string>
+    <string name="adjustment21_1">tables tilt 0-45 degrees.</string>
+    <string name="adjustment21_2">Miter gauge can be used.</string>
+    <string name="adjustment22_0">Some models have
+interchangeable spindles of various diameter.</string>
+    <string name="adjustment23_0">Push button cleaning.</string>
+    <string name="adjustment23_1">Mobile wheels.</string>
+    <string name="adjustment23_2">110-volt receptacle.</string>
+    <string name="adjustment23_3">Add solid tabletop to use as a workbench.</string>
+    <string name="adjustment24_0">Variable speed (change with drill on only).</string>
+    <string name="adjustment24_1">Table elevation.</string>
+    <string name="adjustment24_2">Quill can be locked.</string>
+    <string name="adjustment24_3">Depth stop for setting hole depth.</string>
+    <string name="adjustment25_0">Uses different sizes of chisels from 1/4” – 1”.</string>
+    <string name="adjustment25_1">Head can tilt at an angle.</string>
+    <string name="adjustment26_0">Interchangeable cutters (bits) for different cuts and profiles).</string>
+    <string name="adjustment26_1">Bit depth.</string>
+    <string name="adjustment26_2">Various guides, jigs, templates, straight edges, and accessories for specific
     procedures.</string>
+
 
 
 

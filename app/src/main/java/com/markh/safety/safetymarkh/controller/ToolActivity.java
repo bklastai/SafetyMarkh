@@ -28,7 +28,7 @@ public class ToolActivity extends Activity {
     private ExpandableListView expListViewLocation;
     private ExpandableListView expListViewSafety;
 
-    private ToolModel toolModel = new ToolModel();
+    private ToolModel toolModel;
     private int toolScanned;
 
 
@@ -39,13 +39,19 @@ public class ToolActivity extends Activity {
 
         Bundle bundle = getIntent().getExtras();
         toolScanned = bundle.getInt("toolSelection");
+        toolModel = new ToolModel(this, toolScanned);
+        findViewById(R.id.lvExpLayout).setBackgroundResource(toolModel.getToolDrawable(toolScanned));
+
+
+        expListViewSafety = (ExpandableListView) findViewById(R.id.lvExpSafety);
+        expListViewSafety.setAdapter(new ToolSafetyAdapter());
 
         expListViewLocation = (ExpandableListView) findViewById(R.id.lvExp);
-        expListViewSafety = (ExpandableListView) findViewById(R.id.lvExpSafety);
-
         expListViewLocation.setAdapter(new ToolLocationAdapter());
-        expListViewSafety.setAdapter(new ToolSafetyAdapter());
     }
+
+
+
 
     public class ToolLocationAdapter extends BaseExpandableListAdapter {
 
@@ -128,6 +134,8 @@ public class ToolActivity extends Activity {
         }
     }
 
+
+
     public class ToolSafetyAdapter extends BaseExpandableListAdapter {
 
 
@@ -137,7 +145,9 @@ public class ToolActivity extends Activity {
         public View getChildView(int groupPosition, final int childPosition,
                                  boolean isLastChild, View convertView, ViewGroup parent) {
             CustExpListview SecondLevelexplv = new CustExpListview(ToolActivity.this);
+//            SecondLevelexplv.setScaleX(getWindowManager().getDefaultDisplay().getWidth());
             SecondLevelexplv.setAdapter(new ToolSafetyAdapter2());
+            SecondLevelexplv.setGroupIndicator(null);
             return SecondLevelexplv;
         }
         @Override
@@ -187,10 +197,17 @@ public class ToolActivity extends Activity {
         }
     }
 
+
+
+
     public class ToolSafetyAdapter2 extends BaseExpandableListAdapter {
+
+
 
         private List<Integer> _listDataHeader = new ArrayList<Integer>();
         private HashMap<Integer, List<Integer>> _listDataChild = new HashMap<Integer, List<Integer>>();
+
+
 
         public ToolSafetyAdapter2() {
             this.prepareListData();
@@ -226,29 +243,35 @@ public class ToolActivity extends Activity {
         }
 
         public void prepareListData() {
-            _listDataHeader.add(R.string.configuration);
-            _listDataHeader.add(R.string.action_technique);
-            _listDataHeader.add(R.string.adjustments);
             _listDataHeader.add(R.string.safety_reminders);
-            _listDataHeader.add(R.string.cuts);
+            _listDataHeader.add(R.string.action_technique);
+            _listDataHeader.add(R.string.configuration);
+            _listDataHeader.add(R.string.adjustments);
 
             List<Integer> configurationList = new ArrayList<Integer>();
-            configurationList.add(toolModel.getToolSafetyInfo(toolScanned));
-
+            for (Integer config : toolModel.getConfigurationsArray(toolScanned)){
+                configurationList.add(config);
+            }
             List<Integer> actionTechniqueList = new ArrayList<Integer>();
-            actionTechniqueList.add(toolModel.getToolSafetyInfo(toolScanned));
-
+            for (Integer config : toolModel.getActionTechniqueArray(toolScanned)){
+                actionTechniqueList.add(config);
+            }
             List<Integer> adjustmentsList = new ArrayList<Integer>();
-            adjustmentsList.add(toolModel.getToolSafetyInfo(toolScanned));
-
+            for (Integer config : toolModel.getAdjustmentsArray(toolScanned)){
+                adjustmentsList.add(config);
+            }
             List<Integer> safetyReminders = new ArrayList<Integer>();
-            safetyReminders.add(toolModel.getToolSafetyInfo(toolScanned));
+            for (Integer config : toolModel.getSafetyRemindersArray(toolScanned)){
+                safetyReminders.add(config);
+            }
 
-            _listDataChild.put(_listDataHeader.get(0), configurationList);
+            _listDataChild.put(_listDataHeader.get(0), safetyReminders);
             _listDataChild.put(_listDataHeader.get(1), actionTechniqueList);
-            _listDataChild.put(_listDataHeader.get(2), adjustmentsList);
-            _listDataChild.put(_listDataHeader.get(3), safetyReminders);
+            _listDataChild.put(_listDataHeader.get(2), configurationList);
+            _listDataChild.put(_listDataHeader.get(3), adjustmentsList);
         }
+
+
         @Override
         public Object getChild(int groupPosition, int childPosititon) {
             return this._listDataChild.get(this._listDataHeader.get(groupPosition)).get(childPosititon);
@@ -283,19 +306,22 @@ public class ToolActivity extends Activity {
         }
     }
 
+
+
+
     public class CustExpListview extends ExpandableListView {
 
-        int intGroupPosition, intChildPosition, intGroupid;
 
         public CustExpListview(Context context)
         {
             super(context);
         }
 
+        @Override
         protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec)
         {
-            widthMeasureSpec = MeasureSpec.makeMeasureSpec(960, MeasureSpec.AT_MOST);
-            heightMeasureSpec = MeasureSpec.makeMeasureSpec(600, MeasureSpec.AT_MOST);
+//            widthMeasureSpec = MeasureSpec.makeMeasureSpec(960, MeasureSpec.AT_MOST);
+            heightMeasureSpec = MeasureSpec.makeMeasureSpec(1500, MeasureSpec.EXACTLY);
             super.onMeasure(widthMeasureSpec, heightMeasureSpec);
         }
     }

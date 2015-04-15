@@ -1,26 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/lvExpLayout"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="#ffffff">
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/blank"/>
+    <ImageView
+        android:id="@+id/lvExpLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:scaleType="centerCrop"/>
 
     <ExpandableListView
-        android:id="@+id/lvExp"
-        android:layout_width="match_parent"
+        android:id="@+id/lvExpSafety"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:groupIndicator="@null"
         android:layout_alignParentTop="true"/>
 
     <ExpandableListView
-        android:id="@+id/lvExpSafety"
+        android:id="@+id/lvExp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:orientation="vertical"
         android:groupIndicator="@null"
-        android:layout_below="@+id/lvExp"/>
-
+        android:layout_below="@+id/lvExpSafety"/>
 
 </RelativeLayout>
