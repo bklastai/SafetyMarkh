@@ -5,45 +5,15 @@
     <string name="app_name">Safety \n Markh</string>
 
 
-    <!--Simple texts for location,safety info, and safety test Buttons-->
+    <!--button texts for tool location and safety info-->
     <string name="button_tool_location">Location</string>
     <string name="button_safety_info">Safety Information</string>
-    <!--<string name="button_safety_test">Safety Test</string>-->
-
-
-    <!--Safety info titles-->
-    <string name="welder_safety_info">Welder Safety Information</string>
-    <string name="angle_grinder_safety_info">Angle Grinder Safety Information</string>
-    <string name="belt_sander_safety_info">Belt Sander Safety Information</string>
-    <string name="steel_bender_safety_info">Steel Bender Safety Information</string>
-    <string name="belt_saw_safety_info">Belt Saw Safety Information</string>
-    <string name="metal_sheet_cutter_safety_info">Metal Sheet Cutter Safety Information</string>
-
-    <!--tool safety texts-->
-    <string name="lorem_ipsum_0">0Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
-    <string name="lorem_ipsum_1">1Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
-    <string name="lorem_ipsum_2">2Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
-    <string name="lorem_ipsum_3">3Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
-    <string name="lorem_ipsum_4">4Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
-    <string name="lorem_ipsum_5">5Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
-
-
-    <!--Location titles-->
-    <string name="locationTitle0">Welder Location</string>
-    <string name="locationTitle1">Angle Grinder Location</string>
-    <string name="locationTitle2">Belt Sander Location</string>
-    <string name="locationTitle3">Steel Bender Location</string>
-    <string name="locationTitle4">Belt Saw Location</string>
-    <string name="locationTitle5">Metal Sheet Cutter Location</string>
-
-
 
     <!--testing strings-->
     <string name="hello_world">Hello world!</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
     <!--android pre-installed-->
     <string name="action_settings">Settings</string>
-
-
 
 
     <!--CustExpListview headers-->
@@ -70,20 +40,19 @@
     <!--ONLY FOR: Brad Nailer AND Framing Nailer-->
     <string name="loading">Nail Loading</string>
 
-
-
-
-
-
-
-
-
-
-
-    <!--CHILDREN-->
+    <string-array name="configuration0">
+        <item>@string/configuration0_0</item>
+        <item>@string/configuration0_1</item>
+        <item>@string/configuration0_2</item>
+    </string-array>
+    <string-array name="adjustments0"></string-array>
+    <string-array name="safety_reminders0">
+        <item>@string/configuration0_0</item>
+        <item>@string/configuration0_1</item>
+        <item>@string/configuration0_2</item>
+    </string-array>
 
     <!--configuration children-->
-    <!--1ST ROW IN THE DATA-->
     <string name="action_technique0_0">Sanding pad vibrates in a randomly changing circular motion.</string>
     <string name="action_technique1_0">Belt rotates around two pulleys; sander is moved while wood is held stationary.</string>
     <string name="action_technique2_0">Work is secured and drill moved by hand.</string>
@@ -112,8 +81,6 @@ miter saw.</string>
     <string name="action_technique11_4">Wood is held in place while blade is moved.</string>
     <string name="action_technique12_0">Blade swings down in chopping motion.</string>
     <string name="action_technique12_1">Wood is held in place while blade is moved.</string>
-
-    <!--2ND ROW IN THE DATA-->
     <string name="action_technique13_0">The jointer is used to true
 the edges of boards that is
 make them very straight at
@@ -145,8 +112,6 @@ models oscillate up and down) while the
 wood is moved against the tabletop.</string>
     <string name="action_technique23_0">Use down draft table for any sanding, routing, or
 grinding.</string>
-
-    <!--3RD ROW IN THE DATA-->
     <string name="action_technique24_0">Drill bit is mounted in a chuck, which travels
 up and down on the quill.</string>
     <string name="action_technique24_1">Drills holes perpendicular to table.</string>
@@ -158,16 +123,7 @@ moved by hand.</string>
 
 
 
-
-
-
-
-
-
-
-
     <!--safety reminders children-->
-    <!--1ST ROW IN THE DATA-->
     <string name="safety_reminder1_0">Use both hands to hold the sander firmly.
 Always be able to hold against the direction
 of belt rotation.</string>
@@ -280,8 +236,6 @@ dangerous.</string>
 dangerous.</string>
     <string name="safety_reminder12_5">Always return saw to its full rear position after the cut.</string>
     <string name="safety_reminder12_6">Never “gang cut.” Never cut more than one piece at a time.</string>
-
-    <!--2ND ROW IN THE safety_reminder1_0-->
     <string name="safety_reminder13_0">Must have had proper instructions on how to use the jointer.</string>
     <string name="safety_reminder13_1">Shop personnel must supervise you when using it.</string>
     <string name="safety_reminder13_2">Use push blocks and push sticks to feed wood through cutters.</string>
@@ -347,8 +301,6 @@ supervision.</string>
     <string name="safety_reminder24_0">Wear dust mask when sanding on table.</string>
     <string name="safety_reminder24_1">Do not lean over table when using push button cleaning.</string>
     <string name="safety_reminder24_2">Do not use table as a workbench.</string>
-
-    <!--3RD ROW IN THE DATA-->
     <string name="safety_reminder25_0">Use only bits appropriate for the material.</string>
     <string name="safety_reminder25_1">Make sure that the bit tight and straight in chuck.</string>
     <string name="safety_reminder25_2">Remove key from chuck before turning on.</string>
@@ -372,9 +324,81 @@ supervision.</string>
 
 
 
+    <!--adjustments children-->
+    <string name="adjustments2_0">Trigger can be locked on.</string>
+    <string name="adjustments2_1">Speed can be adjusted.</string>
+    <string name="adjustments2_2">Direction can be reversed.</string>
+    <string name="adjustments3_0">Trigger can be locked on.</string>
+    <string name="adjustments3_1">Speed can be adjusted.</string>
+    <string name="adjustments3_2">Single action or orbiting blade.</string>
+    <string name="adjustments3_3">The foot tilts on some models.</string>
+    <string name="adjustments4_0">The shoe is both hinged and removable.</string>
+    <string name="adjustments4_1">The blade can be reversed.</string>
+    <string name="adjustments4_2">Variable speed.</string>
+    <string name="adjustments5_0">Blade can be raised or lowered for cut depth.</string>
+    <string name="adjustments5_1">Blade tilts for bevel cuts 0/45°.</string>
+    <string name="adjustments6_0">Table top tilts for beveled cuts 0/45°.</string>
+    <string name="adjustments7_0">Table top tilts for beveled cuts 0/45°</string>
+    <string name="adjustments8_0">The table tilts for bevel cuts.</string>
+    <string name="adjustments8_1">The blade can be easily removed and inserted through
+    a hole in the wood to allow trapped cuts.</string>
+    <string name="adjustments9_0">Blade can be raised and lowered</string>
+    <string name="adjustments9_1">Blade can be tilted to the right 0/45° for bevel cuts</string>
+    <string name="adjustments10_0">Blade assembly can be raised and
+lowered</string>
+        <string name="adjustments10_1">Rail (arm) swings for miter cuts
+-45:0:45 degrees</string>
+    <string name="adjustments10_2">Blade assembly tilts for bevel cuts
+    0-45 degrees.</string>
+    <string name="adjustments11_0">Blade assembly swivels for miter cuts -45:0:45 degrees.</string>
+    <string name="adjustments11_1">Blade assembly tilts for bevel cuts 0\-45 degrees.</string>
+    <string name="adjustments12_0">Compound Miter Saw blade swivels for
+miter cuts.</string>
+    <string name="adjustments12_1">Compound Miter Saw blade tilts for bevel
+cuts.</string>
+    <string name="adjustments13_0">Blade elevation.</string>
+    <string name="adjustments13_1">Out-feed table height.</string>
+    <string name="adjustments13_2">Fence can be tilted for beveled edge.</string>
+    <string name="adjustments14_0">Table or blade elevation for thickness.</string>
+    <string name="adjustments15_0">Spindles accommodate various lengths.</string>
+    <string name="adjustments15_1">Variable speed.</string>
+    <string name="adjustments15_2">Adjustable tool rest.</string>
+    <string name="adjustments15_3">Variety of chisels.</string>
+    <string name="adjustments16_0">Interchangeable cutters for different profiles.</string>
+    <string name="adjustments16_1">Blade elevation.</string>
+    <string name="adjustments16_2">Fence settings.</string>
+    <string name="adjustments17_0">Use the proper bit for the proper material.</string>
+    <string name="adjustments18_0">Variable speed.</string>
+    <string name="adjustments18_1">Uses 5 hole, hook and loop sand paper.</string>
+    <string name="adjustments19_0">Nails vary from 5/8 of an inch to 2.5
+inches.</string>
+    <string name="adjustments20_0">Nails vary from 2 inches to 3.25 inches.</string>
+    <string name="adjustment21_0">Belt swivels from horizontal to vertical. DO
+NOT CHANGE WITHOUT PERMISSION
+OF SHOP PERSONNEL.</string>
+    <string name="adjustment21_1">tables tilt 0\-45 degrees.</string>
+    <string name="adjustment21_2">Miter gauge can be used.</string>
+    <string name="adjustment22_0">Some models have
+interchangeable spindles of various diameter.</string>
+    <string name="adjustment23_0">Push button cleaning.</string>
+    <string name="adjustment23_1">Mobile wheels.</string>
+    <string name="adjustment23_2">110-volt receptacle.</string>
+    <string name="adjustment23_3">Add solid tabletop to use as a workbench.</string>
+    <string name="adjustment24_0">Variable speed (change with drill on only).</string>
+    <string name="adjustment24_1">Table elevation.</string>
+    <string name="adjustment24_2">Quill can be locked.</string>
+    <string name="adjustment24_3">Depth stop for setting hole depth.</string>
+    <string name="adjustment25_0">Uses different sizes of chisels from 1\/4” – 1”.</string>
+    <string name="adjustment25_1">Head can tilt at an angle.</string>
+    <string name="adjustment26_0">Interchangeable cutters (bits) for different cuts and profiles).</string>
+    <string name="adjustment26_1">Bit depth.</string>
+    <string name="adjustment26_2">Various guides, jigs, templates, straight edges, and accessories for specific
+    procedures.</string>
+
+
+
 
     <!--configuration children-->
-    <!--1ST ROW IN THE DATA-->
     <string name="configuration0_0">Half Sheet Finish Sander: uses a half sheet of sandpaper.</string>
     <string name="configuration0_1">Quarter Sheet Palm Sander: uses a quarter sheet of sandpaper.</string>
     <string name="configuration0_2">Palm Sander: round pad.</string>
@@ -390,8 +414,6 @@ supervision.</string>
     <string name="configuration10_0">Circular blade mounted on overhead rail (arm).</string>
     <string name="configuration11_0">Circular blade mounted on a double action arm.</string>
     <string name="configuration12_0">Circular blade mounted on single action arm.</string>
-
-    <!--2ND ROW IN THE DATA-->
     <string name="configuration13_0">A series of short knives mounted on a horizontal spindle set into a long flat table equipped with a fence.</string>
     <string name="configuration14_0">A series of 15 inch knives
 mounted on a horizontal spindle set
@@ -411,94 +433,9 @@ table with a fence.</string>
     <string name="configuration21_0">Combination: belt and disk sander.</string>
     <string name="configuration22_0">A cylindrical sanding spindle mounted in a table.</string>
     <string name="configuration23_0">Self-contained dust collection unit.</string>
-
-    <!--3RD ROW IN THE DATA-->
     <string name="configuration24_0">Overhead drill mounted above adjustable table.</string>
     <string name="configuration25_0">Hollow square chisel with a drill bit in the center built in a press.</string>
     <string name="configuration26_0">Essentially a smaller, hand held, inverted version of the wood shaper.</string>
-
-
-
-    <!--adjustments children-->
-    <!--1ST ROW IN THE DATA-->
-    <string name="adjustments2_0">Trigger can be locked on.</string>
-    <string name="adjustments2_1">Speed can be adjusted.</string>
-    <string name="adjustments2_2">Direction can be reversed.</string>
-
-
-    <string name="adjustments3_0">Trigger can be locked on.</string>
-    <string name="adjustments3_1">Speed can be adjusted.</string>
-    <string name="adjustments3_2">Single action or orbiting blade.</string>
-    <string name="adjustments3_3">The foot tilts on some models.</string>
-
-    <string name="adjustments4_0">The shoe is both hinged and removable.</string>
-    <string name="adjustments4_1">The blade can be reversed.</string>
-    <string name="adjustments4_2">Variable speed.</string>
-
-    <string name="adjustments5_0">Blade can be raised or lowered for cut depth.</string>
-    <string name="adjustments5_1">Blade tilts for bevel cuts 0/45°.</string>
-
-    <string name="adjustments6_0">Table top tilts for beveled cuts 0/45°.</string>
-    <string name="adjustments7_0">Table top tilts for beveled cuts 0/45°</string>
-    <string name="adjustments8_0">The table tilts for bevel cuts.</string>
-    <string name="adjustments8_1">The blade can be easily removed and inserted through
-    a hole in the wood to allow trapped cuts.</string>
-    <string name="adjustments9_0">Blade can be raised and lowered</string>
-    <string name="adjustments9_1">Blade can be tilted to the right 0/45° for bevel cuts</string>
-    <string name="adjustments10_0">Blade assembly can be raised and
-lowered</string>
-        <string name="adjustments10_1">Rail (arm) swings for miter cuts
--45:0:45 degrees</string>
-    <string name="adjustments10_2">Blade assembly tilts for bevel cuts
-    0-45 degrees.</string>
-    <string name="adjustments11_0">Blade assembly swivels for miter cuts -45:0:45 degrees.</string>
-    <string name="adjustments11_1">Blade assembly tilts for bevel cuts 0-45 degrees.</string>
-    <string name="adjustments12_0">Compound Miter Saw blade swivels for
-miter cuts.</string>
-    <string name="adjustments12_1">Compound Miter Saw blade tilts for bevel
-cuts.</string>
-    <string name="adjustments13_0">Blade elevation.</string>
-    <string name="adjustments13_1">Out-feed table height.</string>
-    <string name="adjustments13_2">Fence can be tilted for beveled edge.</string>
-
-    <string name="adjustments14_0">Table or blade elevation for thickness.</string>
-    <string name="adjustments15_0">Spindles accommodate various lengths.</string>
-    <string name="adjustments15_1">Variable speed.</string>
-    <string name="adjustments15_2">Adjustable tool rest.</string>
-    <string name="adjustments15_3">Variety of chisels.</string>
-    <string name="adjustments16_0">Interchangeable cutters for different profiles.</string>
-    <string name="adjustments16_1">Blade elevation.</string>
-    <string name="adjustments16_2">Fence settings.</string>
-    <string name="adjustments17_0">Use the proper bit for the proper material.</string>
-    <string name="adjustments18_0">Variable speed.</string>
-    <string name="adjustments18_1">Uses 5 hole, hook and loop sand paper.</string>
-    <string name="adjustments19_0">Nails vary from 5/8 of an inch to 2.5
-inches.</string>
-    <string name="adjustments20_0">Nails vary from 2 inches to 3.25 inches.</string>
-    <string name="adjustment21_0">Belt swivels from horizontal to vertical. DO
-NOT CHANGE WITHOUT PERMISSION
-OF SHOP PERSONNEL.</string>
-    <string name="adjustment21_1">tables tilt 0-45 degrees.</string>
-    <string name="adjustment21_2">Miter gauge can be used.</string>
-    <string name="adjustment22_0">Some models have
-interchangeable spindles of various diameter.</string>
-    <string name="adjustment23_0">Push button cleaning.</string>
-    <string name="adjustment23_1">Mobile wheels.</string>
-    <string name="adjustment23_2">110-volt receptacle.</string>
-    <string name="adjustment23_3">Add solid tabletop to use as a workbench.</string>
-    <string name="adjustment24_0">Variable speed (change with drill on only).</string>
-    <string name="adjustment24_1">Table elevation.</string>
-    <string name="adjustment24_2">Quill can be locked.</string>
-    <string name="adjustment24_3">Depth stop for setting hole depth.</string>
-    <string name="adjustment25_0">Uses different sizes of chisels from 1/4” – 1”.</string>
-    <string name="adjustment25_1">Head can tilt at an angle.</string>
-    <string name="adjustment26_0">Interchangeable cutters (bits) for different cuts and profiles).</string>
-    <string name="adjustment26_1">Bit depth.</string>
-    <string name="adjustment26_2">Various guides, jigs, templates, straight edges, and accessories for specific
-    procedures.</string>
-
-
-
 
 
 </resources>

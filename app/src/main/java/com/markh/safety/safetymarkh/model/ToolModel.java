@@ -1,10 +1,9 @@
 package com.markh.safety.safetymarkh.model;
 
 import android.content.Context;
+import android.content.res.Resources;
 
 import com.markh.safety.safetymarkh.R;
-
-import java.util.List;
 
 /**
  * Created by Benas on 4/1/2015.
@@ -13,21 +12,235 @@ public class ToolModel {
 
     private Context context;
     private int toolSelected;
-    private List<Integer[]> all_configurations;
-    private Integer[] configurations;
+//    private List<Integer[]> all_configurations;
+//    private Integer[] configurations;
+//
+//
+//    private Integer[] all_configuration_tools_0_through_23 = new Integer[24];
+//    private Integer[] all_action_technique_tools_0_through_23 = new Integer[24];
+//    private Integer[] all_adjustments_tools_2_through_23 = new Integer[22];
+//    private Integer[] all_safety_reminders_tools_1_through_23 = new Integer[23];
 
-
-    private Integer[] all_configuration_tools_0_though_23 = new Integer[24];
-    private Integer[] all_action_technique_tools_0_though_23 = new Integer[24];
-    private Integer[] all_adjustments_tools_2_though_23 = new Integer[22];
-    private Integer[] all_safety_reminders_tools_1_though_23 = new Integer[23];
+    private String[] configurationsArray;
+    private String[] actionTechniqueArray;
+    private String[] adjustmentsArray;
+    private String[] safetyRemindersArray;
 
 
     public ToolModel(Context c, int toolSelection) {
-        toolSelected = toolSelection;
-        context = c;
-//        initAllConfigurations();
+        this.toolSelected = toolSelection;
+        this.context = c;
+        initAllConfigurations();
     }
+
+
+    private void initAllConfigurations() {
+        Resources res = context.getResources();
+        switch (toolSelected){
+            case 0:
+                configurationsArray = res.getStringArray(R.array.configuration0);
+                actionTechniqueArray = res.getStringArray(R.array.configuration0);
+                adjustmentsArray = res.getStringArray(R.array.configuration0);
+                safetyRemindersArray = res.getStringArray(R.array.configuration0);
+                break;
+            case 1:
+                configurationsArray = res.getStringArray(R.array.configuration0);
+                actionTechniqueArray = res.getStringArray(R.array.configuration0);
+                adjustmentsArray = res.getStringArray(R.array.configuration0);
+                safetyRemindersArray = res.getStringArray(R.array.configuration0);
+                break;
+            case 2:
+                configurationsArray = res.getStringArray(R.array.configuration0);
+                actionTechniqueArray = res.getStringArray(R.array.configuration0);
+                adjustmentsArray = res.getStringArray(R.array.configuration0);
+                safetyRemindersArray = res.getStringArray(R.array.configuration0);
+                break;
+            case 3:
+                configurationsArray = res.getStringArray(R.array.configuration0);
+                actionTechniqueArray = res.getStringArray(R.array.configuration0);
+                adjustmentsArray = res.getStringArray(R.array.configuration0);
+                safetyRemindersArray = res.getStringArray(R.array.configuration0);
+                break;
+            case 4:
+                configurationsArray = res.getStringArray(R.array.configuration0);
+                actionTechniqueArray = res.getStringArray(R.array.configuration0);
+                adjustmentsArray = res.getStringArray(R.array.configuration0);
+                safetyRemindersArray = res.getStringArray(R.array.configuration0);
+                break;
+            case 5:
+                configurationsArray = res.getStringArray(R.array.configuration0);
+                actionTechniqueArray = res.getStringArray(R.array.configuration0);
+                adjustmentsArray = res.getStringArray(R.array.configuration0);
+                safetyRemindersArray = res.getStringArray(R.array.configuration0);
+                break;
+            case 6:
+                configurationsArray = res.getStringArray(R.array.configuration0);
+                actionTechniqueArray = res.getStringArray(R.array.configuration0);
+                adjustmentsArray = res.getStringArray(R.array.configuration0);
+                safetyRemindersArray = res.getStringArray(R.array.configuration0);
+                break;
+            case 7:
+                configurationsArray = res.getStringArray(R.array.configuration0);
+                actionTechniqueArray = res.getStringArray(R.array.configuration0);
+                adjustmentsArray = res.getStringArray(R.array.configuration0);
+                safetyRemindersArray = res.getStringArray(R.array.configuration0);
+                break;
+            case 8:
+                configurationsArray = res.getStringArray(R.array.configuration0);
+                actionTechniqueArray = res.getStringArray(R.array.configuration0);
+                adjustmentsArray = res.getStringArray(R.array.configuration0);
+                safetyRemindersArray = res.getStringArray(R.array.configuration0);
+                break;
+            case 9:
+                configurationsArray = res.getStringArray(R.array.configuration0);
+                actionTechniqueArray = res.getStringArray(R.array.configuration0);
+                adjustmentsArray = res.getStringArray(R.array.configuration0);
+                safetyRemindersArray = res.getStringArray(R.array.configuration0);
+                break;
+            case 10:
+                configurationsArray = res.getStringArray(R.array.configuration0);
+                actionTechniqueArray = res.getStringArray(R.array.configuration0);
+                adjustmentsArray = res.getStringArray(R.array.configuration0);
+                safetyRemindersArray = res.getStringArray(R.array.configuration0);
+                break;
+            case 11:
+                configurationsArray = res.getStringArray(R.array.configuration0);
+                actionTechniqueArray = res.getStringArray(R.array.configuration0);
+                adjustmentsArray = res.getStringArray(R.array.configuration0);
+                safetyRemindersArray = res.getStringArray(R.array.configuration0);
+                break;
+            case 12:
+                configurationsArray = res.getStringArray(R.array.configuration0);
+                actionTechniqueArray = res.getStringArray(R.array.configuration0);
+                adjustmentsArray = res.getStringArray(R.array.configuration0);
+                safetyRemindersArray = res.getStringArray(R.array.configuration0);
+                break;
+            case 13:
+                configurationsArray = res.getStringArray(R.array.configuration0);
+                actionTechniqueArray = res.getStringArray(R.array.configuration0);
+                adjustmentsArray = res.getStringArray(R.array.configuration0);
+                safetyRemindersArray = res.getStringArray(R.array.configuration0);
+                break;
+            case 14:
+                configurationsArray = res.getStringArray(R.array.configuration0);
+                actionTechniqueArray = res.getStringArray(R.array.configuration0);
+                adjustmentsArray = res.getStringArray(R.array.configuration0);
+                safetyRemindersArray = res.getStringArray(R.array.configuration0);
+                break;
+            case 15:
+                configurationsArray = res.getStringArray(R.array.configuration0);
+                actionTechniqueArray = res.getStringArray(R.array.configuration0);
+                adjustmentsArray = res.getStringArray(R.array.configuration0);
+                safetyRemindersArray = res.getStringArray(R.array.configuration0);
+                break;
+            case 16:
+                configurationsArray = res.getStringArray(R.array.configuration0);
+                actionTechniqueArray = res.getStringArray(R.array.configuration0);
+                adjustmentsArray = res.getStringArray(R.array.configuration0);
+                safetyRemindersArray = res.getStringArray(R.array.configuration0);
+                break;
+            case 17:
+                configurationsArray = res.getStringArray(R.array.configuration0);
+                actionTechniqueArray = res.getStringArray(R.array.configuration0);
+                adjustmentsArray = res.getStringArray(R.array.configuration0);
+                safetyRemindersArray = res.getStringArray(R.array.configuration0);
+                break;
+            case 18:
+                configurationsArray = res.getStringArray(R.array.configuration0);
+                actionTechniqueArray = res.getStringArray(R.array.configuration0);
+                adjustmentsArray = res.getStringArray(R.array.configuration0);
+                safetyRemindersArray = res.getStringArray(R.array.configuration0);
+                break;
+            case 19:
+                configurationsArray = res.getStringArray(R.array.configuration0);
+                actionTechniqueArray = res.getStringArray(R.array.configuration0);
+                adjustmentsArray = res.getStringArray(R.array.configuration0);
+                safetyRemindersArray = res.getStringArray(R.array.configuration0);
+                break;
+            case 20:
+                configurationsArray = res.getStringArray(R.array.configuration0);
+                actionTechniqueArray = res.getStringArray(R.array.configuration0);
+                adjustmentsArray = res.getStringArray(R.array.configuration0);
+                safetyRemindersArray = res.getStringArray(R.array.configuration0);
+                break;
+            case 21:
+                configurationsArray = res.getStringArray(R.array.configuration0);
+                actionTechniqueArray = res.getStringArray(R.array.configuration0);
+                adjustmentsArray = res.getStringArray(R.array.configuration0);
+                safetyRemindersArray = res.getStringArray(R.array.configuration0);
+                break;
+            case 22:
+                configurationsArray = res.getStringArray(R.array.configuration0);
+                actionTechniqueArray = res.getStringArray(R.array.configuration0);
+                adjustmentsArray = res.getStringArray(R.array.configuration0);
+                safetyRemindersArray = res.getStringArray(R.array.configuration0);
+                break;
+            case 23:
+                configurationsArray = res.getStringArray(R.array.configuration0);
+                actionTechniqueArray = res.getStringArray(R.array.configuration0);
+                adjustmentsArray = res.getStringArray(R.array.configuration0);
+                safetyRemindersArray = res.getStringArray(R.array.configuration0);
+                break;
+            case 24:
+                configurationsArray = res.getStringArray(R.array.configuration0);
+                actionTechniqueArray = res.getStringArray(R.array.configuration0);
+                adjustmentsArray = res.getStringArray(R.array.configuration0);
+                safetyRemindersArray = res.getStringArray(R.array.configuration0);
+                break;
+            case 25:
+                configurationsArray = res.getStringArray(R.array.configuration0);
+                actionTechniqueArray = res.getStringArray(R.array.configuration0);
+                adjustmentsArray = res.getStringArray(R.array.configuration0);
+                safetyRemindersArray = res.getStringArray(R.array.configuration0);
+                break;
+            case 26:
+                configurationsArray = res.getStringArray(R.array.configuration0);
+                actionTechniqueArray = res.getStringArray(R.array.configuration0);
+                adjustmentsArray = res.getStringArray(R.array.configuration0);
+                safetyRemindersArray = res.getStringArray(R.array.configuration0);
+                break;
+            case 27:
+                configurationsArray = res.getStringArray(R.array.configuration0);
+                actionTechniqueArray = res.getStringArray(R.array.configuration0);
+                adjustmentsArray = res.getStringArray(R.array.configuration0);
+                safetyRemindersArray = res.getStringArray(R.array.configuration0);
+                break;
+            case 28:
+                configurationsArray = res.getStringArray(R.array.configuration0);
+                actionTechniqueArray = res.getStringArray(R.array.configuration0);
+                adjustmentsArray = res.getStringArray(R.array.configuration0);
+                safetyRemindersArray = res.getStringArray(R.array.configuration0);
+                break;
+        }
+    }
+
+
+    public String[] getConfigurationsArray(){
+        return configurationsArray;
+    }
+    public String[] getAdjustmentsArray(){
+        return adjustmentsArray;
+    }
+    public String[] getSafetyRemindersArray(){
+        return safetyRemindersArray;
+    }
+    public String[] getActionTechniqueArray(){
+        return actionTechniqueArray;
+    }
+    public Integer getToolDrawable(){
+        return toolDrawables[toolSelected];
+    }
+    public Integer getToolLocationDrawable(){
+        return toolLocationDrawables[toolSelected];
+    }
+
+
+
+
+
+
+
+
 
     private Integer[] toolDrawables = {
             R.drawable.finishing_sanders1,
@@ -93,45 +306,4 @@ public class ToolModel {
                     R.drawable.location3,
                     R.drawable.location4,
             };
-
-    private Integer[] circularHandSawConfigurationsArray = {R.string.configuration0_0};
-    private Integer[] circularHandSawActionArray = {R.string.action_technique5_0};
-    private Integer[] circularHandSawAdjustmentsArray = {R.string.adjustments5_0, R.string.adjustments5_1};
-    private Integer[] circularHandSawSafetyRemindersArray = {R.string.safety_reminder5_0,R.string.safety_reminder5_1,R.string.safety_reminder5_2,R.string.safety_reminder5_3,R.string.safety_reminder5_4,R.string.safety_reminder5_5,R.string.safety_reminder5_6,R.string.safety_reminder5_7,R.string.safety_reminder5_8,R.string.safety_reminder5_9,R.string.safety_reminder5_10};
-
-
-//    private Integer[] toolLocationTitles =
-//            {R.string.locationTitle0, R.string.locationTitle1, R.string.locationTitle2,
-//                    R.string.locationTitle3, R.string.locationTitle4, R.string.locationTitle5};
-
-
-    private void initAllConfigurations() {
-        //init individual configurations
-        //init individual action techniques
-        //init individual adjustments
-        //init individual safety reminders
-    }
-
-
-    public Integer[] getConfigurationsArray(int position){
-        return circularHandSawConfigurationsArray;//fix this.....................
-    }
-    public Integer[] getAdjustmentsArray(int position){
-        return circularHandSawAdjustmentsArray;//fix this.....................
-    }
-    public Integer[] getSafetyRemindersArray(int position){
-        return circularHandSawSafetyRemindersArray;//fix this.....................
-    }
-    public Integer[] getActionTechniqueArray(int position){
-        return circularHandSawActionArray;//fix this.....................
-    }
-    public Integer getToolDrawable(int position){
-        return toolDrawables[position];
-    }
-
-    public Integer getToolLocationDrawable(int position){
-        return toolLocationDrawables[position];
-    }
-
-
 }
