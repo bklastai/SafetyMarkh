@@ -22,12 +22,19 @@
     <string name="adjustments">Adjustments</string>
     <string name="safety_reminders">Safety Reminders</string>
     <string name="cuts">Cuts</string>
-    <string name="overview_circular_saws">Overview [Circular Saws]</string>
-    <string name="overview_band_and_other_saws">Overview [Band and Other Saws]</string>
-    <string name="overview_pneumatic_tools">Overview [Pneumatic Tools]</string>
-    <string name="overview_shaping_tools">Overview [Shaping Tools]</string>
-    <string name="overview_sanders">Overview [Sanders]</string>
-    <string name="sanders_reminders">Important Reminders [Sanders]</string>
+    <string name="nail_loading">Nail Loading</string>
+
+    <string name="overview_circular_saws">Overview: Circular Saws</string>
+    <string name="overview_band_and_other_saws">Overview: Band and Other Saws</string>
+    <string name="overview_pneumatic_tools">Overview: Pneumatic Tools</string>
+    <string name="overview_shaping_tools">Overview: Shaping Tools</string>
+    <string name="overview_sanders">Overview: Sanders</string>
+    <string name="overview_hand_sanders">Overview: Hand-held sanders</string>
+    <string name="overview_router_bits">Overview: Router Bits</string>
+    <string name="overview_dremel">Overview: Dremel</string>
+    <string name="overview_cordless_drill">Overview: Hand Drill</string>
+
+
 
     <!--ONLY FOR: Floor Drill Press AND Hollow Chisel Mortiser, MUST ALSO MAKE power_drills.png VISIBLE-->
     <string name="overview_power_drills">Overview [Power Drills]</string>
@@ -37,20 +44,913 @@
     <string name="overview_drill_bits">Overview [Drill Bits]</string>
     <string name="drill_bit_types">Drill Bit Types</string>
 
-    <!--ONLY FOR: Brad Nailer AND Framing Nailer-->
-    <string name="loading">Nail Loading</string>
 
+    <string-array name="headers0">
+        <item>@string/configuration</item>
+        <item>@string/action_technique</item>
+        <item>@string/overview_hand_sanders</item>
+    </string-array>
+    <string-array name="overview_hand_sanders0">
+        <item>@string/overview_hand_sanders_0</item>
+        <item>@string/overview_hand_sanders_1</item>
+        <item>@string/overview_hand_sanders_2</item>
+    </string-array>
     <string-array name="configuration0">
         <item>@string/configuration0_0</item>
         <item>@string/configuration0_1</item>
         <item>@string/configuration0_2</item>
     </string-array>
-    <string-array name="adjustments0"></string-array>
-    <string-array name="safety_reminders0">
-        <item>@string/configuration0_0</item>
-        <item>@string/configuration0_1</item>
-        <item>@string/configuration0_2</item>
+    <string-array name="action_technique0">
+        <item>@string/action_technique0_0</item>
     </string-array>
+
+    <string-array name="headers1">
+        <item>@string/configuration</item>
+        <item>@string/action_technique</item>
+        <item>@string/safety_reminders</item>
+    </string-array>
+    <string-array name="overview_hand_sanders1">
+        <item>@string/overview_hand_sanders_0</item>
+        <item>@string/overview_hand_sanders_1</item>
+        <item>@string/overview_hand_sanders_2</item>
+    </string-array>
+    <string-array name="configuration1">
+        <item>@string/configuration1_0</item>
+    </string-array>
+    <string-array name="safety_reminders1">
+        <item>@string/safety_reminder1_0</item>
+        <item>@string/safety_reminder1_1</item>
+        <item>@string/safety_reminder1_2</item>
+        <item>@string/safety_reminder1_3</item>
+        <item>@string/safety_reminder1_4</item>
+        <item>@string/safety_reminder1_5</item>
+        <item>@string/safety_reminder1_6</item>
+        <item>@string/safety_reminder1_7</item>
+    </string-array>
+    <string-array name="action_technique1">
+        <item>@string/action_technique1_0</item>
+    </string-array>
+
+    <string-array name="headers2">
+        <item>@string/configuration</item>
+        <item>@string/action_technique</item>
+        <item>@string/safety_reminders</item>
+        <item>@string/adjustments</item>
+    </string-array>
+    <string-array name="configuration2">
+        <item>@string/configuration2_0</item>
+    </string-array>
+    <string-array name="safety_reminders2">
+        <item>@string/safety_reminder2_0</item>
+        <item>@string/safety_reminder2_1</item>
+        <item>@string/safety_reminder2_2</item>
+        <item>@string/safety_reminder2_3</item>
+        <item>@string/safety_reminder2_4</item>
+    </string-array>
+    <string-array name="action_technique2">
+        <item>@string/action_technique2_0</item>
+        <item>@string/action_technique2_1</item>
+    </string-array>
+    <string-array name="adjustments2">
+        <item>@string/adjustments2_0</item>
+        <item>@string/adjustments2_1</item>
+        <item>@string/adjustments2_2</item>
+    </string-array>
+
+
+
+
+    <string-array name="headers3">
+        <item>@string/configuration</item>
+        <item>@string/action_technique</item>
+        <item>@string/safety_reminders</item>
+        <item>@string/cuts</item>
+        <item>@string/adjustments</item>
+    </string-array>
+    <string-array name="configuration3">
+        <item>@string/configuration3_0</item>
+    </string-array>
+    <string-array name="safety_reminders3">
+        <item>@string/safety_reminder3_0</item>
+        <item>@string/safety_reminder3_1</item>
+        <item>@string/safety_reminder3_2</item>
+        <item>@string/safety_reminder3_3</item>
+        <item>@string/safety_reminder3_4</item>
+        <item>@string/safety_reminder3_5</item>
+    </string-array>
+    <string-array name="action_technique3">
+        <item>@string/action_technique3_0</item>
+    </string-array>
+    <string-array name="cuts3">
+        <item>@string/cuts3_0</item>
+    </string-array>
+    <string-array name="adjustments3">
+        <item>@string/adjustments3_0</item>
+        <item>@string/adjustments3_1</item>
+        <item>@string/adjustments3_2</item>
+        <item>@string/adjustments3_3</item>
+    </string-array>
+
+    <string-array name="headers4">
+        <item>@string/configuration</item>
+        <item>@string/action_technique</item>
+        <item>@string/safety_reminders</item>
+        <item>@string/cuts</item>
+        <item>@string/adjustments</item>
+    </string-array>
+    <string-array name="configuration4">
+        <item>@string/configuration4_0</item>
+    </string-array>
+    <string-array name="safety_reminders4">
+        <item>@string/safety_reminder4_0</item>
+        <item>@string/safety_reminder4_1</item>
+        <item>@string/safety_reminder4_2</item>
+        <item>@string/safety_reminder4_3</item>
+        <item>@string/safety_reminder4_4</item>
+        <item>@string/safety_reminder4_5</item>
+    </string-array>
+    <string-array name="action_technique4">
+        <item>@string/action_technique4_0</item>
+    </string-array>
+    <string-array name="cuts4">
+        <item>@string/cuts4_0</item>
+    </string-array>
+    <string-array name="adjustments4">
+        <item>@string/adjustments4_0</item>
+        <item>@string/adjustments4_1</item>
+        <item>@string/adjustments4_2</item>
+    </string-array>
+
+
+
+
+    <string-array name="headers5">
+        <item>@string/configuration</item>
+        <item>@string/action_technique</item>
+        <item>@string/safety_reminders</item>
+        <item>@string/cuts</item>
+        <item>@string/adjustments</item>
+    </string-array>
+    <string-array name="configuration5">
+        <item>@string/configuration5_0</item>
+    </string-array>
+    <string-array name="safety_reminders5">
+        <item>@string/safety_reminder5_0</item>
+        <item>@string/safety_reminder5_1</item>
+        <item>@string/safety_reminder5_2</item>
+        <item>@string/safety_reminder5_3</item>
+        <item>@string/safety_reminder5_4</item>
+        <item>@string/safety_reminder5_5</item>
+        <item>@string/safety_reminder5_6</item>
+        <item>@string/safety_reminder5_7</item>
+        <item>@string/safety_reminder5_8</item>
+        <item>@string/safety_reminder5_9</item>
+        <item>@string/safety_reminder5_10</item>
+    </string-array>
+    <string-array name="action_technique5">
+        <item>@string/action_technique5_0</item>
+    </string-array>
+    <string-array name="cuts5">
+        <item>@string/cuts5_0</item>
+        <item>@string/cuts5_1</item>
+    </string-array>
+    <string-array name="adjustments5">
+        <item>@string/adjustments5_0</item>
+        <item>@string/adjustments5_1</item>
+    </string-array>
+
+
+
+
+    <string-array name="headers6">
+        <item>@string/overview_band_and_other_saws</item>
+        <item>@string/configuration</item>
+        <item>@string/action_technique</item>
+        <item>@string/safety_reminders</item>
+        <item>@string/cuts</item>
+        <item>@string/adjustments</item>
+    </string-array>
+    <string-array name="overview_band_and_other_saws6">
+        <item>@string/overview_band_and_other_saws_0</item>
+    </string-array>
+    <string-array name="configuration6">
+        <item>@string/configuration6_0</item>
+    </string-array>
+    <string-array name="safety_reminders6">
+        <item>@string/safety_reminder6_0</item>
+        <item>@string/safety_reminder6_1</item>
+        <item>@string/safety_reminder6_2</item>
+        <item>@string/safety_reminder6_3</item>
+        <item>@string/safety_reminder6_4</item>
+        <item>@string/safety_reminder6_5</item>
+    </string-array>
+    <string-array name="action_technique6">
+        <item>@string/action_technique6_0</item>
+    </string-array>
+    <string-array name="cuts6">
+        <item>@string/cuts6_0</item>
+        <item>@string/cuts6_1</item>
+        <item>@string/cuts6_2</item>
+        <item>@string/cuts6_3</item>
+        <item>@string/cuts6_4</item>
+        <item>@string/cuts6_5</item>
+    </string-array>
+    <string-array name="adjustments6">
+        <item>@string/adjustments6_0</item>
+    </string-array>
+
+
+
+    <string-array name="headers7">
+        <item>@string/overview_band_and_other_saws</item>
+        <item>@string/configuration</item>
+        <item>@string/action_technique</item>
+        <item>@string/safety_reminders</item>
+        <item>@string/cuts</item>
+        <item>@string/adjustments</item>
+    </string-array>
+    <string-array name="overview_band_and_other_saws7">
+        <item>@string/overview_band_and_other_saws_0</item>
+    </string-array>
+    <string-array name="configuration7">
+        <item>@string/configuration7_0</item>
+    </string-array>
+    <string-array name="safety_reminders7">
+        <item>@string/safety_reminder7_0</item>
+        <item>@string/safety_reminder7_1</item>
+        <item>@string/safety_reminder7_2</item>
+        <item>@string/safety_reminder7_3</item>
+        <item>@string/safety_reminder7_4</item>
+        <item>@string/safety_reminder7_5</item>
+    </string-array>
+    <string-array name="action_technique7">
+        <item>@string/action_technique7_0</item>
+    </string-array>
+    <string-array name="cuts7">
+        <item>@string/cuts7_0</item>
+        <item>@string/cuts7_1</item>
+        <item>@string/cuts7_2</item>
+        <item>@string/cuts7_3</item>
+        <item>@string/cuts7_4</item>
+    </string-array>
+    <string-array name="adjustments7">
+        <item>@string/adjustments7_0</item>
+    </string-array>
+
+    <string-array name="headers8">
+        <item>@string/overview_band_and_other_saws</item>
+        <item>@string/configuration</item>
+        <item>@string/action_technique</item>
+        <item>@string/safety_reminders</item>
+        <item>@string/cuts</item>
+        <item>@string/adjustments</item>
+    </string-array>
+    <string-array name="overview_band_and_other_saws8">
+        <item>@string/overview_band_and_other_saws_0</item>
+    </string-array>
+    <string-array name="configuration8">
+        <item>@string/configuration8_0</item>
+    </string-array>
+    <string-array name="safety_reminders8">
+        <item>@string/safety_reminder8_0</item>
+        <item>@string/safety_reminder8_1</item>
+        <item>@string/safety_reminder8_2</item>
+        <item>@string/safety_reminder8_3</item>
+    </string-array>
+    <string-array name="action_technique8">
+        <item>@string/action_technique8_0</item>
+    </string-array>
+    <string-array name="cuts8">
+        <item>@string/cuts8_0</item>
+    </string-array>
+    <string-array name="adjustments8">
+        <item>@string/adjustments8_0</item>
+        <item>@string/adjustments8_1</item>
+    </string-array>
+
+
+
+    <string-array name="headers9">
+        <item>@string/overview_circular_saws</item>
+        <item>@string/configuration</item>
+        <item>@string/action_technique</item>
+        <item>@string/safety_reminders</item>
+        <item>@string/cuts</item>
+        <item>@string/adjustments</item>
+    </string-array>
+    <string-array name="overview_circular_saws9">
+        <item>@string/overview_circular_saws_0</item>
+        <item>@string/overview_circular_saws_1</item>
+    </string-array>
+    <string-array name="configuration9">
+        <item>@string/configuration9_0</item>
+    </string-array>
+    <string-array name="safety_reminders9">
+        <item>@string/safety_reminder9_0</item>
+    </string-array>
+    <string-array name="action_technique9">
+        <item>@string/action_technique9_0</item>
+    </string-array>
+    <string-array name="cuts9">
+        <item>@string/cuts9_0</item>
+        <item>@string/cuts9_1</item>
+        <item>@string/cuts9_2</item>
+        <item>@string/cuts9_3</item>
+    </string-array>
+    <string-array name="adjustments9">
+        <item>@string/adjustments9_0</item>
+        <item>@string/adjustments9_1</item>
+    </string-array>
+
+
+
+    <string-array name="headers10">
+        <item>@string/overview_circular_saws</item>
+        <item>@string/configuration</item>
+        <item>@string/action_technique</item>
+        <item>@string/safety_reminders</item>
+        <item>@string/cuts</item>
+        <item>@string/adjustments</item>
+    </string-array>
+    <string-array name="overview_circular_saws10">
+        <item>@string/overview_circular_saws_0</item>
+        <item>@string/overview_circular_saws_1</item>
+    </string-array>
+    <string-array name="configuration10">
+        <item>@string/configuration10_0</item>
+    </string-array>
+    <string-array name="safety_reminders10">
+        <item>@string/safety_reminder10_0</item>
+        <item>@string/safety_reminder10_1</item>
+        <item>@string/safety_reminder10_2</item>
+        <item>@string/safety_reminder10_3</item>
+        <item>@string/safety_reminder10_4</item>
+        <item>@string/safety_reminder10_5</item>
+        <item>@string/safety_reminder10_6</item>
+        <item>@string/safety_reminder10_7</item>
+    </string-array>
+    <string-array name="action_technique10">
+        <item>@string/action_technique10_0</item>
+        <item>@string/action_technique10_1</item>
+    </string-array>
+    <string-array name="cuts10">
+        <item>@string/cuts10_0</item>
+        <item>@string/cuts10_1</item>
+        <item>@string/cuts10_2</item>
+    </string-array>
+    <string-array name="adjustments10">
+        <item>@string/adjustments10_0</item>
+        <item>@string/adjustments10_1</item>
+        <item>@string/adjustments10_2</item>
+    </string-array>
+
+    <string-array name="headers11">
+        <item>@string/overview_circular_saws</item>
+        <item>@string/configuration</item>
+        <item>@string/action_technique</item>
+        <item>@string/safety_reminders</item>
+        <item>@string/cuts</item>
+        <item>@string/adjustments</item>
+    </string-array>
+    <string-array name="overview_circular_saws11">
+        <item>@string/overview_circular_saws_0</item>
+        <item>@string/overview_circular_saws_1</item>
+    </string-array>
+    <string-array name="configuration11">
+        <item>@string/configuration11_0</item>
+    </string-array>
+    <string-array name="safety_reminders11">
+        <item>@string/safety_reminder11_0</item>
+        <item>@string/safety_reminder11_1</item>
+        <item>@string/safety_reminder11_2</item>
+        <item>@string/safety_reminder11_3</item>
+        <item>@string/safety_reminder11_4</item>
+        <item>@string/safety_reminder11_5</item>
+        <item>@string/safety_reminder11_6</item>
+    </string-array>
+    <string-array name="action_technique11">
+        <item>@string/action_technique11_0</item>
+        <item>@string/action_technique11_1</item>
+        <item>@string/action_technique11_2</item>
+        <item>@string/action_technique11_3</item>
+        <item>@string/action_technique11_4</item>
+    </string-array>
+    <string-array name="cuts11">
+        <item>@string/cuts11_0</item>
+        <item>@string/cuts11_1</item>
+    </string-array>
+    <string-array name="adjustments11">
+        <item>@string/adjustments11_0</item>
+        <item>@string/adjustments11_1</item>
+    </string-array>
+
+
+
+    <string-array name="headers12">
+        <item>@string/overview_circular_saws</item>
+        <item>@string/configuration</item>
+        <item>@string/action_technique</item>
+        <item>@string/safety_reminders</item>
+        <item>@string/cuts</item>
+        <item>@string/adjustments</item>
+    </string-array>
+    <string-array name="overview_circular_saws12">
+        <item>@string/overview_circular_saws_0</item>
+        <item>@string/overview_circular_saws_1</item>
+    </string-array>
+    <string-array name="configuration12">
+        <item>@string/configuration12_0</item>
+    </string-array>
+    <string-array name="safety_reminders12">
+        <item>@string/safety_reminder12_0</item>
+        <item>@string/safety_reminder12_1</item>
+        <item>@string/safety_reminder12_2</item>
+        <item>@string/safety_reminder12_3</item>
+        <item>@string/safety_reminder12_4</item>
+        <item>@string/safety_reminder12_5</item>
+        <item>@string/safety_reminder12_6</item>
+    </string-array>
+    <string-array name="action_technique12">
+        <item>@string/action_technique12_0</item>
+        <item>@string/action_technique12_1</item>
+    </string-array>
+    <string-array name="cuts12">
+        <item>@string/cuts12_0</item>
+        <item>@string/cuts12_1</item>
+    </string-array>
+    <string-array name="adjustments12">
+        <item>@string/adjustments12_0</item>
+        <item>@string/adjustments12_1</item>
+    </string-array>
+
+
+    <string-array name="headers13">
+        <item>@string/overview_shaping_tools</item>
+        <item>@string/configuration</item>
+        <item>@string/action_technique</item>
+        <item>@string/safety_reminders</item>
+        <item>@string/adjustments</item>
+    </string-array>
+    <string-array name="overview_shaping_tools13">
+        <item>@string/overview_shaping_tools_0</item>
+    </string-array>
+    <string-array name="configuration13">
+        <item>@string/configuration13_0</item>
+    </string-array>
+    <string-array name="safety_reminders13">
+        <item>@string/safety_reminder13_0</item>
+        <item>@string/safety_reminder13_1</item>
+        <item>@string/safety_reminder13_2</item>
+        <item>@string/safety_reminder13_3</item>
+        <item>@string/safety_reminder13_4</item>
+    </string-array>
+    <string-array name="action_technique13">
+        <item>@string/action_technique13_0</item>
+        <item>@string/action_technique13_1</item>
+    </string-array>
+    <string-array name="adjustments13">
+        <item>@string/adjustments13_0</item>
+        <item>@string/adjustments13_1</item>
+        <item>@string/adjustments13_2</item>
+    </string-array>
+
+
+    <string-array name="headers14">
+        <item>@string/overview_shaping_tools</item>
+        <item>@string/configuration</item>
+        <item>@string/action_technique</item>
+        <item>@string/safety_reminders</item>
+        <item>@string/adjustments</item>
+    </string-array>
+    <string-array name="overview_shaping_tools14">
+        <item>@string/overview_shaping_tools_0</item>
+    </string-array>
+    <string-array name="configuration14">
+        <item>@string/configuration14_0</item>
+    </string-array>
+    <string-array name="safety_reminders14">
+        <item>@string/safety_reminder14_0</item>
+        <item>@string/safety_reminder14_1</item>
+        <item>@string/safety_reminder14_2</item>
+        <item>@string/safety_reminder14_3</item>
+        <item>@string/safety_reminder14_4</item>
+    </string-array>
+    <string-array name="action_technique14">
+        <item>@string/action_technique14_0</item>
+        <item>@string/action_technique14_1</item>
+    </string-array>
+    <string-array name="adjustments14">
+        <item>@string/adjustments14_0</item>
+    </string-array>
+
+    <string-array name="headers15">
+        <item>@string/overview_shaping_tools</item>
+        <item>@string/configuration</item>
+        <item>@string/action_technique</item>
+        <item>@string/safety_reminders</item>
+        <item>@string/adjustments</item>
+    </string-array>
+    <string-array name="overview_shaping_tools15">
+        <item>@string/overview_shaping_tools_0</item>
+    </string-array>
+    <string-array name="configuration15">
+        <item>@string/configuration15_0</item>
+    </string-array>
+    <string-array name="safety_reminders15">
+        <item>@string/safety_reminder15_0</item>
+    </string-array>
+    <string-array name="action_technique15">
+        <item>@string/action_technique15_0</item>
+        <item>@string/action_technique15_1</item>
+    </string-array>
+    <string-array name="adjustments15">
+        <item>@string/adjustments15_0</item>
+        <item>@string/adjustments15_1</item>
+        <item>@string/adjustments15_2</item>
+        <item>@string/adjustments15_3</item>
+    </string-array>
+
+    <string-array name="headers16">
+        <item>@string/overview_shaping_tools</item>
+        <item>@string/configuration</item>
+        <item>@string/action_technique</item>
+        <item>@string/safety_reminders</item>
+        <item>@string/adjustments</item>
+    </string-array>
+    <string-array name="overview_shaping_tools16">
+        <item>@string/overview_shaping_tools_0</item>
+    </string-array>
+    <string-array name="configuration16">
+        <item>@string/configuration16_0</item>
+        <item>@string/configuration16_1</item>
+    </string-array>
+    <string-array name="safety_reminders16">
+        <item>@string/safety_reminder16_0</item>
+    </string-array>
+    <string-array name="action_technique16">
+        <item>@string/action_technique16_0</item>
+        <item>@string/action_technique16_1</item>
+    </string-array>
+    <string-array name="adjustments16">
+        <item>@string/adjustments16_0</item>
+        <item>@string/adjustments16_1</item>
+        <item>@string/adjustments16_2</item>
+    </string-array>
+
+
+
+    <string-array name="headers17">
+        <item>@string/overview_pneumatic_tools</item>
+        <item>@string/configuration</item>
+        <item>@string/action_technique</item>
+        <item>@string/safety_reminders</item>
+        <item>@string/adjustments</item>
+    </string-array>
+    <string-array name="overview_pneumatic_tools17">
+        <item>@string/overview_pneumatic_tools_0</item>
+    </string-array>
+    <string-array name="configuration17">
+        <item>@string/configuration17_0</item>
+    </string-array>
+    <string-array name="safety_reminders17">
+        <item>@string/safety_reminder17_0</item>
+        <item>@string/safety_reminder17_1</item>
+        <item>@string/safety_reminder17_2</item>
+        <item>@string/safety_reminder17_3</item>
+    </string-array>
+    <string-array name="action_technique17">
+        <item>@string/action_technique17_0</item>
+    </string-array>
+    <string-array name="adjustments17">
+        <item>@string/adjustments17_0</item>
+    </string-array>
+
+
+    <string-array name="headers18">
+        <item>@string/overview_pneumatic_tools</item>
+        <item>@string/configuration</item>
+        <item>@string/action_technique</item>
+        <item>@string/safety_reminders</item>
+        <item>@string/adjustments</item>
+    </string-array>
+    <string-array name="overview_pneumatic_tools18">
+        <item>@string/overview_pneumatic_tools_0</item>
+    </string-array>
+    <string-array name="configuration18">
+        <item>@string/configuration18_0</item>
+    </string-array>
+    <string-array name="safety_reminders18">
+        <item>@string/safety_reminder18_0</item>
+        <item>@string/safety_reminder18_1</item>
+        <item>@string/safety_reminder18_2</item>
+    </string-array>
+    <string-array name="action_technique18">
+        <item>@string/action_technique18_0</item>
+    </string-array>
+    <string-array name="adjustments18">
+        <item>@string/adjustments18_0</item>
+        <item>@string/adjustments18_1</item>
+    </string-array>
+
+
+    <string-array name="headers19">
+        <item>@string/overview_pneumatic_tools</item>
+        <item>@string/configuration</item>
+        <item>@string/action_technique</item>
+        <item>@string/safety_reminders</item>
+        <item>@string/nail_loading</item>
+        <item>@string/adjustments</item>
+    </string-array>
+    <string-array name="overview_pneumatic_tools19">
+        <item>@string/overview_pneumatic_tools_0</item>
+    </string-array>
+    <string-array name="configuration19">
+        <item>@string/configuration19_0</item>
+    </string-array>
+    <string-array name="safety_reminders19">
+        <item>@string/safety_reminder19_0</item>
+    </string-array>
+    <string-array name="action_technique19">
+        <item>@string/action_technique19_0</item>
+    </string-array>
+    <string-array name="nail_loading19">
+        <item>@string/nail_loading19_0</item>
+    </string-array>
+    <string-array name="adjustments19">
+        <item>@string/adjustments19_0</item>
+    </string-array>
+
+
+    <string-array name="headers20">
+        <item>@string/overview_pneumatic_tools</item>
+        <item>@string/configuration</item>
+        <item>@string/action_technique</item>
+        <item>@string/safety_reminders</item>
+        <item>@string/nail_loading</item>
+        <item>@string/adjustments</item>
+    </string-array>
+    <string-array name="overview_pneumatic_tools20">
+        <item>@string/overview_pneumatic_tools_0</item>
+    </string-array>
+    <string-array name="configuration20">
+        <item>@string/configuration20_0</item>
+    </string-array>
+    <string-array name="safety_reminders20">
+        <item>@string/safety_reminder20_0</item>
+        <item>@string/safety_reminder20_1</item>
+        <item>@string/safety_reminder20_2</item>
+        <item>@string/safety_reminder20_3</item>
+        <item>@string/safety_reminder20_4</item>
+    </string-array>
+    <string-array name="action_technique20">
+        <item>@string/action_technique20_0</item>
+    </string-array>
+    <string-array name="nail_loading20">
+        <item>@string/nail_loading20_0</item>
+    </string-array>
+    <string-array name="adjustments20">
+        <item>@string/adjustments20_0</item>
+    </string-array>
+
+
+
+    <string-array name="headers21">
+        <item>@string/overview_sanders</item>
+        <item>@string/configuration</item>
+        <item>@string/action_technique</item>
+        <item>@string/safety_reminders</item>
+        <item>@string/adjustments</item>
+    </string-array>
+    <string-array name="overview_sanders21">
+        <item>@string/overview_sanders_0</item>
+        <item>@string/overview_sanders_1</item>
+        <item>@string/overview_sanders_2</item>
+        <item>@string/overview_sanders_3</item>
+        <item>@string/overview_sanders_4</item>
+        <item>@string/overview_sanders_5</item>
+        <item>@string/overview_sanders_6</item>
+        <item>@string/overview_sanders_7</item>
+    </string-array>
+    <string-array name="configuration21">
+        <item>@string/configuration21_0</item>
+    </string-array>
+    <string-array name="safety_reminders21">
+        <item>@string/safety_reminder21_0</item>
+        <item>@string/safety_reminder21_1</item>
+        <item>@string/safety_reminder21_2</item>
+        <item>@string/safety_reminder21_3</item>
+        <item>@string/safety_reminder21_4</item>
+    </string-array>
+    <string-array name="action_technique21">
+        <item>@string/action_technique21_0</item>
+    </string-array>
+    <string-array name="adjustments21">
+        <item>@string/adjustments21_0</item>
+        <item>@string/adjustments21_1</item>
+        <item>@string/adjustments21_2</item>
+    </string-array>
+
+    <string-array name="headers22">
+        <item>@string/overview_sanders</item>
+        <item>@string/configuration</item>
+        <item>@string/action_technique</item>
+        <item>@string/safety_reminders</item>
+        <item>@string/adjustments</item>
+    </string-array>
+    <string-array name="overview_sanders22">
+        <item>@string/overview_sanders_0</item>
+        <item>@string/overview_sanders_1</item>
+        <item>@string/overview_sanders_2</item>
+        <item>@string/overview_sanders_3</item>
+        <item>@string/overview_sanders_4</item>
+        <item>@string/overview_sanders_5</item>
+        <item>@string/overview_sanders_6</item>
+        <item>@string/overview_sanders_7</item>
+    </string-array>
+    <string-array name="configuration22">
+        <item>@string/configuration22_0</item>
+    </string-array>
+    <string-array name="safety_reminders22">
+        <item>@string/safety_reminder22_0</item>
+        <item>@string/safety_reminder22_1</item>
+        <item>@string/safety_reminder22_2</item>
+        <item>@string/safety_reminder22_3</item>
+        <item>@string/safety_reminder22_4</item>
+        <item>@string/safety_reminder22_5</item>
+        <item>@string/safety_reminder22_6</item>
+        <item>@string/safety_reminder22_7</item>
+        <item>@string/safety_reminder22_8</item>
+        <item>@string/safety_reminder22_9</item>
+        <item>@string/safety_reminder22_10</item>
+        <item>@string/safety_reminder22_11</item>
+        <item>@string/safety_reminder22_12</item>
+    </string-array>
+    <string-array name="action_technique22">
+        <item>@string/action_technique22_0</item>
+    </string-array>
+    <string-array name="adjustments22">
+        <item>@string/adjustments22_0</item>
+    </string-array>
+
+
+    <string-array name="headers23">
+        <item>@string/overview_sanders</item>
+        <item>@string/configuration</item>
+        <item>@string/action_technique</item>
+        <item>@string/safety_reminders</item>
+        <item>@string/adjustments</item>
+    </string-array>
+    <string-array name="overview_sanders23">
+        <item>@string/overview_sanders_0</item>
+        <item>@string/overview_sanders_1</item>
+        <item>@string/overview_sanders_2</item>
+        <item>@string/overview_sanders_3</item>
+        <item>@string/overview_sanders_4</item>
+        <item>@string/overview_sanders_5</item>
+        <item>@string/overview_sanders_6</item>
+        <item>@string/overview_sanders_7</item>
+    </string-array>
+    <string-array name="configuration23">
+        <item>@string/configuration23_0</item>
+    </string-array>
+    <string-array name="safety_reminders23">
+        <item>@string/safety_reminder23_0</item>
+        <item>@string/safety_reminder23_1</item>
+    </string-array>
+    <string-array name="action_technique23">
+        <item>@string/action_technique23_0</item>
+    </string-array>
+    <string-array name="adjustments23">
+        <item>@string/adjustments23_0</item>
+        <item>@string/adjustments23_1</item>
+        <item>@string/adjustments23_2</item>
+        <item>@string/adjustments23_3</item>
+    </string-array>
+
+
+
+
+    <string-array name="headers24">
+        <item>@string/overview_power_drills</item>
+        <item>@string/configuration</item>
+        <item>@string/action_technique</item>
+        <item>@string/safety_reminders</item>
+        <item>@string/adjustments</item>
+    </string-array>
+    <string-array name="overview_power_drills24">
+        <item>@string/overview_power_drills_0</item>
+        <item>@string/overview_power_drills_1</item>
+    </string-array>
+    <string-array name="configuration24">
+        <item>@string/configuration24_0</item>
+    </string-array>
+    <string-array name="safety_reminders24">
+        <item>@string/safety_reminder24_0</item>
+        <item>@string/safety_reminder24_1</item>
+        <item>@string/safety_reminder24_2</item>
+    </string-array>
+    <string-array name="action_technique24">
+        <item>@string/action_technique24_0</item>
+        <item>@string/action_technique24_1</item>
+    </string-array>
+    <string-array name="adjustments24">
+        <item>@string/adjustments24_0</item>
+        <item>@string/adjustments24_1</item>
+        <item>@string/adjustments24_2</item>
+        <item>@string/adjustments24_3</item>
+    </string-array>
+
+
+    <string-array name="headers25">
+        <item>@string/overview_power_drills</item>
+        <item>@string/configuration</item>
+        <item>@string/action_technique</item>
+        <item>@string/safety_reminders</item>
+        <item>@string/adjustments</item>
+    </string-array>
+    <string-array name="overview_power_drills25">
+        <item>@string/overview_power_drills_0</item>
+        <item>@string/overview_power_drills_1</item>
+    </string-array>
+    <string-array name="configuration25">
+        <item>@string/configuration25_0</item>
+    </string-array>
+    <string-array name="safety_reminders25">
+        <item>@string/safety_reminder25_0</item>
+        <item>@string/safety_reminder25_1</item>
+        <item>@string/safety_reminder25_2</item>
+        <item>@string/safety_reminder25_3</item>
+        <item>@string/safety_reminder25_4</item>
+        <item>@string/safety_reminder25_5</item>
+        <item>@string/safety_reminder25_6</item>
+        <item>@string/safety_reminder25_7</item>
+        <item>@string/safety_reminder25_8</item>
+        <item>@string/safety_reminder25_10</item>
+    </string-array>
+    <string-array name="action_technique25">
+        <item>@string/action_technique25_0</item>
+    </string-array>
+    <string-array name="adjustments25">
+        <item>@string/adjustments25_0</item>
+        <item>@string/adjustments25_1</item>
+    </string-array>
+
+
+
+
+    <string-array name="headers26">
+        <item>@string/overview_router_bits</item>
+        <item>@string/configuration</item>
+        <item>@string/action_technique</item>
+        <item>@string/safety_reminders</item>
+        <item>@string/adjustments</item>
+    </string-array>
+    <string-array name="overview_router_bits26">
+        <item>@string/overview_router_bits_0</item>
+        <item>@string/overview_router_bits_1</item>
+    </string-array>
+    <string-array name="configuration26">
+        <item>@string/configuration26_0</item>
+    </string-array>
+    <string-array name="safety_reminders26">
+        <item>@string/safety_reminder26_0</item>
+        <item>@string/safety_reminder26_1</item>
+        <item>@string/safety_reminder26_2</item>
+        <item>@string/safety_reminder26_3</item>
+        <item>@string/safety_reminder26_4</item>
+    </string-array>
+    <string-array name="action_technique26">
+        <item>@string/action_technique26_0</item>
+        <item>@string/action_technique26_1</item>
+    </string-array>
+    <string-array name="adjustments26">
+        <item>@string/adjustments26_0</item>
+        <item>@string/adjustments26_1</item>
+        <item>@string/adjustments26_2</item>
+    </string-array>
+
+
+
+
+    <string-array name="headers27">
+        <item>@string/overview_dremel</item>
+    </string-array>
+    <string-array name="overview_dremel27">
+        <item>@string/overview_dremel_0</item>
+        <item>@string/overview_dremel_1</item>
+    </string-array>
+
+    <string-array name="headers28">
+        <item>@string/overview_cordless_drill</item>
+    </string-array>
+    <string-array name="overview_cordless_drill28">
+        <item>@string/overview_cordless_drill_0</item>
+        <item>@string/overview_cordless_drill_1</item>
+    </string-array>
+
+
+
+
 
     <!--configuration children-->
     <string name="action_technique0_0">Sanding pad vibrates in a randomly changing circular motion.</string>
@@ -373,26 +1273,25 @@ cuts.</string>
     <string name="adjustments19_0">Nails vary from 5/8 of an inch to 2.5
 inches.</string>
     <string name="adjustments20_0">Nails vary from 2 inches to 3.25 inches.</string>
-    <string name="adjustment21_0">Belt swivels from horizontal to vertical. DO
+    <string name="adjustments21_0">Belt swivels from horizontal to vertical. DO
 NOT CHANGE WITHOUT PERMISSION
 OF SHOP PERSONNEL.</string>
-    <string name="adjustment21_1">tables tilt 0\-45 degrees.</string>
-    <string name="adjustment21_2">Miter gauge can be used.</string>
-    <string name="adjustment22_0">Some models have
-interchangeable spindles of various diameter.</string>
-    <string name="adjustment23_0">Push button cleaning.</string>
-    <string name="adjustment23_1">Mobile wheels.</string>
-    <string name="adjustment23_2">110-volt receptacle.</string>
-    <string name="adjustment23_3">Add solid tabletop to use as a workbench.</string>
-    <string name="adjustment24_0">Variable speed (change with drill on only).</string>
-    <string name="adjustment24_1">Table elevation.</string>
-    <string name="adjustment24_2">Quill can be locked.</string>
-    <string name="adjustment24_3">Depth stop for setting hole depth.</string>
-    <string name="adjustment25_0">Uses different sizes of chisels from 1\/4” – 1”.</string>
-    <string name="adjustment25_1">Head can tilt at an angle.</string>
-    <string name="adjustment26_0">Interchangeable cutters (bits) for different cuts and profiles).</string>
-    <string name="adjustment26_1">Bit depth.</string>
-    <string name="adjustment26_2">Various guides, jigs, templates, straight edges, and accessories for specific
+    <string name="adjustments21_1">tables tilt 0\-45 degrees.</string>
+    <string name="adjustments21_2">Miter gauge can be used.</string>
+    <string name="adjustments22_0">Some models have interchangeable spindles of various diameter.</string>
+    <string name="adjustments23_0">Push button cleaning.</string>
+    <string name="adjustments23_1">Mobile wheels.</string>
+    <string name="adjustments23_2">110-volt receptacle.</string>
+    <string name="adjustments23_3">Add solid tabletop to use as a workbench.</string>
+    <string name="adjustments24_0">Variable speed (change with drill on only).</string>
+    <string name="adjustments24_1">Table elevation.</string>
+    <string name="adjustments24_2">Quill can be locked.</string>
+    <string name="adjustments24_3">Depth stop for setting hole depth.</string>
+    <string name="adjustments25_0">Uses different sizes of chisels from 1\/4” – 1”.</string>
+    <string name="adjustments25_1">Head can tilt at an angle.</string>
+    <string name="adjustments26_0">Interchangeable cutters (bits) for different cuts and profiles).</string>
+    <string name="adjustments26_1">Bit depth.</string>
+    <string name="adjustments26_2">Various guides, jigs, templates, straight edges, and accessories for specific
     procedures.</string>
 
 
@@ -436,6 +1335,143 @@ table with a fence.</string>
     <string name="configuration24_0">Overhead drill mounted above adjustable table.</string>
     <string name="configuration25_0">Hollow square chisel with a drill bit in the center built in a press.</string>
     <string name="configuration26_0">Essentially a smaller, hand held, inverted version of the wood shaper.</string>
+
+
+
+
+
+    <!--cuts children-->
+    <string name="cuts3_0">Straight or curved cuts in moderately thin wood (up to length of blade).</string>
+    <string name="cuts4_0">Freehand rough cuts (up to length of blade).</string>
+    <string name="cuts5_0">Straight cuts.</string>
+    <string name="cuts5_1">Rips-cuts and crosscuts on stock too large to fit on table saw, radial arm saw, or miter saw.</string>
+    <string name="cuts6_0">Straight cuts and wide curves.</string>
+    <string name="cuts6_1">Versatile: rip-cuts, crosscuts, miters, re-saws, and long radius curves in medium size boards and panels.</string>
+    <string name="cuts6_2">It cuts any size piece of wood that will fit through throat and on table.</string>
+    <string name="cuts6_3">Curves are cut freehand.</string>
+    <string name="cuts6_4">Rip-cuts are cut with fence.</string>
+    <string name="cuts6_5">Crosscuts and miters are cut with miter gauge.</string>
+    <string name="cuts7_0">Straight cuts and wide curves.</string>
+    <string name="cuts7_1">Versatile: rip-cuts, crosscuts, miters, and long radius curves.</string>
+    <string name="cuts7_2">Curves and rip-cuts are cut freehand.</string>
+    <string name="cuts7_3">Cuts any size piece of wood that will fit through throat and on table.</string>
+    <string name="cuts7_4">Crosscuts and miters are cut with miter gauge.</string>
+    <string name="cuts8_0">Intricate and delicate curves in flat, thin wood.</string>
+    <string name="cuts9_0">Straight cuts Rip cuts (along board’s length) with fence.</string>
+    <string name="cuts9_1">Cross- cuts on panels with panel attachment.</string>
+    <string name="cuts9_2">Cross-cuts and miter cuts on short boards with miter gauge.</string>
+    <string name="cuts9_3">Dado and mill work with fence.</string>
+    <string name="cuts10_0">Straight cuts.</string>
+    <string name="cuts10_1">Crosscuts and compound miters in long boards and narrow panels.</string>
+    <string name="cuts10_2">Crosscut dados and rabbets.</string>
+    <string name="cuts11_0">Straight cuts.</string>
+    <string name="cuts11_1">Compound crosscuts and miter cuts in long boards.</string>
+    <string name="cuts12_0">Crosscut and miters in long narrow boards.</string>
+    <string name="cuts12_1">Compound Miter Saw cuts compound miters in long narrow boards.</string>
+
+    <!--nail_loading children-->
+    <string name="nail_loading19_0">Clips must be pulled back and proper nail size must be placed in with heads up.</string>
+    <string name="nail_loading20_0">Clips must be pulled back and proper nail size must be placed in with heads up.</string>
+
+    <!--hand-held sanders decription's children-->
+    <string name="overview_hand_sanders_0">All of the same precautions taken with the large stationary sanders also apply to the
+smaller hand sanders, especially the hand belt sander. The finishing and random orbit
+sanders, however, produce far less force and are thus generally safer. Always wear a dust
+mask when sanding, especially when there is not a dust collector on the machine. NEVER
+SAND WOOD PAINTED WITH LEAD-BASED PAINT IN THE DESIGN SHOP.
+Special hazardous materials precautions must be taken with the dust produced from
+sanding lead-based paint. If you cannot determine with absolute certainty that a paint is not
+lead-based, treat it as if it were.</string>
+    <string name="overview_hand_sanders_1">All hand sanders are equipped with trigger locks that lock the sander in the on position.
+Make sure the lock is off before plugging in the sander.</string>
+    <string name="overview_hand_sanders_2">Some hand sanders are equipped with dust collecting bags. Always check these bags
+before and after use, and empty any dust inside.</string>
+
+    <string name="overview_band_and_other_saws_0">Although straight blade saws such as the band saw are somewhat safer than circular saws,
+    misuse can still result in serious bodily injury. Band saws are generally more versatile than
+    circular saws, and they are able to make many of the same kinds of cuts as well as others.
+    Unlike circular saws, cuts on band saws can be made free hand (without fence or miter
+    gauge) as long as the pieces are given adequate and stable support throughout the cut. This
+    means that curved cuts can be made as well as straight. However, the band saw does not
+    cut as precisely as a circular saw and cannot cut dados and rabbets.</string>
+
+    <string name="overview_circular_saws_0">Special care must be taken with tools that cut with a circular blade. These blades cut with
+    tremendous forces, and the radial motion of the blades can both throw wood and debris
+    outward and pull fingers and loose clothing inward. The wood being cut must be held
+    securely at all times. If allowed, the blade will try to move the wood violently rather than
+    cutting it.</string>
+    <string name="overview_circular_saws_1">NEVER CUT FREEHAND WITH MOUNTED CIRCULAR SAWS NEVER PLACE HANDS CLOSER THAN 6” TO A MOVING BLADE.</string>
+
+    <string name="overview_shaping_tools_0">Besides the general cutting and sanding tools, there are many other tools used for
+    specialized shaping, such as jointing edges, planning surfaces, and cutting molding. For
+    the most part, these power-shaping tools are some variation of a cutter blade (composed of
+    knives or blades mounted on a spindle or shaft) and a guide surface or surfaces. Such tools
+    include the jointer, the planer, the wood shaper, and the router. With the lathe, the wood is
+    spun on spindles and the cutting instruments (the chisels or turning knives) are held
+    stationary. Hand shaping is performed with a variety of chisels, knives, rasps and files, as
+    well as small all-purpose devices such as the Dremel and rotary cutter.
+    The safety procedures for the shaping tools are essentially the same as those for the
+    circular saws. Keep in mind, however, that the knives on the shaper cutters are generally
+    much larger than the teeth of the saw blades and there for are more prone to grab loose
+    clothing and throw large splinters.</string>
+
+    <string name="overview_pneumatic_tools_0">Pneumatic tools are powered using compressed air and must be connected to the shop’s
+air supply. Compressed air lines are throughout the shop at most work -stations in the
+form of hoses. Air hoses use a female fitting that will connect to the male fitting on the
+tools. Before use of the tool, the tool should be oiled with proper air tool oil.</string>
+
+    <string name="overview_sanders_0">The large stationary sanders are used primarily for shaping and coarse sanding. These
+sanders remove material very quickly and must be used very carefully. Deep gouges can
+be quickly cut into the wood surface, and edges can easily be sanded crooked. Always
+hold the piece securely, and sand with light, even pressure, moving the piece constantly.
+Use the tables and guides whenever a straight or beveled edge is required and use of such
+aids is possible. Trying to sand too quickly will result in poor accuracy and sloppy work.
+The primary danger of power sanders is that the users underestimate their hazard because
+there are no blades. They can however be just as dangerous as saws. The hazards of
+power sanders include (1) the radial forces of the spinning parts, (2) the abrading
+power or the sanding surfaces, and (3) the fine particles of dust created. Power
+sanders have been known to pull out hair by the roots and tear flesh away to the knuckles.
+Wood dust can be extremely flammable, and the dust created from sanding lead-based
+paints and other materials can pose long term health risks to both the operator and others
+in the area. Let me reiterate:</string>
+    <string name="overview_sanders_1">NEVER LEAVE SANDERS RUNNING UNATTENDED.</string>
+    <string name="overview_sanders_2">ALWAYS MAINTAIN SECURE FOOTING AROUND THE SANDER.</string>
+    <string name="overview_sanders_3">NEVER WEAR GLOVES, LOOSE CLOTHING, JEWELRY, NECKTIES, OR
+LONG LOOSE HAIR NEAR SANDERS.</string>
+    <string name="overview_sanders_4">NEVER LEAN OVER OR REACH UNDER RUNNING SANDERS.</string>
+    <string name="overview_sanders_5">NEVER POWER SAND METALS, INCLUDING NAILS, SCREWS, OR OTHER
+FASTENERS IN THE WOOD. Sparks can ignite air borne sawdust. Countersink
+fasteners below wood surface before sanding.</string>
+    <string name="overview_sanders_6">NEVER POWER SAND PAINTED WOOD OR OTHER MATERIALS IN THE
+DESIGN SHOP.</string>
+    <string name="overview_sanders_7">ALWAYS RUN DUST COLLECTOR WHEN SANDING.</string>
+
+    <string name="overview_power_drills_0">The principle danger of power drill is the loss of control by the operator and the danger of
+    loose material being twisted up onto the bit. Remember, the bit is spinning, creating the
+    hazards of radial forces.</string>
+    <string name="overview_power_drills_1">See all drill bit types.</string>
+
+    <string name="overview_router_bits_0">Router bits are essentially a smaller version of the wood shaper cutters. They come in a
+    variety of shapes and profiles, each suited for a particular kind of cut. There are two types
+    of router bits (1) plunge and (2) bearing. Plunge bits are used to cut in the center area of a
+    board, whereas a bearing bit cuts around the edges.</string>
+    <string name="overview_router_bits_1">See all router bit types.</string>
+
+    <string name="overview_dremel_0">A small, all-purpose shaping device for very detailed work.
+    It is similar in configuration to a router without a guide
+    base, and can be utilized for shaping, sanding, grinding, and
+    much more.</string>
+    <string name="overview_dremel_1">See all router bit types.</string>
+
+    <string name="overview_cordless_drill_0">Similar to the hand drill, but battery powered and used
+    primarily for driving screws. Cordless drills are often
+    equipped with a clutch that slips when the screw is
+    seated, preventing the head from being broken off or
+    stripped out. Phillips head and square head screws
+    work best.</string>
+    <string name="overview_cordless_drill_1">See all router bit types.</string>
+
+
 
 
 </resources>
