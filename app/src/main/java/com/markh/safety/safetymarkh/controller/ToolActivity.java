@@ -15,25 +15,21 @@ import com.markh.safety.safetymarkh.view.ToolSafetyAdapter;
 
 public class ToolActivity extends Activity {
 
-    private ExpandableListView expListViewLocation;
-    private ExpandableListView expListViewSafety;
-    private ToolModel toolModel;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.tool_expand);
+        setContentView(R.layout.tool_activity);
 
         Bundle bundle = getIntent().getExtras();
         int toolScanned = bundle.getInt("toolSelection");
-        toolModel = new ToolModel(this, toolScanned);
-        findViewById(R.id.lvExpLayout).setBackgroundResource(toolModel.getToolDrawable());
+        ToolModel toolModel = new ToolModel(this, toolScanned);
+        findViewById(R.id.tool_activity_background).setBackgroundResource(toolModel.getToolDrawable());
 
-        expListViewLocation = (ExpandableListView) findViewById(R.id.lvExp);
+        ExpandableListView expListViewLocation = (ExpandableListView) findViewById(R.id.location_exp_list_view);
         expListViewLocation.setAdapter(new ToolLocationAdapter(this, toolModel));
 
-        expListViewSafety = (ExpandableListView) findViewById(R.id.lvExpSafety);
+        ExpandableListView expListViewSafety = (ExpandableListView) findViewById(R.id.safety_exp_list_view);
         expListViewSafety.setAdapter(new ToolSafetyAdapter(this, toolModel));
     }
 

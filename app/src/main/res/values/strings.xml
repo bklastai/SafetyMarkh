@@ -33,22 +33,16 @@
     <string name="overview_router_bits">Overview: Router Bits</string>
     <string name="overview_dremel">Overview: Dremel</string>
     <string name="overview_cordless_drill">Overview: Hand Drill</string>
+    <string name="overview_power_drills">Overview: Power Drills</string>
+    <string name="power_drill_types">Overview: Power Drills</string>
+    <string name="overview_drill_bits">Overview: Drill Bits</string>
 
 
-
-    <!--ONLY FOR: Floor Drill Press AND Hollow Chisel Mortiser, MUST ALSO MAKE power_drills.png VISIBLE-->
-    <string name="overview_power_drills">Overview [Power Drills]</string>
-    <string name="power_drill_types">Overview [Power Drills]</string>
-
-    <!--ONLY FOR: Cordless Drill, MUST ALSO MAKE drill_bits.png VISIBLE-->
-    <string name="overview_drill_bits">Overview [Drill Bits]</string>
-    <string name="drill_bit_types">Drill Bit Types</string>
-
-
+    <!--Expandable list view data for CustExpListViewAdapter-->
     <string-array name="headers0">
+        <item>@string/overview_hand_sanders</item>
         <item>@string/configuration</item>
         <item>@string/action_technique</item>
-        <item>@string/overview_hand_sanders</item>
     </string-array>
     <string-array name="overview_hand_sanders0">
         <item>@string/overview_hand_sanders_0</item>
@@ -65,6 +59,7 @@
     </string-array>
 
     <string-array name="headers1">
+        <item>@string/overview_hand_sanders</item>
         <item>@string/configuration</item>
         <item>@string/action_technique</item>
         <item>@string/safety_reminders</item>
@@ -1461,7 +1456,7 @@ DESIGN SHOP.</string>
     It is similar in configuration to a router without a guide
     base, and can be utilized for shaping, sanding, grinding, and
     much more.</string>
-    <string name="overview_dremel_1">See all router bit types.</string>
+    <string name="overview_dremel_1">See all dremel bit types.</string>
 
     <string name="overview_cordless_drill_0">Similar to the hand drill, but battery powered and used
     primarily for driving screws. Cordless drills are often
@@ -1469,9 +1464,7 @@ DESIGN SHOP.</string>
     seated, preventing the head from being broken off or
     stripped out. Phillips head and square head screws
     work best.</string>
-    <string name="overview_cordless_drill_1">See all router bit types.</string>
-
-
+    <string name="overview_cordless_drill_1">See all drill bit types.</string>
 
 
 </resources>

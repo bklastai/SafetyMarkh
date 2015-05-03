@@ -9,7 +9,7 @@
         android:layout_height="match_parent"
         android:background="@drawable/blank"/>
     <ImageView
-        android:id="@+id/lvExpLayout"
+        android:id="@+id/tool_activity_background"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
@@ -17,7 +17,7 @@
         android:scaleType="centerCrop"/>
 
     <ExpandableListView
-        android:id="@+id/lvExpSafety"
+        android:id="@+id/safety_exp_list_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -25,11 +25,11 @@
         android:layout_alignParentTop="true"/>
 
     <ExpandableListView
-        android:id="@+id/lvExp"
+        android:id="@+id/location_exp_list_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:groupIndicator="@null"
-        android:layout_below="@+id/lvExpSafety"/>
+        android:layout_below="@+id/safety_exp_list_view" />
 
 </RelativeLayout>

@@ -18,7 +18,7 @@ public class ARActivity extends ARViewActivity {
 //    protected int getGUILayout()
 //    {
 //        // Attaching layout to the activity
-//        return R.layout.ar;
+//        return R.layout.ar_activity;
 //    }
 //
 //
@@ -143,7 +143,7 @@ public class ARActivity extends ARViewActivity {
 
     @Override
     protected int getGUILayout() {
-        return R.layout.ar;
+        return R.layout.ar_activity;
     }
 
     @Override

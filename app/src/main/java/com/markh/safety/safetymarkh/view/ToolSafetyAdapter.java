@@ -24,7 +24,7 @@ public class ToolSafetyAdapter extends BaseExpandableListAdapter {
     public View getChildView(int groupPosition, final int childPosition,
                              boolean isLastChild, View convertView, ViewGroup parent) {
         CustExpListview SecondLevelexplv = new CustExpListview(context);
-        SecondLevelexplv.setAdapter(new ToolSafetyAdapter2(context, toolModel));
+        SecondLevelexplv.setAdapter(new CustExpListViewAdapter(context, toolModel));
         return SecondLevelexplv;
     }
     @Override

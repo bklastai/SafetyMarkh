@@ -20,18 +20,16 @@ import java.io.IOException;
 public class MainActivity extends Activity {
 
 
-
     /**
      * Task that will extract all the assets
      */
     private AssetsExtracter mTask;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState)
-    {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.main);
+        setContentView(R.layout.main_activity);
 
         // Enable metaio SDK debug log messages based on build configuration
         MetaioDebug.enableLogging(BuildConfig.DEBUG);
@@ -45,25 +43,19 @@ public class MainActivity extends Activity {
      * This task extracts all the application assets to an external or internal tool_adapter
      * to make them accessible to Metaio SDK
      */
-    private class AssetsExtracter extends AsyncTask<Integer, Integer, Boolean>
-    {
+    private class AssetsExtracter extends AsyncTask<Integer, Integer, Boolean> {
 
         @Override
-        protected void onPreExecute()
-        {
+        protected void onPreExecute() {
         }
 
         @Override
-        protected Boolean doInBackground(Integer... params)
-        {
-            try
-            {
+        protected Boolean doInBackground(Integer... params) {
+            try {
                 // Extract all assets and overwrite existing files if debug build
                 AssetsManager.extractAllAssets(getApplicationContext(), BuildConfig.DEBUG);
-            }
-            catch (IOException e)
-            {
-                MetaioDebug.log(Log.ERROR, "Error extracting assets: "+e.getMessage());
+            } catch (IOException e) {
+                MetaioDebug.log(Log.ERROR, "Error extracting assets: " + e.getMessage());
                 MetaioDebug.printStackTrace(Log.ERROR, e);
                 return false;
             }
@@ -72,16 +64,12 @@ public class MainActivity extends Activity {
         }
 
         @Override
-        protected void onPostExecute(Boolean result)
-        {
-            if (result)
-            {
+        protected void onPostExecute(Boolean result) {
+            if (result) {
                 // Start AR Activity on success
                 Intent intent = new Intent(getApplicationContext(), ARActivity.class);
                 startActivity(intent);
-            }
-            else
-            {
+            } else {
                 // Show a toast with an error message
                 Toast toast = Toast.makeText(getApplicationContext(), "Error extracting application assets!", Toast.LENGTH_SHORT);
                 toast.setGravity(Gravity.CENTER_VERTICAL, 0, 0);
@@ -92,7 +80,8 @@ public class MainActivity extends Activity {
         }
 
     }
-//    the rest is original from android blank activity
+
+    //    the rest is original from android blank activity
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.

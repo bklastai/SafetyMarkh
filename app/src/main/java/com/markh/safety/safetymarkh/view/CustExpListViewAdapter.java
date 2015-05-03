@@ -16,35 +16,41 @@ import java.util.HashMap;
 /**
 * Created by Benas on 4/14/2015.
 */
-public class ToolSafetyAdapter2 extends BaseExpandableListAdapter {
+public class CustExpListViewAdapter extends BaseExpandableListAdapter {
 
 
     private Context context;
 
     private ToolModel toolModel;
 
-    private String[] _listDataHeader;
-    private String[] _listDataChild_Overview;
-    private HashMap<String, String[]> _listDataChild = new HashMap<String, String[]>();
+    private String[] HEADERS;
+    private String[] CHILDREN_Overview;
+    private HashMap<String, String[]> CHILDREN = new HashMap<String, String[]>();
 
 
-
-    public ToolSafetyAdapter2(Context c, ToolModel tm) {
+    public CustExpListViewAdapter(Context c, ToolModel tm) {
         this.context = c;
         this.toolModel = tm;
-        prepareListData();
+        this.prepareListData();
     }
 
     private void prepareListData() {
-        _listDataHeader = toolModel.getHeadersArray();
-        _listDataChild_Overview = toolModel.getOverviewArray();
+        HEADERS = toolModel.getHeadersArray();
+        CHILDREN_Overview = toolModel.getOverviewArray();
+
         String[][] bulletPoints = toolModel.getBulletPointsArray_ofArrays();
-        for (int i=0; i<_listDataHeader.length; i++){
-            if (_listDataChild_Overview.length!=0 && i==0){
-                _listDataChild.put(_listDataHeader[i], _listDataChild_Overview);
+        boolean hasOverviewTexts = CHILDREN_Overview.length != 0;
+
+        for (int i = 0; i < HEADERS.length; i++) {
+            if (hasOverviewTexts) {
+                if (i == 0) {
+                    CHILDREN.put(HEADERS[i], CHILDREN_Overview);
+                } else {
+                    CHILDREN.put(HEADERS[i], bulletPoints[i - 1]);
+                }
             }
             else {
-                _listDataChild.put(_listDataHeader[i], bulletPoints[i]);
+                CHILDREN.put(HEADERS[i], bulletPoints[i]);
             }
         }
     }
@@ -78,7 +84,7 @@ public class ToolSafetyAdapter2 extends BaseExpandableListAdapter {
     }
     @Override
     public Object getChild(int groupPosition, int childPosititon) {
-        return _listDataChild.get(_listDataHeader[groupPosition])[childPosititon];
+        return CHILDREN.get(HEADERS[groupPosition])[childPosititon];
     }
     @Override
     public long getChildId(int groupPosition, int childPosition) {
@@ -86,15 +92,15 @@ public class ToolSafetyAdapter2 extends BaseExpandableListAdapter {
     }
     @Override
     public int getChildrenCount(int groupPosition) {
-        return this._listDataChild.get(this._listDataHeader[groupPosition]).length;
+        return this.CHILDREN.get(this.HEADERS[groupPosition]).length;
     }
     @Override
     public Object getGroup(int groupPosition) {
-        return this._listDataHeader[groupPosition];
+        return this.HEADERS[groupPosition];
     }
     @Override
     public int getGroupCount() {
-        return this._listDataHeader.length;
+        return this.HEADERS.length;
     }
     @Override
     public long getGroupId(int groupPosition) {
@@ -106,7 +112,12 @@ public class ToolSafetyAdapter2 extends BaseExpandableListAdapter {
     }
     @Override
     public boolean isChildSelectable(int groupPosition, int childPosition) {
-        //implement logic for selectable overview text items (only applies to tools 24-28, and the item is always last in overviewArray)
-        return false;
+        boolean isUnderOverviewHeader = CHILDREN_Overview.equals(getGroup(groupPosition));
+        boolean isLastChildUnderOverHeader = CHILDREN_Overview[CHILDREN_Overview.length - 1].equals(getChild(groupPosition, childPosition));
+        if (isUnderOverviewHeader && isLastChildUnderOverHeader) {
+            return true;
+        } else {
+            return false;
+        }
     }
 }
