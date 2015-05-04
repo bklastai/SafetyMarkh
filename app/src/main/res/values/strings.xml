@@ -37,8 +37,47 @@
     <string name="power_drill_types">Overview: Power Drills</string>
     <string name="overview_drill_bits">Overview: Drill Bits</string>
 
+    <!--overview extra information for the last five tools-->
+    <string-array name="power_drill_types">
+        <item>@string/power_drill_types0</item>
+        <item>@string/power_drill_types1</item>
+        <item>@string/power_drill_types2</item>
+        <item>@string/power_drill_types3</item>
+        <item>@string/power_drill_types4</item>
+        <item>@string/power_drill_types5</item>
+        <item>@string/power_drill_types6</item>
+        <item>@string/power_drill_types7</item>
+        <item>@string/power_drill_types8</item>
+        <item>@string/power_drill_types9</item>
+    </string-array>
+    <string-array name="router_bits">
+        <item>@string/router_bits0</item>
+        <item>@string/router_bits1</item>
+        <item>@string/router_bits2</item>
+        <item>@string/router_bits3</item>
+        <item>@string/router_bits4</item>
+        <item>@string/router_bits5</item>
+    </string-array>
+    <string-array name="dremel_bits">
+        <item>@string/dremel_bits0</item>
+        <item>@string/dremel_bits1</item>
+        <item>@string/dremel_bits2</item>
+        <item>@string/dremel_bits3</item>
+        <item>@string/dremel_bits4</item>
+    </string-array>
+    <string-array name="drill_bits">
+        <item>@string/drill_bits0</item>
+        <item>@string/drill_bits1</item>
+        <item>@string/drill_bits2</item>
+        <item>@string/drill_bits3</item>
+        <item>@string/drill_bits4</item>
+        <item>@string/drill_bits5</item>
+        <item>@string/drill_bits6</item>
+        <item>@string/drill_bits7</item>
+    </string-array>
 
-    <!--Expandable list view data for CustExpListViewAdapter-->
+
+    <!--Expandable list view data for NestedExplvAdapter-->
     <string-array name="headers0">
         <item>@string/overview_hand_sanders</item>
         <item>@string/configuration</item>
@@ -1466,5 +1505,52 @@ DESIGN SHOP.</string>
     work best.</string>
     <string name="overview_cordless_drill_1">See all drill bit types.</string>
 
+
+    <string name="power_drill_types0"><b>Countersink:</b> creates an enlarged hole with an angled bottom to allow screw heads to
+set below the surface.</string>
+    <string name="power_drill_types1"><b>Combination Bit:</b> a flat tapered bit with a shoulder for drilling and countersinking
+holes for wood screws.</string>
+    <string name="power_drill_types2"><b>Forstner Bit:</b> a very precise bit for cutting large holes over 0.5 inch.</string>
+    <string name="power_drill_types3"><b>Bullet Point Bit:</b> a woodcutting bit with a “bullet” point that reduces point drift and
+cuts a hole with a flat bottom (also called a Brad-point bit).</string>
+    <string name="power_drill_types4"><b>Reduced Shank Twist Bit:</b> a large twin-fluted bit with a smaller shaft.</string>
+    <string name="power_drill_types5"><b>Twist Bit:</b> a twin fluted bit with a beveled point appropriate for general drilling in
+wood or metal.</string>
+    <string name="power_drill_types6"><b>Spade Bit:</b> a flat, inexpensive bit for boring large holes over 0.5 inch wide. Not
+accurate and tend to tear-out the beginning and ends of cuts.</string>
+    <string name="power_drill_types7"><b>Auger:</b> drills large deep holes with a brace or slow speed hand drill. The threaded
+    point screws into the wood and pulls the bit deeper. IT CANNOT BE USED IN THE
+    DRILL PRESS.</string>
+    <string name="power_drill_types8"><b>Fly Cutter:</b> an adjustable hole saw. IT CANNOT BE USED WITH A HAND DRILL,
+AND CAN ONLY BE USED IN THE DRILL PRESS.</string>
+    <string name="power_drill_types9"><b>Hole Saws:</b> for sawing large holes
+(1 to 3 inches) through wood no
+thicker than twice its length (3-0.5
+inches max).</string>
+
+    <string name="router_bits0">[Plunge Bits]<b>Straight:</b> creates an enlarged hole with an angled bottom to allow screw heads to
+set below the surface.</string>
+    <string name="router_bits1">[Plunge Bits]<b>Round nose:</b> a flat tapered bit with a shoulder for drilling and countersinking
+holes for wood screws.</string>
+    <string name="router_bits2">[Plunge Bits]<b>Dovetail:</b> a very precise bit for cutting large holes over 0.5 inch.</string>
+    <string name="router_bits3">[Plunge Bits]<b>V-groove:</b> cuts V shape grooves.</string>
+    <string name="router_bits4">[Bearing Bits]<b>Molding:</b> cuts a molding profile.</string>
+    <string name="router_bits5">[Bearing Bits]<b>Chamfer:</b> cuts a sloped corner.</string>
+
+
+    <string name="dremel_bits0">[A-E]<b>High speed rotary cutters:</b> for general purpose shaping of wood, metal, or plastics.</string>
+    <string name="dremel_bits1">[F-H]<b>Tungsten carbide cutters:</b> longer lasting cutters.</string>
+    <string name="dremel_bits2">[I]<b>Wire brush:</b> for cleaning corrosion and rust on metals.</string>
+    <string name="dremel_bits3">[J-M]<b>Grinding points:</b> for grinding metal.</string>
+    <string name="dremel_bits4">[N]<b>Cutting disks and Mandrel:</b></string>
+
+    <string name="drill_bits0"><b>A:</b> Phillips Bit</string>
+    <string name="drill_bits1"><b>B:</b> Slotted Bit</string>
+    <string name="drill_bits2"><b>C:</b> Square Recess</string>
+    <string name="drill_bits3"><b>D:</b> Socket Hex Head</string>
+    <string name="drill_bits4"><b>E:</b> Star</string>
+    <string name="drill_bits5"><b>F:</b> Star Insert</string>
+    <string name="drill_bits6"><b>G:</b> POZIDRIV</string>
+    <string name="drill_bits7"><b>H:</b> Hand Drive Adapter for socket wrenches.</string>
 
 </resources>

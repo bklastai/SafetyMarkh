@@ -34,7 +34,7 @@ public class ToolLocationAdapter extends BaseExpandableListAdapter {
         Integer childResource = (Integer) getChild(groupPosition, childPosition);
         if (convertView == null){
             LayoutInflater infalInflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            convertView = infalInflater.inflate(R.layout.list_item, null);
+            convertView = infalInflater.inflate(R.layout.list_item_location, null);
         }
         ImageView img = (ImageView) convertView.findViewById(R.id.imgListItem);
         img.setBackgroundResource(childResource);
@@ -47,7 +47,7 @@ public class ToolLocationAdapter extends BaseExpandableListAdapter {
         Integer headerTitle = (Integer) getGroup(groupPosition);
         if (convertView == null) {
             LayoutInflater infalInflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            convertView = infalInflater.inflate(R.layout.list_header, null);
+            convertView = infalInflater.inflate(R.layout.list_header_location, null);
         }
         TextView lblListHeader = (TextView) convertView.findViewById(R.id.lblListHeader);
         lblListHeader.setTypeface(null, Typeface.BOLD);

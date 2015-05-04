@@ -439,4 +439,10 @@ public class ToolModel {
     public int getToolSelected(){
         return toolSelected;
     }
+
+//    private Integer[] overviewImages = {R.drawable.power_drill_bits1, R.drawable.power_drill_bits1, R.drawable.router_bits1, R.drawable.dremel_bits1, R.drawable.drill_bits1};
+//
+//    public Integer getOverviewImage(int toolSelection){
+//        return overviewImages[toolSelection-24];
+//    }
 }

@@ -4,6 +4,7 @@ import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import com.markh.safety.safetymarkh.R;
 import com.metaio.sdk.ARViewActivity;
@@ -167,13 +168,13 @@ public class ARActivity extends ARViewActivity {
                             public void run() {
                                 if (mAlert == null) {
                                     synchronized (mAlert = new AlertDialog.Builder(mThis)
-                                            .setTitle("Scanned QR-Code")
+                                            .setTitle("Tool Detected:")
                                             .setMessage(tokens[1])
                                             .setPositiveButton("Continue", new DialogInterface.OnClickListener() {
                                                 @Override
                                                 public void onClick(DialogInterface dialog, int which) {
                                                     dialog.cancel();
-                                                    int toolSelected = Integer.parseInt(tokens[1].substring(tokens[1].length() - 1));
+                                                    int toolSelected = Integer.parseInt(tokens[1].substring(tokens[1].length() - 2));
                                                     Intent intent = new Intent(mThis, ToolActivity.class);
                                                     intent.putExtra("toolSelection", toolSelected);
                                                     startActivity(intent);
@@ -201,11 +202,12 @@ public class ARActivity extends ARViewActivity {
         }
 
     }
-//      The exit button method, pre-installed by Metaio
-//    public void onButtonClick(View v)
-//    {
-//        finish();
-//    }
+
+    //The exit button method, pre-installed by Metaio
+    public void onButtonClick(View v)
+    {
+        finish();
+    }
 
     @Override
     protected void loadContents() {
