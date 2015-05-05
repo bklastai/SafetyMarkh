@@ -12,8 +12,8 @@ import com.markh.safety.safetymarkh.view.OverviewAdapter;
  */
 public class OverviewActivity extends Activity {
 
-    private Integer[] overviewImages = {R.drawable.power_drill_bits1, R.drawable.power_drill_bits1, R.drawable.router_bits1, R.drawable.dremel_bits1, R.drawable.drill_bits1};
-//    private String[][] overviewListedPoints;
+//    private Integer[] overviewImages = {R.drawable.power_drill_bits1, R.drawable.power_drill_bits1, R.drawable.router_bits1, R.drawable.dremel_bits1, R.drawable.drill_bits1};
+
 
 
 
@@ -24,34 +24,14 @@ public class OverviewActivity extends Activity {
 
         int overviewSelection = getIntent().getExtras().getInt("overviewSelection");
 
-//        initListedPoints();
 
         ListView overviewListView = (ListView) findViewById(R.id.overview_list_view);
         overviewListView.setAdapter(new OverviewAdapter(this, overviewSelection));
 
-        findViewById(R.id.overview_image).setBackgroundResource(overviewImages[overviewSelection]);
+//        findViewById(R.id.overview_image).setBackgroundResource(overviewImages[overviewSelection]);
 
 
     }
-
-//    private void initListedPoints(){
-//        Resources res = getResources();
-//        overviewListedPoints = new String[][]{};
-//        for (int i=0 ; i<overviewImages.length; i++){
-//            if (overviewImages[i].equals(R.drawable.power_drill_bits1)){
-//                overviewListedPoints[i] = res.getStringArray(R.array.power_drill_types);
-//            }
-//            else if (overviewImages[i].equals(R.drawable.router_bits1)){
-//                overviewListedPoints[i] = res.getStringArray(R.array.router_bits);
-//            }
-//            else if (overviewImages[i].equals(R.drawable.dremel_bits1)){
-//                overviewListedPoints[i] = res.getStringArray(R.array.dremel_bits);
-//            }
-//            else if (overviewImages[i].equals(R.drawable.drill_bits1)){
-//                overviewListedPoints[i] = res.getStringArray(R.array.drill_bits);
-//            }
-//        }
-//    }
 
 
 

@@ -2,6 +2,7 @@ package com.markh.safety.safetymarkh.view;
 
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Color;
 import android.graphics.Typeface;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -176,6 +177,13 @@ public class ToolSafetyAdapter extends BaseExpandableListAdapter {
             }
             TextView txt = (TextView) convertView.findViewById(R.id.txtListItemSafety);
             txt.setText(childResource);
+            if (isChildSelectable(groupPosition, childPosition)){
+                txt.setTextColor(Color.BLUE);
+            }
+            else {
+                txt.setTextColor(Color.WHITE);
+            }
+
 
             return convertView;
         }
