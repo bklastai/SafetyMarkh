@@ -112,14 +112,14 @@
         <item>@string/configuration1_0</item>
     </string-array>
     <string-array name="safety_reminders1">
-        <item>@string/safety_reminder1_0</item>
-        <item>@string/safety_reminder1_1</item>
-        <item>@string/safety_reminder1_2</item>
-        <item>@string/safety_reminder1_3</item>
-        <item>@string/safety_reminder1_4</item>
-        <item>@string/safety_reminder1_5</item>
-        <item>@string/safety_reminder1_6</item>
-        <item>@string/safety_reminder1_7</item>
+        <item>@string/safety_reminders1_0</item>
+        <item>@string/safety_reminders1_1</item>
+        <item>@string/safety_reminders1_2</item>
+        <item>@string/safety_reminders1_3</item>
+        <item>@string/safety_reminders1_4</item>
+        <item>@string/safety_reminders1_5</item>
+        <item>@string/safety_reminders1_6</item>
+        <item>@string/safety_reminders1_7</item>
     </string-array>
     <string-array name="action_technique1">
         <item>@string/action_technique1_0</item>
@@ -135,11 +135,11 @@
         <item>@string/configuration2_0</item>
     </string-array>
     <string-array name="safety_reminders2">
-        <item>@string/safety_reminder2_0</item>
-        <item>@string/safety_reminder2_1</item>
-        <item>@string/safety_reminder2_2</item>
-        <item>@string/safety_reminder2_3</item>
-        <item>@string/safety_reminder2_4</item>
+        <item>@string/safety_reminders2_0</item>
+        <item>@string/safety_reminders2_1</item>
+        <item>@string/safety_reminders2_2</item>
+        <item>@string/safety_reminders2_3</item>
+        <item>@string/safety_reminders2_4</item>
     </string-array>
     <string-array name="action_technique2">
         <item>@string/action_technique2_0</item>
@@ -165,12 +165,12 @@
         <item>@string/configuration3_0</item>
     </string-array>
     <string-array name="safety_reminders3">
-        <item>@string/safety_reminder3_0</item>
-        <item>@string/safety_reminder3_1</item>
-        <item>@string/safety_reminder3_2</item>
-        <item>@string/safety_reminder3_3</item>
-        <item>@string/safety_reminder3_4</item>
-        <item>@string/safety_reminder3_5</item>
+        <item>@string/safety_reminders3_0</item>
+        <item>@string/safety_reminders3_1</item>
+        <item>@string/safety_reminders3_2</item>
+        <item>@string/safety_reminders3_3</item>
+        <item>@string/safety_reminders3_4</item>
+        <item>@string/safety_reminders3_5</item>
     </string-array>
     <string-array name="action_technique3">
         <item>@string/action_technique3_0</item>
@@ -196,12 +196,12 @@
         <item>@string/configuration4_0</item>
     </string-array>
     <string-array name="safety_reminders4">
-        <item>@string/safety_reminder4_0</item>
-        <item>@string/safety_reminder4_1</item>
-        <item>@string/safety_reminder4_2</item>
-        <item>@string/safety_reminder4_3</item>
-        <item>@string/safety_reminder4_4</item>
-        <item>@string/safety_reminder4_5</item>
+        <item>@string/safety_reminders4_0</item>
+        <item>@string/safety_reminders4_1</item>
+        <item>@string/safety_reminders4_2</item>
+        <item>@string/safety_reminders4_3</item>
+        <item>@string/safety_reminders4_4</item>
+        <item>@string/safety_reminders4_5</item>
     </string-array>
     <string-array name="action_technique4">
         <item>@string/action_technique4_0</item>
@@ -229,17 +229,17 @@
         <item>@string/configuration5_0</item>
     </string-array>
     <string-array name="safety_reminders5">
-        <item>@string/safety_reminder5_0</item>
-        <item>@string/safety_reminder5_1</item>
-        <item>@string/safety_reminder5_2</item>
-        <item>@string/safety_reminder5_3</item>
-        <item>@string/safety_reminder5_4</item>
-        <item>@string/safety_reminder5_5</item>
-        <item>@string/safety_reminder5_6</item>
-        <item>@string/safety_reminder5_7</item>
-        <item>@string/safety_reminder5_8</item>
-        <item>@string/safety_reminder5_9</item>
-        <item>@string/safety_reminder5_10</item>
+        <item>@string/safety_reminders5_0</item>
+        <item>@string/safety_reminders5_1</item>
+        <item>@string/safety_reminders5_2</item>
+        <item>@string/safety_reminders5_3</item>
+        <item>@string/safety_reminders5_4</item>
+        <item>@string/safety_reminders5_5</item>
+        <item>@string/safety_reminders5_6</item>
+        <item>@string/safety_reminders5_7</item>
+        <item>@string/safety_reminders5_8</item>
+        <item>@string/safety_reminders5_9</item>
+        <item>@string/safety_reminders5_10</item>
     </string-array>
     <string-array name="action_technique5">
         <item>@string/action_technique5_0</item>
@@ -271,12 +271,12 @@
         <item>@string/configuration6_0</item>
     </string-array>
     <string-array name="safety_reminders6">
-        <item>@string/safety_reminder6_0</item>
-        <item>@string/safety_reminder6_1</item>
-        <item>@string/safety_reminder6_2</item>
-        <item>@string/safety_reminder6_3</item>
-        <item>@string/safety_reminder6_4</item>
-        <item>@string/safety_reminder6_5</item>
+        <item>@string/safety_reminders6_0</item>
+        <item>@string/safety_reminders6_1</item>
+        <item>@string/safety_reminders6_2</item>
+        <item>@string/safety_reminders6_3</item>
+        <item>@string/safety_reminders6_4</item>
+        <item>@string/safety_reminders6_5</item>
     </string-array>
     <string-array name="action_technique6">
         <item>@string/action_technique6_0</item>
@@ -310,12 +310,12 @@
         <item>@string/configuration7_0</item>
     </string-array>
     <string-array name="safety_reminders7">
-        <item>@string/safety_reminder7_0</item>
-        <item>@string/safety_reminder7_1</item>
-        <item>@string/safety_reminder7_2</item>
-        <item>@string/safety_reminder7_3</item>
-        <item>@string/safety_reminder7_4</item>
-        <item>@string/safety_reminder7_5</item>
+        <item>@string/safety_reminders7_0</item>
+        <item>@string/safety_reminders7_1</item>
+        <item>@string/safety_reminders7_2</item>
+        <item>@string/safety_reminders7_3</item>
+        <item>@string/safety_reminders7_4</item>
+        <item>@string/safety_reminders7_5</item>
     </string-array>
     <string-array name="action_technique7">
         <item>@string/action_technique7_0</item>
@@ -346,10 +346,10 @@
         <item>@string/configuration8_0</item>
     </string-array>
     <string-array name="safety_reminders8">
-        <item>@string/safety_reminder8_0</item>
-        <item>@string/safety_reminder8_1</item>
-        <item>@string/safety_reminder8_2</item>
-        <item>@string/safety_reminder8_3</item>
+        <item>@string/safety_reminders8_0</item>
+        <item>@string/safety_reminders8_1</item>
+        <item>@string/safety_reminders8_2</item>
+        <item>@string/safety_reminders8_3</item>
     </string-array>
     <string-array name="action_technique8">
         <item>@string/action_technique8_0</item>
@@ -380,7 +380,7 @@
         <item>@string/configuration9_0</item>
     </string-array>
     <string-array name="safety_reminders9">
-        <item>@string/safety_reminder9_0</item>
+        <item>@string/safety_reminders9_0</item>
     </string-array>
     <string-array name="action_technique9">
         <item>@string/action_technique9_0</item>
@@ -414,14 +414,14 @@
         <item>@string/configuration10_0</item>
     </string-array>
     <string-array name="safety_reminders10">
-        <item>@string/safety_reminder10_0</item>
-        <item>@string/safety_reminder10_1</item>
-        <item>@string/safety_reminder10_2</item>
-        <item>@string/safety_reminder10_3</item>
-        <item>@string/safety_reminder10_4</item>
-        <item>@string/safety_reminder10_5</item>
-        <item>@string/safety_reminder10_6</item>
-        <item>@string/safety_reminder10_7</item>
+        <item>@string/safety_reminders10_0</item>
+        <item>@string/safety_reminders10_1</item>
+        <item>@string/safety_reminders10_2</item>
+        <item>@string/safety_reminders10_3</item>
+        <item>@string/safety_reminders10_4</item>
+        <item>@string/safety_reminders10_5</item>
+        <item>@string/safety_reminders10_6</item>
+        <item>@string/safety_reminders10_7</item>
     </string-array>
     <string-array name="action_technique10">
         <item>@string/action_technique10_0</item>
@@ -454,13 +454,13 @@
         <item>@string/configuration11_0</item>
     </string-array>
     <string-array name="safety_reminders11">
-        <item>@string/safety_reminder11_0</item>
-        <item>@string/safety_reminder11_1</item>
-        <item>@string/safety_reminder11_2</item>
-        <item>@string/safety_reminder11_3</item>
-        <item>@string/safety_reminder11_4</item>
-        <item>@string/safety_reminder11_5</item>
-        <item>@string/safety_reminder11_6</item>
+        <item>@string/safety_reminders11_0</item>
+        <item>@string/safety_reminders11_1</item>
+        <item>@string/safety_reminders11_2</item>
+        <item>@string/safety_reminders11_3</item>
+        <item>@string/safety_reminders11_4</item>
+        <item>@string/safety_reminders11_5</item>
+        <item>@string/safety_reminders11_6</item>
     </string-array>
     <string-array name="action_technique11">
         <item>@string/action_technique11_0</item>
@@ -496,13 +496,13 @@
         <item>@string/configuration12_0</item>
     </string-array>
     <string-array name="safety_reminders12">
-        <item>@string/safety_reminder12_0</item>
-        <item>@string/safety_reminder12_1</item>
-        <item>@string/safety_reminder12_2</item>
-        <item>@string/safety_reminder12_3</item>
-        <item>@string/safety_reminder12_4</item>
-        <item>@string/safety_reminder12_5</item>
-        <item>@string/safety_reminder12_6</item>
+        <item>@string/safety_reminders12_0</item>
+        <item>@string/safety_reminders12_1</item>
+        <item>@string/safety_reminders12_2</item>
+        <item>@string/safety_reminders12_3</item>
+        <item>@string/safety_reminders12_4</item>
+        <item>@string/safety_reminders12_5</item>
+        <item>@string/safety_reminders12_6</item>
     </string-array>
     <string-array name="action_technique12">
         <item>@string/action_technique12_0</item>
@@ -532,11 +532,11 @@
         <item>@string/configuration13_0</item>
     </string-array>
     <string-array name="safety_reminders13">
-        <item>@string/safety_reminder13_0</item>
-        <item>@string/safety_reminder13_1</item>
-        <item>@string/safety_reminder13_2</item>
-        <item>@string/safety_reminder13_3</item>
-        <item>@string/safety_reminder13_4</item>
+        <item>@string/safety_reminders13_0</item>
+        <item>@string/safety_reminders13_1</item>
+        <item>@string/safety_reminders13_2</item>
+        <item>@string/safety_reminders13_3</item>
+        <item>@string/safety_reminders13_4</item>
     </string-array>
     <string-array name="action_technique13">
         <item>@string/action_technique13_0</item>
@@ -563,11 +563,11 @@
         <item>@string/configuration14_0</item>
     </string-array>
     <string-array name="safety_reminders14">
-        <item>@string/safety_reminder14_0</item>
-        <item>@string/safety_reminder14_1</item>
-        <item>@string/safety_reminder14_2</item>
-        <item>@string/safety_reminder14_3</item>
-        <item>@string/safety_reminder14_4</item>
+        <item>@string/safety_reminders14_0</item>
+        <item>@string/safety_reminders14_1</item>
+        <item>@string/safety_reminders14_2</item>
+        <item>@string/safety_reminders14_3</item>
+        <item>@string/safety_reminders14_4</item>
     </string-array>
     <string-array name="action_technique14">
         <item>@string/action_technique14_0</item>
@@ -591,7 +591,7 @@
         <item>@string/configuration15_0</item>
     </string-array>
     <string-array name="safety_reminders15">
-        <item>@string/safety_reminder15_0</item>
+        <item>@string/safety_reminders15_0</item>
     </string-array>
     <string-array name="action_technique15">
         <item>@string/action_technique15_0</item>
@@ -619,7 +619,7 @@
         <item>@string/configuration16_1</item>
     </string-array>
     <string-array name="safety_reminders16">
-        <item>@string/safety_reminder16_0</item>
+        <item>@string/safety_reminders16_0</item>
     </string-array>
     <string-array name="action_technique16">
         <item>@string/action_technique16_0</item>
@@ -647,10 +647,10 @@
         <item>@string/configuration17_0</item>
     </string-array>
     <string-array name="safety_reminders17">
-        <item>@string/safety_reminder17_0</item>
-        <item>@string/safety_reminder17_1</item>
-        <item>@string/safety_reminder17_2</item>
-        <item>@string/safety_reminder17_3</item>
+        <item>@string/safety_reminders17_0</item>
+        <item>@string/safety_reminders17_1</item>
+        <item>@string/safety_reminders17_2</item>
+        <item>@string/safety_reminders17_3</item>
     </string-array>
     <string-array name="action_technique17">
         <item>@string/action_technique17_0</item>
@@ -674,9 +674,9 @@
         <item>@string/configuration18_0</item>
     </string-array>
     <string-array name="safety_reminders18">
-        <item>@string/safety_reminder18_0</item>
-        <item>@string/safety_reminder18_1</item>
-        <item>@string/safety_reminder18_2</item>
+        <item>@string/safety_reminders18_0</item>
+        <item>@string/safety_reminders18_1</item>
+        <item>@string/safety_reminders18_2</item>
     </string-array>
     <string-array name="action_technique18">
         <item>@string/action_technique18_0</item>
@@ -702,7 +702,7 @@
         <item>@string/configuration19_0</item>
     </string-array>
     <string-array name="safety_reminders19">
-        <item>@string/safety_reminder19_0</item>
+        <item>@string/safety_reminders19_0</item>
     </string-array>
     <string-array name="action_technique19">
         <item>@string/action_technique19_0</item>
@@ -730,11 +730,11 @@
         <item>@string/configuration20_0</item>
     </string-array>
     <string-array name="safety_reminders20">
-        <item>@string/safety_reminder20_0</item>
-        <item>@string/safety_reminder20_1</item>
-        <item>@string/safety_reminder20_2</item>
-        <item>@string/safety_reminder20_3</item>
-        <item>@string/safety_reminder20_4</item>
+        <item>@string/safety_reminders20_0</item>
+        <item>@string/safety_reminders20_1</item>
+        <item>@string/safety_reminders20_2</item>
+        <item>@string/safety_reminders20_3</item>
+        <item>@string/safety_reminders20_4</item>
     </string-array>
     <string-array name="action_technique20">
         <item>@string/action_technique20_0</item>
@@ -769,11 +769,11 @@
         <item>@string/configuration21_0</item>
     </string-array>
     <string-array name="safety_reminders21">
-        <item>@string/safety_reminder21_0</item>
-        <item>@string/safety_reminder21_1</item>
-        <item>@string/safety_reminder21_2</item>
-        <item>@string/safety_reminder21_3</item>
-        <item>@string/safety_reminder21_4</item>
+        <item>@string/safety_reminders21_0</item>
+        <item>@string/safety_reminders21_1</item>
+        <item>@string/safety_reminders21_2</item>
+        <item>@string/safety_reminders21_3</item>
+        <item>@string/safety_reminders21_4</item>
     </string-array>
     <string-array name="action_technique21">
         <item>@string/action_technique21_0</item>
@@ -805,19 +805,19 @@
         <item>@string/configuration22_0</item>
     </string-array>
     <string-array name="safety_reminders22">
-        <item>@string/safety_reminder22_0</item>
-        <item>@string/safety_reminder22_1</item>
-        <item>@string/safety_reminder22_2</item>
-        <item>@string/safety_reminder22_3</item>
-        <item>@string/safety_reminder22_4</item>
-        <item>@string/safety_reminder22_5</item>
-        <item>@string/safety_reminder22_6</item>
-        <item>@string/safety_reminder22_7</item>
-        <item>@string/safety_reminder22_8</item>
-        <item>@string/safety_reminder22_9</item>
-        <item>@string/safety_reminder22_10</item>
-        <item>@string/safety_reminder22_11</item>
-        <item>@string/safety_reminder22_12</item>
+        <item>@string/safety_reminders22_0</item>
+        <item>@string/safety_reminders22_1</item>
+        <item>@string/safety_reminders22_2</item>
+        <item>@string/safety_reminders22_3</item>
+        <item>@string/safety_reminders22_4</item>
+        <item>@string/safety_reminders22_5</item>
+        <item>@string/safety_reminders22_6</item>
+        <item>@string/safety_reminders22_7</item>
+        <item>@string/safety_reminders22_8</item>
+        <item>@string/safety_reminders22_9</item>
+        <item>@string/safety_reminders22_10</item>
+        <item>@string/safety_reminders22_11</item>
+        <item>@string/safety_reminders22_12</item>
     </string-array>
     <string-array name="action_technique22">
         <item>@string/action_technique22_0</item>
@@ -848,8 +848,8 @@
         <item>@string/configuration23_0</item>
     </string-array>
     <string-array name="safety_reminders23">
-        <item>@string/safety_reminder23_0</item>
-        <item>@string/safety_reminder23_1</item>
+        <item>@string/safety_reminders23_0</item>
+        <item>@string/safety_reminders23_1</item>
     </string-array>
     <string-array name="action_technique23">
         <item>@string/action_technique23_0</item>
@@ -879,9 +879,9 @@
         <item>@string/configuration24_0</item>
     </string-array>
     <string-array name="safety_reminders24">
-        <item>@string/safety_reminder24_0</item>
-        <item>@string/safety_reminder24_1</item>
-        <item>@string/safety_reminder24_2</item>
+        <item>@string/safety_reminders24_0</item>
+        <item>@string/safety_reminders24_1</item>
+        <item>@string/safety_reminders24_2</item>
     </string-array>
     <string-array name="action_technique24">
         <item>@string/action_technique24_0</item>
@@ -910,16 +910,16 @@
         <item>@string/configuration25_0</item>
     </string-array>
     <string-array name="safety_reminders25">
-        <item>@string/safety_reminder25_0</item>
-        <item>@string/safety_reminder25_1</item>
-        <item>@string/safety_reminder25_2</item>
-        <item>@string/safety_reminder25_3</item>
-        <item>@string/safety_reminder25_4</item>
-        <item>@string/safety_reminder25_5</item>
-        <item>@string/safety_reminder25_6</item>
-        <item>@string/safety_reminder25_7</item>
-        <item>@string/safety_reminder25_8</item>
-        <item>@string/safety_reminder25_10</item>
+        <item>@string/safety_reminders25_0</item>
+        <item>@string/safety_reminders25_1</item>
+        <item>@string/safety_reminders25_2</item>
+        <item>@string/safety_reminders25_3</item>
+        <item>@string/safety_reminders25_4</item>
+        <item>@string/safety_reminders25_5</item>
+        <item>@string/safety_reminders25_6</item>
+        <item>@string/safety_reminders25_7</item>
+        <item>@string/safety_reminders25_8</item>
+        <item>@string/safety_reminders25_10</item>
     </string-array>
     <string-array name="action_technique25">
         <item>@string/action_technique25_0</item>
@@ -947,11 +947,11 @@
         <item>@string/configuration26_0</item>
     </string-array>
     <string-array name="safety_reminders26">
-        <item>@string/safety_reminder26_0</item>
-        <item>@string/safety_reminder26_1</item>
-        <item>@string/safety_reminder26_2</item>
-        <item>@string/safety_reminder26_3</item>
-        <item>@string/safety_reminder26_4</item>
+        <item>@string/safety_reminders26_0</item>
+        <item>@string/safety_reminders26_1</item>
+        <item>@string/safety_reminders26_2</item>
+        <item>@string/safety_reminders26_3</item>
+        <item>@string/safety_reminders26_4</item>
     </string-array>
     <string-array name="action_technique26">
         <item>@string/action_technique26_0</item>
@@ -1058,202 +1058,202 @@ moved by hand.</string>
 
 
     <!--safety reminders children-->
-    <string name="safety_reminder1_0">Use both hands to hold the sander firmly.
+    <string name="safety_reminders1_0">Use both hands to hold the sander firmly.
 Always be able to hold against the direction
 of belt rotation.</string>
-    <string name="safety_reminder1_1">Secure the wood. The sander will try to
+    <string name="safety_reminders1_1">Secure the wood. The sander will try to
 throw loose wood.</string>
-    <string name="safety_reminder1_2">Never approach from attacking angle. Do not tear the belt on sharp corners.</string>
-    <string name="safety_reminder1_3">Be aware of belt tracking and tension. Shut off machine and alert shop personnel if
+    <string name="safety_reminders1_2">Never approach from attacking angle. Do not tear the belt on sharp corners.</string>
+    <string name="safety_reminders1_3">Be aware of belt tracking and tension. Shut off machine and alert shop personnel if
 belt tracks wrong, especially if sparks are created.</string>
-    <string name="safety_reminder1_4">Do not use if belt is loose or torn. Alert shop personnel.</string>
-    <string name="safety_reminder1_5">Keep hands away from abrasive surfaces, especially near intake gaps.</string>
-    <string name="safety_reminder1_6">Do not sand electrical cord, loose clothing and/ or cloth in the sanding area.</string>
-    <string name="safety_reminder1_7">Keep electrical cord free of snags.</string>
-    <string name="safety_reminder2_0">Do not drill “blind”. Do not drill without ascertaining backside of
+    <string name="safety_reminders1_4">Do not use if belt is loose or torn. Alert shop personnel.</string>
+    <string name="safety_reminders1_5">Keep hands away from abrasive surfaces, especially near intake gaps.</string>
+    <string name="safety_reminders1_6">Do not sand electrical cord, loose clothing and/ or cloth in the sanding area.</string>
+    <string name="safety_reminders1_7">Keep electrical cord free of snags.</string>
+    <string name="safety_reminders2_0">Do not drill “blind”. Do not drill without ascertaining backside of
 work is clear of obstructions.</string>
-    <string name="safety_reminder2_1">Do not drill into tabletop or support.</string>
-    <string name="safety_reminder2_2">Do not abuse electrical cord.</string>
-    <string name="safety_reminder2_3">Keep electrical cord free of snags.</string>
-    <string name="safety_reminder2_4">Use both hands on drill. If the bit binds up, the drill will try to wrench itself violently from
+    <string name="safety_reminders2_1">Do not drill into tabletop or support.</string>
+    <string name="safety_reminders2_2">Do not abuse electrical cord.</string>
+    <string name="safety_reminders2_3">Keep electrical cord free of snags.</string>
+    <string name="safety_reminders2_4">Use both hands on drill. If the bit binds up, the drill will try to wrench itself violently from
 your grip, so be prepared.</string>
-        <string name="safety_reminder3_0">Do not drill “blind”. Do not drill without ascertaining backside of
+        <string name="safety_reminders3_0">Do not drill “blind”. Do not drill without ascertaining backside of
 work is clear of obstructions.</string>
-    <string name="safety_reminder3_1">Do not drill into tabletop or support.</string>
-    <string name="safety_reminder3_2">Do not abuse electrical cord.</string>
-    <string name="safety_reminder3_3">Keep electrical cord free of snags.</string>
-    <string name="safety_reminder3_4">Make sure blade extends completely through material throughout
+    <string name="safety_reminders3_1">Do not drill into tabletop or support.</string>
+    <string name="safety_reminders3_2">Do not abuse electrical cord.</string>
+    <string name="safety_reminders3_3">Keep electrical cord free of snags.</string>
+    <string name="safety_reminders3_4">Make sure blade extends completely through material throughout
 stroke.</string>
-    <string name="safety_reminder3_5">Secure material before cutting. Small and/or thin material may flex or
+    <string name="safety_reminders3_5">Secure material before cutting. Small and/or thin material may flex or
     vibrate causing loss of control.</string>
-    <string name="safety_reminder4_0">Do not drill “blind”. Do not drill without ascertaining backside of
+    <string name="safety_reminders4_0">Do not drill “blind”. Do not drill without ascertaining backside of
 work is clear of obstructions.</string>
-    <string name="safety_reminder4_1">Do not drill into tabletop or support.</string>
-    <string name="safety_reminder4_2">Do not abuse electrical cord.</string>
-    <string name="safety_reminder4_3">Keep electrical cord free of snags.</string>
-    <string name="safety_reminder4_4">Make sure blade extends completely through material and beyond
+    <string name="safety_reminders4_1">Do not drill into tabletop or support.</string>
+    <string name="safety_reminders4_2">Do not abuse electrical cord.</string>
+    <string name="safety_reminders4_3">Keep electrical cord free of snags.</string>
+    <string name="safety_reminders4_4">Make sure blade extends completely through material and beyond
     shoe throughout stroke.</string>
-    <string name="safety_reminder4_5">Secure material before cutting. Small and/or thin material may flex or
+    <string name="safety_reminders4_5">Secure material before cutting. Small and/or thin material may flex or
     vibrate causing loss of control.</string>
-    <string name="safety_reminder5_0">USE ONLY UNDER DIRECT SUPERVISION OF SHOP PERSONNEL.</string>
-    <string name="safety_reminder5_1">Set blade depth so that the teeth emerge completely from underside of
+    <string name="safety_reminders5_0">USE ONLY UNDER DIRECT SUPERVISION OF SHOP PERSONNEL.</string>
+    <string name="safety_reminders5_1">Set blade depth so that the teeth emerge completely from underside of
 cut.</string>
-    <string name="safety_reminder5_2">Keep the blade aligned along straight path. Make sure you don’t bind
+    <string name="safety_reminders5_2">Keep the blade aligned along straight path. Make sure you don’t bind
 the blade.</string>
-    <string name="safety_reminder5_3">Never cut “blind.” Always ascertain that underside of cut is clear of
+    <string name="safety_reminders5_3">Never cut “blind.” Always ascertain that underside of cut is clear of
 obstructions.</string>
-    <string name="safety_reminder5_4">Do not cut into tabletop or supports.</string>
-    <string name="safety_reminder5_5">Make sure both sides of the cut are supported even after the cut is
+    <string name="safety_reminders5_4">Do not cut into tabletop or supports.</string>
+    <string name="safety_reminders5_5">Make sure both sides of the cut are supported even after the cut is
 made.</string>
-    <string name="safety_reminder5_6">Do not cut electrical cord.</string>
-    <string name="safety_reminder5_7">Allow blade to stop spinning before placing saw down after cut is
+    <string name="safety_reminders5_6">Do not cut electrical cord.</string>
+    <string name="safety_reminders5_7">Allow blade to stop spinning before placing saw down after cut is
 finished.</string>
-    <string name="safety_reminder5_8">Take extreme care when making bevel cuts, as the angle between the
+    <string name="safety_reminders5_8">Take extreme care when making bevel cuts, as the angle between the
 blade and foot can bind the blade easily.</string>
-    <string name="safety_reminder5_9">Always hold saw with both hands.</string>
-    <string name="safety_reminder5_10">Secure small and/or thin work with clamps. The wood must not be
+    <string name="safety_reminders5_9">Always hold saw with both hands.</string>
+    <string name="safety_reminders5_10">Secure small and/or thin work with clamps. The wood must not be
 allowed to move during the cut.</string>
-    <string name="safety_reminder6_0">Wood must flat against table and stable.
+    <string name="safety_reminders6_0">Wood must flat against table and stable.
 Never cut round or unstable wood without secondary support (such as
 a jig). The downward force of the blade will twist round or unstable
 stock as it cuts, causing the blade to bind, kink, and break.</string>
-    <string name="safety_reminder6_1">Set guard 0.25" above wood.</string>
-    <string name="safety_reminder6_2">Never force a curved cut tighter than allowed by the blade width.</string>
-    <string name="safety_reminder6_3">Watch your fingers, especially at the end of the cut.</string>
-    <string name="safety_reminder6_4">Never back out of long cuts with the machine running. Backward
+    <string name="safety_reminders6_1">Set guard 0.25" above wood.</string>
+    <string name="safety_reminders6_2">Never force a curved cut tighter than allowed by the blade width.</string>
+    <string name="safety_reminders6_3">Watch your fingers, especially at the end of the cut.</string>
+    <string name="safety_reminders6_4">Never back out of long cuts with the machine running. Backward
 pressure can cause the blade to jump its guides, hang up, and break.</string>
-    <string name="safety_reminder6_5">Plan your cuts before you begin cutting. Make sure the wood will clear
+    <string name="safety_reminders6_5">Plan your cuts before you begin cutting. Make sure the wood will clear
 the throat throughout the cut. Make release cuts before cutting long
 curves.</string>
-        <string name="safety_reminder7_0">Wood must flat against table and stable.
+        <string name="safety_reminders7_0">Wood must flat against table and stable.
 Never cut round or unstable wood without secondary support (such as
 a jig). The downward force of the blade will twist round or unstable
 stock as it cuts, causing the blade to bind, kink, and break.</string>
-    <string name="safety_reminder7_1">Set guard 0.125" above wood.</string>
-    <string name="safety_reminder7_2">Never force a curved cut tighter than allowed by the blade width.</string>
-    <string name="safety_reminder7_3">Watch your fingers, especially at the end of the cut.</string>
-    <string name="safety_reminder7_4">Never back out of long cuts with the machine running. Backward
+    <string name="safety_reminders7_1">Set guard 0.125" above wood.</string>
+    <string name="safety_reminders7_2">Never force a curved cut tighter than allowed by the blade width.</string>
+    <string name="safety_reminders7_3">Watch your fingers, especially at the end of the cut.</string>
+    <string name="safety_reminders7_4">Never back out of long cuts with the machine running. Backward
 pressure can cause the blade to jump its guides, hang up, and break.</string>
-    <string name="safety_reminder7_5">Plan your cuts before you begin cutting. Make sure the wood will clear
+    <string name="safety_reminders7_5">Plan your cuts before you begin cutting. Make sure the wood will clear
 the throat throughout the cut. Make release cuts before cutting long
 curves.</string>
-    <string name="safety_reminder8_0">Watch your fingers.</string>
-    <string name="safety_reminder8_1">Make sure blade has teeth pointing down.</string>
-    <string name="safety_reminder8_2">Make sure tension is adjusted properly on the blade.</string>
-    <string name="safety_reminder8_3">Do not push too hard on wood. You want only enough pressure to
+    <string name="safety_reminders8_0">Watch your fingers.</string>
+    <string name="safety_reminders8_1">Make sure blade has teeth pointing down.</string>
+    <string name="safety_reminders8_2">Make sure tension is adjusted properly on the blade.</string>
+    <string name="safety_reminders8_3">Do not push too hard on wood. You want only enough pressure to
 maintain good contact on the down stroke, not the up stroke.</string>
-    <string name="safety_reminder9_0">Do not use without specific permission, specific training, and direct
+    <string name="safety_reminders9_0">Do not use without specific permission, specific training, and direct
 supervision.</string>
-    <string name="safety_reminder10_0">Firmly fix wood against table and fence: never cut freehand.</string>
-    <string name="safety_reminder10_1">Hold wood with left hand, cut with saw in right hand.</string>
-    <string name="safety_reminder10_2">Slow steady feed: hold backpressure on saw: DO NOT TRY TO CUT
+    <string name="safety_reminders10_0">Firmly fix wood against table and fence: never cut freehand.</string>
+    <string name="safety_reminders10_1">Hold wood with left hand, cut with saw in right hand.</string>
+    <string name="safety_reminders10_2">Slow steady feed: hold backpressure on saw: DO NOT TRY TO CUT
 TOO QUICKLY.</string>
-    <string name="safety_reminder10_3">Always check for square.</string>
-    <string name="safety_reminder10_4">Tilted blade bevel cuts are most prone to binding and thus most
+    <string name="safety_reminders10_3">Always check for square.</string>
+    <string name="safety_reminders10_4">Tilted blade bevel cuts are most prone to binding and thus most
 dangerous.</string>
-    <string name="safety_reminder10_5">Always return saw to its full rear position after the cut.</string>
-    <string name="safety_reminder10_6">Never “gang cut.” Never cut more than one piece at a time.</string>
-    <string name="safety_reminder10_7">Avoid cutting deeper than a 16th of an inch into the tabletop.</string>
-    <string name="safety_reminder11_0">Firmly fix wood against table and fence: never cut freehand.</string>
-    <string name="safety_reminder11_1">Hold wood with left hand, cut with saw in right hand.</string>
-    <string name="safety_reminder11_2">Slow steady feed: DO NOT TRY TO CUT TOO QUICKLY.</string>
-    <string name="safety_reminder11_3">Always check for square.</string>
-    <string name="safety_reminder11_4">Tilted blade bevel cuts are most prone to binding and thus most
+    <string name="safety_reminders10_5">Always return saw to its full rear position after the cut.</string>
+    <string name="safety_reminders10_6">Never “gang cut.” Never cut more than one piece at a time.</string>
+    <string name="safety_reminders10_7">Avoid cutting deeper than a 16th of an inch into the tabletop.</string>
+    <string name="safety_reminders11_0">Firmly fix wood against table and fence: never cut freehand.</string>
+    <string name="safety_reminders11_1">Hold wood with left hand, cut with saw in right hand.</string>
+    <string name="safety_reminders11_2">Slow steady feed: DO NOT TRY TO CUT TOO QUICKLY.</string>
+    <string name="safety_reminders11_3">Always check for square.</string>
+    <string name="safety_reminders11_4">Tilted blade bevel cuts are most prone to binding and thus most
 dangerous.</string>
-    <string name="safety_reminder11_5">Always return saw to its full rear position after the cut.</string>
-    <string name="safety_reminder11_6">Never “gang cut.” Never cut more than one piece at a time.</string>
-    <string name="safety_reminder12_0">Firmly fix wood against table and fence: never cut freehand.</string>
-    <string name="safety_reminder12_1">Hold wood with left hand, cut with saw in right hand.</string>
-    <string name="safety_reminder12_2">Slow steady feed: DO NOT TRY TO CUT TOO QUICKLY.</string>
-    <string name="safety_reminder12_3">Always check for square.</string>
-    <string name="safety_reminder12_4">Tilted blade bevel cuts are most prone to binding and thus most
+    <string name="safety_reminders11_5">Always return saw to its full rear position after the cut.</string>
+    <string name="safety_reminders11_6">Never “gang cut.” Never cut more than one piece at a time.</string>
+    <string name="safety_reminders12_0">Firmly fix wood against table and fence: never cut freehand.</string>
+    <string name="safety_reminders12_1">Hold wood with left hand, cut with saw in right hand.</string>
+    <string name="safety_reminders12_2">Slow steady feed: DO NOT TRY TO CUT TOO QUICKLY.</string>
+    <string name="safety_reminders12_3">Always check for square.</string>
+    <string name="safety_reminders12_4">Tilted blade bevel cuts are most prone to binding and thus most
 dangerous.</string>
-    <string name="safety_reminder12_5">Always return saw to its full rear position after the cut.</string>
-    <string name="safety_reminder12_6">Never “gang cut.” Never cut more than one piece at a time.</string>
-    <string name="safety_reminder13_0">Must have had proper instructions on how to use the jointer.</string>
-    <string name="safety_reminder13_1">Shop personnel must supervise you when using it.</string>
-    <string name="safety_reminder13_2">Use push blocks and push sticks to feed wood through cutters.</string>
-    <string name="safety_reminder13_3">Be aware of where your fingers and hands are placed when using the
+    <string name="safety_reminders12_5">Always return saw to its full rear position after the cut.</string>
+    <string name="safety_reminders12_6">Never “gang cut.” Never cut more than one piece at a time.</string>
+    <string name="safety_reminders13_0">Must have had proper instructions on how to use the jointer.</string>
+    <string name="safety_reminders13_1">Shop personnel must supervise you when using it.</string>
+    <string name="safety_reminders13_2">Use push blocks and push sticks to feed wood through cutters.</string>
+    <string name="safety_reminders13_3">Be aware of where your fingers and hands are placed when using the
 jointer.</string>
-    <string name="safety_reminder13_4">Keep in feed and out feed table clean and clear of debris.</string>
-    <string name="safety_reminder14_0">Must have had proper instructions on how to use the thickness planer.</string>
-    <string name="safety_reminder14_1">Shop personnel must supervise you when using it.</string>
-    <string name="safety_reminder14_2">Wood must be free of all dirt or any metal and paint.</string>
-    <string name="safety_reminder14_3">Must wear face shields, dust mask, and ear protection when using the
+    <string name="safety_reminders13_4">Keep in feed and out feed table clean and clear of debris.</string>
+    <string name="safety_reminders14_0">Must have had proper instructions on how to use the thickness planer.</string>
+    <string name="safety_reminders14_1">Shop personnel must supervise you when using it.</string>
+    <string name="safety_reminders14_2">Wood must be free of all dirt or any metal and paint.</string>
+    <string name="safety_reminders14_3">Must wear face shields, dust mask, and ear protection when using the
     machine.</string>
-    <string name="safety_reminder14_4">Remove only a maximum of a 16th of an inch at a time.</string>
-    <string name="safety_reminder15_0">Do not use without specific permission, training, and direct
+    <string name="safety_reminders14_4">Remove only a maximum of a 16th of an inch at a time.</string>
+    <string name="safety_reminders15_0">Do not use without specific permission, training, and direct
 supervision.</string>
-    <string name="safety_reminder16_0">Do not use without specific permission, training, and direct
+    <string name="safety_reminders16_0">Do not use without specific permission, training, and direct
 supervision.</string>
-    <string name="safety_reminder17_0">Safety glasses, dust mask, and ear protection are required for use of
+    <string name="safety_reminders17_0">Safety glasses, dust mask, and ear protection are required for use of
     the tool.</string>
-    <string name="safety_reminder17_1">Be aware of body parts near grinding bits.</string>
-    <string name="safety_reminder17_2">Be aware of loose clothing and material.</string>
-    <string name="safety_reminder17_3">Item in which you are grinding must be properly clamped or held
+    <string name="safety_reminders17_1">Be aware of body parts near grinding bits.</string>
+    <string name="safety_reminders17_2">Be aware of loose clothing and material.</string>
+    <string name="safety_reminders17_3">Item in which you are grinding must be properly clamped or held
     down.</string>
-    <string name="safety_reminder18_0">Always wear dust mask.</string>
-    <string name="safety_reminder18_1">Don’t sand treated wood with lead paints.</string>
-    <string name="safety_reminder18_2">Avoid damaging sanding pad.</string>
-    <string name="safety_reminder19_0">Five inch pneumatic sander with dust collector.</string>
-    <string name="safety_reminder20_0">Always wear eye protection.</string>
-    <string name="safety_reminder20_1">Keep all body parts a safe distance away from the area of nailing.</string>
-    <string name="safety_reminder20_2">NEVER POINT THE NAIL GUN IN THE DIRECTION OF
+    <string name="safety_reminders18_0">Always wear dust mask.</string>
+    <string name="safety_reminders18_1">Don’t sand treated wood with lead paints.</string>
+    <string name="safety_reminders18_2">Avoid damaging sanding pad.</string>
+    <string name="safety_reminders19_0">Five inch pneumatic sander with dust collector.</string>
+    <string name="safety_reminders20_0">Always wear eye protection.</string>
+    <string name="safety_reminders20_1">Keep all body parts a safe distance away from the area of nailing.</string>
+    <string name="safety_reminders20_2">NEVER POINT THE NAIL GUN IN THE DIRECTION OF
     OTHERS.</string>
-    <string name="safety_reminder20_3">Avoid nailing in areas of knots, metal, and/or other hard areas in the
+    <string name="safety_reminders20_3">Avoid nailing in areas of knots, metal, and/or other hard areas in the
     wood.</string>
-    <string name="safety_reminder20_4">Always have nailer pointed against the wood when nailing.</string>
-    <string name="safety_reminder21_0">Always wear eye protection.</string>
-    <string name="safety_reminder21_1">Keep all body parts a safe distance away from the area of nailing while
+    <string name="safety_reminders20_4">Always have nailer pointed against the wood when nailing.</string>
+    <string name="safety_reminders21_0">Always wear eye protection.</string>
+    <string name="safety_reminders21_1">Keep all body parts a safe distance away from the area of nailing while
     in use.</string>
-    <string name="safety_reminder21_2">NEVER POINT THE NAIL GUN IN THE DIRECTION OF
+    <string name="safety_reminders21_2">NEVER POINT THE NAIL GUN IN THE DIRECTION OF
     OTHERS.</string>
-    <string name="safety_reminder21_3">Avoid nailing in areas of knots, metal, and/or other hard areas in the
+    <string name="safety_reminders21_3">Avoid nailing in areas of knots, metal, and/or other hard areas in the
     wood.</string>
-    <string name="safety_reminder21_4">Always have nailer pointed against the wood when nailing.</string>
-    <string name="safety_reminder22_0">Hold wood firmly, always be able to hold
+    <string name="safety_reminders21_4">Always have nailer pointed against the wood when nailing.</string>
+    <string name="safety_reminders22_0">Hold wood firmly, always be able to hold
     against the direction of sander.</string>
-    <string name="safety_reminder22_1">Never approach from attacking angle.</string>
-    <string name="safety_reminder22_2">Be aware of belt tracking and tension. Shut
+    <string name="safety_reminders22_1">Never approach from attacking angle.</string>
+    <string name="safety_reminders22_2">Be aware of belt tracking and tension. Shut
     off machine and alert shop personnel if belt
     tracks wrong, especially if sparks are
     created.</string>
-    <string name="safety_reminder22_3">Do not use if belt or disk is loose or torn. Alert shop personnel.</string>
-    <string name="safety_reminder22_4">Keep hands away from abrasive surfaces, especially near intake gaps.</string>
-    <string name="safety_reminder22_5">Use tables to support material when sanding against a vertical belt or
+    <string name="safety_reminders22_3">Do not use if belt or disk is loose or torn. Alert shop personnel.</string>
+    <string name="safety_reminders22_4">Keep hands away from abrasive surfaces, especially near intake gaps.</string>
+    <string name="safety_reminders22_5">Use tables to support material when sanding against a vertical belt or
     disk.</string>
-    <string name="safety_reminder22_6">Hold wood securely. Loose wood will be thrown violently.</string>
-    <string name="safety_reminder22_7">Do no stand in line with out feed of belt. Do not let others stand in line
+    <string name="safety_reminders22_6">Hold wood securely. Loose wood will be thrown violently.</string>
+    <string name="safety_reminders22_7">Do no stand in line with out feed of belt. Do not let others stand in line
     of the out feed.</string>
-    <string name="safety_reminder22_8">Never sand pieces too small to hold safely.</string>
-    <string name="safety_reminder22_9">Never use gloves or a rag to hold material.</string>
-    <string name="safety_reminder22_10">Use sanding disk on down side, not up side.</string>
-    <string name="safety_reminder22_11">Sand with the grain whenever possible.</string>
-    <string name="safety_reminder22_12">Keep work moving. Do not over sand in one place.</string>
-    <string name="safety_reminder23_0">Keep material flat against the tabletop.</string>
-    <string name="safety_reminder23_1">Use light pressure. Do not burn out the sandpaper.</string>
-    <string name="safety_reminder24_0">Wear dust mask when sanding on table.</string>
-    <string name="safety_reminder24_1">Do not lean over table when using push button cleaning.</string>
-    <string name="safety_reminder24_2">Do not use table as a workbench.</string>
-    <string name="safety_reminder25_0">Use only bits appropriate for the material.</string>
-    <string name="safety_reminder25_1">Make sure that the bit tight and straight in chuck.</string>
-    <string name="safety_reminder25_2">Remove key from chuck before turning on.</string>
-    <string name="safety_reminder25_3">Secure wood, clamping it whenever possible.</string>
-    <string name="safety_reminder25_4">Do not drill into metal table.</string>
-    <string name="safety_reminder25_5">Place a scrap of wood under work to avoid tear-out.</string>
-    <string name="safety_reminder25_6">Check drill speed: faster for soft materials or small bits, slower for
+    <string name="safety_reminders22_8">Never sand pieces too small to hold safely.</string>
+    <string name="safety_reminders22_9">Never use gloves or a rag to hold material.</string>
+    <string name="safety_reminders22_10">Use sanding disk on down side, not up side.</string>
+    <string name="safety_reminders22_11">Sand with the grain whenever possible.</string>
+    <string name="safety_reminders22_12">Keep work moving. Do not over sand in one place.</string>
+    <string name="safety_reminders23_0">Keep material flat against the tabletop.</string>
+    <string name="safety_reminders23_1">Use light pressure. Do not burn out the sandpaper.</string>
+    <string name="safety_reminders24_0">Wear dust mask when sanding on table.</string>
+    <string name="safety_reminders24_1">Do not lean over table when using push button cleaning.</string>
+    <string name="safety_reminders24_2">Do not use table as a workbench.</string>
+    <string name="safety_reminders25_0">Use only bits appropriate for the material.</string>
+    <string name="safety_reminders25_1">Make sure that the bit tight and straight in chuck.</string>
+    <string name="safety_reminders25_2">Remove key from chuck before turning on.</string>
+    <string name="safety_reminders25_3">Secure wood, clamping it whenever possible.</string>
+    <string name="safety_reminders25_4">Do not drill into metal table.</string>
+    <string name="safety_reminders25_5">Place a scrap of wood under work to avoid tear-out.</string>
+    <string name="safety_reminders25_6">Check drill speed: faster for soft materials or small bits, slower for
     hard material or large bits. Adjust speed only with drill on.</string>
-    <string name="safety_reminder25_7">Never use auger bits in the drill press.</string>
-    <string name="safety_reminder25_8">Avoid awkward hand positions in which a sudden slip would cause
+    <string name="safety_reminders25_7">Never use auger bits in the drill press.</string>
+    <string name="safety_reminders25_8">Avoid awkward hand positions in which a sudden slip would cause
     hand to go into the cutting tool.</string>
-    <string name="safety_reminder25_9">Hold work in left hand and operate drill with right hand.</string>
-    <string name="safety_reminder25_10">Never wear gloves, neckties, jewelry, loose clothing, or long loose hair.</string>
-    <string name="safety_reminder26_0">Secure wood in vise.</string>
-    <string name="safety_reminder26_1">Use the proper chisel/ bit combination.</string>
-    <string name="safety_reminder26_2">Tighten bit and remove chuck.</string>
-    <string name="safety_reminder26_3">Do not over work chisel and bit.</string>
-    <string name="safety_reminder26_4">Do not mortise your hand.</string>
-    <string name="safety_reminder27_0">Do not use without specific permission, specific training, and direct
+    <string name="safety_reminders25_9">Hold work in left hand and operate drill with right hand.</string>
+    <string name="safety_reminders25_10">Never wear gloves, neckties, jewelry, loose clothing, or long loose hair.</string>
+    <string name="safety_reminders26_0">Secure wood in vise.</string>
+    <string name="safety_reminders26_1">Use the proper chisel/ bit combination.</string>
+    <string name="safety_reminders26_2">Tighten bit and remove chuck.</string>
+    <string name="safety_reminders26_3">Do not over work chisel and bit.</string>
+    <string name="safety_reminders26_4">Do not mortise your hand.</string>
+    <string name="safety_reminders27_0">Do not use without specific permission, specific training, and direct
 supervision.</string>
 
 
